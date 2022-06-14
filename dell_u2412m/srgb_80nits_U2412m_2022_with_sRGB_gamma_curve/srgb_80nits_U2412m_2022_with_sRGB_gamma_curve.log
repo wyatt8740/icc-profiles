@@ -1,0 +1,653 @@
+Invocation:
+--all --correction /usr/local/share/ArgyllCMS/WLEDFamily_07Feb11.ccss --intent p --intent-sat lp --input-profile /usr/share/color/argyll/ref/sRGB.icm --noninteractive --skip-adjust --whitepoint-preset D65 --gamma s srgb_80nits_U2412m_2022_with_sRGB_gamma_curve
+
+Dispwin: Warning - new_dispwin: Expected VideoLUT depth 11 doesn't match actual 10
++ dispcal -v2 -Yp -c1 -m -yn -P0.5,0.5,1.33 -X/usr/local/share/ArgyllCMS/WLEDFamily_07Feb11.ccss -qh -w0.31271,0.32902 -gs -f1.0 -k0 -A4.0 -b srgb_80nits_U2412m_2022_with_sRGB_gamma_curve
+Setting up the instrument
+Product Name:      Colormunki Display 
+Serial Number:     CM-19.B-02.218968.10
+Firmware Version:  v2.28 
+Firmware Date:     29Jan14
+dispcal: Warning - new_dispwin: Expected VideoLUT depth 11 doesn't match actual 10
+Display type is 'n'
+Target white = xy 0.312710 0.329020
+Target white brightness = native brightness
+Target black brightness = native brightness
+Black point device hack is enabled
+Target gamma = sRGB curve
+Commencing display calibration
+patch 1 of 9patch 2 of 9patch 3 of 9patch 4 of 9patch 5 of 9patch 6 of 9patch 7 of 9patch 8 of 9patch 9 of 9
+Black = XYZ 0.0992 0.1000 0.1689
+Red   = XYZ 34.502 17.149  0.671
+Green = XYZ 27.915 58.139  7.771
+Blue  = XYZ 13.572  4.907 77.084
+White = XYZ 76.084 80.266 85.600
+patch 1 of 80patch 2 of 80patch 3 of 80patch 4 of 80patch 5 of 80patch 6 of 80patch 7 of 80patch 8 of 80patch 9 of 80patch 10 of 80patch 11 of 80patch 12 of 80patch 13 of 80patch 14 of 80patch 15 of 80patch 16 of 80patch 17 of 80patch 18 of 80patch 19 of 80patch 20 of 80patch 21 of 80patch 22 of 80patch 23 of 80patch 24 of 80patch 25 of 80patch 26 of 80patch 27 of 80patch 28 of 80patch 29 of 80patch 30 of 80patch 31 of 80patch 32 of 80patch 33 of 80patch 34 of 80patch 35 of 80patch 36 of 80patch 37 of 80patch 38 of 80patch 39 of 80patch 40 of 80patch 41 of 80patch 42 of 80patch 43 of 80patch 44 of 80patch 45 of 80patch 46 of 80patch 47 of 80patch 48 of 80patch 49 of 80patch 50 of 80patch 51 of 80patch 52 of 80patch 53 of 80patch 54 of 80patch 55 of 80patch 56 of 80patch 57 of 80patch 58 of 80patch 59 of 80patch 60 of 80patch 61 of 80patch 62 of 80patch 63 of 80patch 64 of 80patch 65 of 80patch 66 of 80patch 67 of 80patch 68 of 80patch 69 of 80patch 70 of 80patch 71 of 80patch 72 of 80patch 73 of 80patch 74 of 80patch 75 of 80patch 76 of 80patch 77 of 80patch 78 of 80patch 79 of 80patch 80 of 80
+
+Initial native brightness target = 80.266366 cd/m^2
+Had to scale brightness from 80.266366 to 78.422870 to fit within gamut,
+corresponding to aprox. RGB 0.984647 0.984678 1.000000
+Target white value is XYZ 74.535335 78.422870 85.394693 [xy 0.312710 0.329020]
+Adjusted target black XYZ 0.0992 0.1000 0.1689, Lab 1.152 0.218 -1.095
+Target black after min adjust: XYZ 0.0992 0.1000 0.1689, Lab 1.152 0.218 -1.095
+Gamma curve input offset = 0.000000, output offset = 0.001275, power = 0.000000
+Total Iteration 4, Final Samples = 96 Final Repeat threshold = 0.400000
+Creating initial calibration curves...
+
+Doing iteration 1/4 with 12 sample points and repeat threshold of 1.131371 DE
+patch 1 of 12Point 1 DE 0.688845, W.DE 0.688845, OK ( < 1.131371)
+patch 2 of 12Point 2 DE 2.104439, W.DE 2.104439, Repeat
+patch 2 of 12Point 2 DE 0.338589, W.DE 0.338589, OK ( < 1.131371)
+patch 3 of 12Point 3 DE 1.972054, W.DE 1.972054, Repeat
+patch 3 of 12Point 3 DE 0.354271, W.DE 0.354271, OK ( < 1.131371)
+patch 4 of 12Point 4 DE 0.765876, W.DE 0.765876, OK ( < 1.131371)
+patch 5 of 12Point 5 DE 1.867228, W.DE 1.867228, Repeat
+patch 5 of 12Point 5 DE 0.998443, W.DE 0.998443, OK ( < 1.131371)
+patch 6 of 12Point 6 DE 1.354337, W.DE 1.354337, Repeat
+patch 6 of 12Point 6 DE 0.020971, W.DE 0.020971, OK ( < 1.131371)
+patch 7 of 12Point 7 DE 1.980951, W.DE 1.980951, Repeat
+patch 7 of 12Point 7 DE 0.123537, W.DE 0.123537, OK ( < 1.131371)
+patch 8 of 12Point 8 DE 0.552401, W.DE 0.552401, OK ( < 1.131371)
+patch 9 of 12Point 9 DE 1.534246, W.DE 1.534246, Repeat
+patch 9 of 12Point 9 DE 0.396830, W.DE 0.396830, OK ( < 1.131371)
+patch 10 of 12Point 10 DE 2.737742, W.DE 2.737742, Repeat
+patch 10 of 12Point 10 DE 0.883294, W.DE 0.883294, OK ( < 1.131371)
+patch 11 of 12Point 11 DE 1.190420, W.DE 1.190420, Repeat
+patch 11 of 12patch 11 of 12patch 11 of 12patch 11 of 12Point 11 DE 1.005061, W.DE 1.005061, OK ( < 1.131371)
+patch 12 of 12Point 12 DE 0.055298, W.DE 55.297579, Repeat
+patch 12 of 12patch 12 of 12patch 12 of 12patch 12 of 12Point 12 DE 0.046853, W.DE 46.852795, Repeat
+patch 12 of 12Point 12 DE 0.033377, W.DE 33.377437, Repeat
+patch 12 of 12Point 12 DE 0.023595, W.DE 23.595381, Repeat
+patch 12 of 12Point 12 DE 0.018142, W.DE 18.141978, Repeat
+patch 12 of 12Point 12 DE 0.013282, W.DE 13.281580, Repeat
+patch 12 of 12Point 12 DE 0.010638, W.DE 10.638371, Repeat
+patch 12 of 12Point 12 DE 0.008163, W.DE 8.162814, Repeat
+patch 12 of 12Point 12 DE 0.006584, W.DE 6.583670, Repeat
+patch 12 of 12Point 12 DE 0.005532, W.DE 5.531899, Repeat
+patch 12 of 12Point 12 DE 0.005043, W.DE 5.042727, Repeat
+patch 12 of 12Point 12 DE 0.004629, W.DE 4.629363, Repeat
+patch 12 of 12Point 12 DE 0.004921, W.DE 4.921083, Repeat (got worse)
+patch 12 of 12Point 12 DE 0.004322, W.DE 4.321704, Repeat
+patch 12 of 12Point 12 DE 0.004273, W.DE 4.273164, Repeat
+patch 12 of 12Point 12 DE 0.003785, W.DE 3.785072, Fail ( > 1.131371)
+
+Brightness error = -0.496962 cd/m^2 (is 77.925908, should be 78.422870)
+White point error = 0.644959 deltaE
+Maximum neutral error (@ 0.021566) = 1.002596 deltaE
+Average neutral error = 0.511417 deltaE
+Failed to meet target 1.131371 delta E, got worst case 3.785072
+Number of measurements taken = 41
+Computing update to calibration curves...
+
+Doing iteration 2/4 with 24 sample points and repeat threshold of 0.800000 DE
+patch 1 of 24Point 1 DE 0.688845, W.DE 0.688845, OK ( < 0.800000)
+patch 2 of 24Point 2 DE 1.516556, W.DE 1.516556, Repeat
+patch 2 of 24Point 2 DE 0.275920, W.DE 0.275920, OK ( < 0.800000)
+patch 3 of 24Point 3 DE 0.528092, W.DE 0.528092, OK ( < 0.800000)
+patch 4 of 24Point 4 DE 0.353545, W.DE 0.353545, OK ( < 0.800000)
+patch 5 of 24Point 5 DE 0.278943, W.DE 0.278943, OK ( < 0.800000)
+patch 6 of 24Point 6 DE 0.621556, W.DE 0.621556, OK ( < 0.800000)
+patch 7 of 24Point 7 DE 0.783551, W.DE 0.783551, OK ( < 0.800000)
+patch 8 of 24Point 8 DE 0.722841, W.DE 0.722841, OK ( < 0.800000)
+patch 9 of 24Point 9 DE 0.808509, W.DE 0.808509, Repeat
+patch 9 of 24Point 9 DE 0.420328, W.DE 0.420328, OK ( < 0.800000)
+patch 10 of 24Point 10 DE 0.973800, W.DE 0.973800, Repeat
+patch 10 of 24Point 10 DE 0.745214, W.DE 0.745214, OK ( < 0.800000)
+patch 11 of 24Point 11 DE 0.368406, W.DE 0.368406, OK ( < 0.800000)
+patch 12 of 24Point 12 DE 0.447769, W.DE 0.447769, OK ( < 0.800000)
+patch 13 of 24Point 13 DE 0.427386, W.DE 0.427386, OK ( < 0.800000)
+patch 14 of 24Point 14 DE 0.623401, W.DE 0.623401, OK ( < 0.800000)
+patch 15 of 24Point 15 DE 0.618418, W.DE 0.618418, OK ( < 0.800000)
+patch 16 of 24Point 16 DE 0.965619, W.DE 0.965619, Repeat
+patch 16 of 24Point 16 DE 0.224207, W.DE 0.224207, OK ( < 0.800000)
+patch 17 of 24Point 17 DE 1.477850, W.DE 1.477850, Repeat
+patch 17 of 24Point 17 DE 0.188822, W.DE 0.188822, OK ( < 0.800000)
+patch 18 of 24Point 18 DE 0.850289, W.DE 0.850289, Repeat
+patch 18 of 24Point 18 DE 0.036567, W.DE 0.036567, OK ( < 0.800000)
+patch 19 of 24Point 19 DE 1.511609, W.DE 1.511609, Repeat
+patch 19 of 24Point 19 DE 0.112848, W.DE 0.112848, OK ( < 0.800000)
+patch 20 of 24Point 20 DE 0.877210, W.DE 0.877210, Repeat
+patch 20 of 24Point 20 DE 0.343310, W.DE 0.343310, OK ( < 0.800000)
+patch 21 of 24Point 21 DE 1.087976, W.DE 1.087976, Repeat
+patch 21 of 24Point 21 DE 0.454590, W.DE 0.454590, OK ( < 0.800000)
+patch 22 of 24Point 22 DE 1.045398, W.DE 1.045398, Repeat
+patch 22 of 24Point 22 DE 0.647024, W.DE 0.647024, OK ( < 0.800000)
+patch 23 of 24Point 23 DE 0.360073, W.DE 0.360073, OK ( < 0.800000)
+patch 24 of 24Point 24 DE 0.001979, W.DE 1.978802, Repeat
+patch 24 of 24patch 24 of 24patch 24 of 24patch 24 of 24Point 24 DE 0.001979, W.DE 1.978802, Repeat
+patch 24 of 24Point 24 DE 0.001942, W.DE 1.942078, Repeat
+patch 24 of 24Point 24 DE 0.001689, W.DE 1.688975, Repeat
+patch 24 of 24Point 24 DE 0.001688, W.DE 1.688088, Repeat
+patch 24 of 24Point 24 DE 0.002072, W.DE 2.072480, Repeat (got worse)
+patch 24 of 24Point 24 DE 0.002174, W.DE 2.173928, Repeat (got worse)
+patch 24 of 24Point 24 DE 0.001813, W.DE 1.812896, Repeat (got worse)
+patch 24 of 24Point 24 DE 0.001736, W.DE 1.736098, Repeat (got worse)
+patch 24 of 24Point 24 DE 0.002311, W.DE 2.311200, Repeat (got worse)
+patch 24 of 24Point 24 DE 0.002208, W.DE 2.208224, Repeat (got worse)
+patch 24 of 24Point 24 DE 0.002206, W.DE 2.205668, Repeat (got worse)
+patch 24 of 24Point 24 DE 0.002130, W.DE 2.129826, Repeat (got worse)
+patch 24 of 24Point 24 DE 0.002679, W.DE 2.678654, Repeat (got worse)
+patch 24 of 24Point 24 DE 0.002160, W.DE 2.159772, Repeat (got worse)
+patch 24 of 24Point 24 DE 0.001688, W.DE 1.688088, Fail ( > 0.800000)
+
+Brightness error = -0.496962 cd/m^2 (is 77.925908, should be 78.422870)
+White point error = 0.644959 deltaE
+Maximum neutral error (@ 0.616529) = 0.783721 deltaE
+Average neutral error = 0.427922 deltaE
+Failed to meet target 0.800000 delta E, got worst case 3.785072
+Number of measurements taken = 52
+Computing update to calibration curves...
+
+Doing iteration 3/4 with 48 sample points and repeat threshold of 0.565685 DE
+patch 1 of 48Point 1 DE 0.560041, W.DE 0.560041, OK ( < 0.565685)
+patch 2 of 48Point 2 DE 0.672076, W.DE 0.672076, Repeat
+patch 2 of 48Point 2 DE 0.132806, W.DE 0.132806, OK ( < 0.565685)
+patch 3 of 48Point 3 DE 0.194685, W.DE 0.194685, OK ( < 0.565685)
+patch 4 of 48Point 4 DE 0.499073, W.DE 0.499073, OK ( < 0.565685)
+patch 5 of 48Point 5 DE 0.174840, W.DE 0.174840, OK ( < 0.565685)
+patch 6 of 48Point 6 DE 0.239166, W.DE 0.239166, OK ( < 0.565685)
+patch 7 of 48Point 7 DE 0.354134, W.DE 0.354134, OK ( < 0.565685)
+patch 8 of 48Point 8 DE 0.172509, W.DE 0.172509, OK ( < 0.565685)
+patch 9 of 48Point 9 DE 0.296778, W.DE 0.296778, OK ( < 0.565685)
+patch 10 of 48Point 10 DE 0.366094, W.DE 0.366094, OK ( < 0.565685)
+patch 11 of 48Point 11 DE 0.442096, W.DE 0.442096, OK ( < 0.565685)
+patch 12 of 48Point 12 DE 0.326819, W.DE 0.326819, OK ( < 0.565685)
+patch 13 of 48Point 13 DE 0.432278, W.DE 0.432278, OK ( < 0.565685)
+patch 14 of 48Point 14 DE 0.401901, W.DE 0.401901, OK ( < 0.565685)
+patch 15 of 48Point 15 DE 0.903631, W.DE 0.903631, Repeat
+patch 15 of 48Point 15 DE 0.143527, W.DE 0.143527, OK ( < 0.565685)
+patch 16 of 48Point 16 DE 0.806307, W.DE 0.806307, Repeat
+patch 16 of 48Point 16 DE 0.214841, W.DE 0.214841, OK ( < 0.565685)
+patch 17 of 48Point 17 DE 0.481843, W.DE 0.481843, OK ( < 0.565685)
+patch 18 of 48Point 18 DE 0.433784, W.DE 0.433784, OK ( < 0.565685)
+patch 19 of 48Point 19 DE 0.229642, W.DE 0.229642, OK ( < 0.565685)
+patch 20 of 48Point 20 DE 0.200975, W.DE 0.200975, OK ( < 0.565685)
+patch 21 of 48Point 21 DE 0.495332, W.DE 0.495332, OK ( < 0.565685)
+patch 22 of 48Point 22 DE 0.303282, W.DE 0.303282, OK ( < 0.565685)
+patch 23 of 48Point 23 DE 0.692122, W.DE 0.692122, Repeat
+patch 23 of 48Point 23 DE 0.331162, W.DE 0.331162, OK ( < 0.565685)
+patch 24 of 48Point 24 DE 0.758229, W.DE 0.758229, Repeat
+patch 24 of 48Point 24 DE 0.392415, W.DE 0.392415, OK ( < 0.565685)
+patch 25 of 48Point 25 DE 0.809644, W.DE 0.809644, Repeat
+patch 25 of 48Point 25 DE 0.135816, W.DE 0.135816, OK ( < 0.565685)
+patch 26 of 48Point 26 DE 0.592358, W.DE 0.592358, Repeat
+patch 26 of 48Point 26 DE 0.047132, W.DE 0.047132, OK ( < 0.565685)
+patch 27 of 48Point 27 DE 0.433445, W.DE 0.433445, OK ( < 0.565685)
+patch 28 of 48Point 28 DE 0.729234, W.DE 0.729234, Repeat
+patch 28 of 48Point 28 DE 0.139904, W.DE 0.139904, OK ( < 0.565685)
+patch 29 of 48Point 29 DE 0.843056, W.DE 0.843056, Repeat
+patch 29 of 48Point 29 DE 0.100449, W.DE 0.100449, OK ( < 0.565685)
+patch 30 of 48Point 30 DE 0.308951, W.DE 0.308951, OK ( < 0.565685)
+patch 31 of 48Point 31 DE 0.286656, W.DE 0.286656, OK ( < 0.565685)
+patch 32 of 48Point 32 DE 0.209550, W.DE 0.209550, OK ( < 0.565685)
+patch 33 of 48Point 33 DE 0.520245, W.DE 0.520245, OK ( < 0.565685)
+patch 34 of 48Point 34 DE 0.512697, W.DE 0.512697, OK ( < 0.565685)
+patch 35 of 48Point 35 DE 0.535759, W.DE 0.535759, OK ( < 0.565685)
+patch 36 of 48Point 36 DE 0.229489, W.DE 0.229489, OK ( < 0.565685)
+patch 37 of 48Point 37 DE 0.175350, W.DE 0.175350, OK ( < 0.565685)
+patch 38 of 48Point 38 DE 0.452160, W.DE 0.452160, OK ( < 0.565685)
+patch 39 of 48Point 39 DE 0.323768, W.DE 0.323768, OK ( < 0.565685)
+patch 40 of 48Point 40 DE 0.277959, W.DE 0.277959, OK ( < 0.565685)
+patch 41 of 48Point 41 DE 0.508408, W.DE 0.508408, OK ( < 0.565685)
+patch 42 of 48Point 42 DE 0.660017, W.DE 0.660017, Repeat
+patch 42 of 48Point 42 DE 0.300460, W.DE 0.300460, OK ( < 0.565685)
+patch 43 of 48Point 43 DE 0.893639, W.DE 0.893639, Repeat
+patch 43 of 48Point 43 DE 0.320483, W.DE 0.320483, OK ( < 0.565685)
+patch 44 of 48Point 44 DE 0.956501, W.DE 0.956501, Repeat
+patch 44 of 48Point 44 DE 0.489869, W.DE 0.489869, OK ( < 0.565685)
+patch 45 of 48Point 45 DE 0.554382, W.DE 0.554382, OK ( < 0.565685)
+patch 46 of 48Point 46 DE 0.336247, W.DE 0.336247, OK ( < 0.565685)
+patch 47 of 48Point 47 DE 0.117791, W.DE 0.117791, OK ( < 0.565685)
+patch 48 of 48Point 48 DE 0.003529, W.DE 3.528713, Repeat
+patch 48 of 48patch 48 of 48patch 48 of 48patch 48 of 48Point 48 DE 0.003529, W.DE 3.528713, Repeat
+patch 48 of 48Point 48 DE 0.003073, W.DE 3.072946, Repeat
+patch 48 of 48Point 48 DE 0.003711, W.DE 3.711406, Repeat (got worse)
+patch 48 of 48Point 48 DE 0.003610, W.DE 3.610248, Repeat (got worse)
+patch 48 of 48Point 48 DE 0.003302, W.DE 3.302035, Repeat (got worse)
+patch 48 of 48Point 48 DE 0.003762, W.DE 3.761925, Repeat (got worse)
+patch 48 of 48Point 48 DE 0.003548, W.DE 3.548416, Repeat (got worse)
+patch 48 of 48Point 48 DE 0.003864, W.DE 3.864297, Repeat (got worse)
+patch 48 of 48Point 48 DE 0.003351, W.DE 3.351389, Repeat (got worse)
+patch 48 of 48Point 48 DE 0.003487, W.DE 3.487377, Repeat (got worse)
+patch 48 of 48Point 48 DE 0.003332, W.DE 3.332161, Repeat (got worse)
+patch 48 of 48Point 48 DE 0.003560, W.DE 3.559626, Repeat (got worse)
+patch 48 of 48Point 48 DE 0.004101, W.DE 4.100992, Repeat (got worse)
+patch 48 of 48Point 48 DE 0.004123, W.DE 4.123125, Repeat (got worse)
+patch 48 of 48Point 48 DE 0.003073, W.DE 3.072946, Fail ( > 0.565685)
+
+Brightness error = -0.388248 cd/m^2 (is 78.034623, should be 78.422870)
+White point error = 0.527065 deltaE
+Maximum neutral error (@ 1.000000) = 0.560041 deltaE
+Average neutral error = 0.315537 deltaE
+Failed to meet target 0.565685 delta E, got worst case 3.785072
+Number of measurements taken = 78
+Computing update to calibration curves...
+
+Doing iteration 4/4 with 96 sample points and repeat threshold of 0.400000 DE
+patch 1 of 96Point 1 DE 0.468479, W.DE 0.468479, peqDE 0.468479, Repeat
+patch 1 of 96Point 1 DE 0.244827, W.DE 0.244827, W.peqDE 0.244827, OK ( < 0.400000)
+patch 2 of 96Point 2 DE 0.488221, W.DE 0.488221, peqDE 0.721050, Repeat
+patch 2 of 96patch 2 of 96patch 2 of 96patch 2 of 96Point 2 DE 0.443183, W.DE 0.443183, peqDE 0.390386, Repeat
+patch 2 of 96Point 2 DE 0.089104, W.DE 0.089104, W.peqDE 0.221591, OK ( < 0.400000)
+patch 3 of 96Point 3 DE 0.454993, W.DE 0.454993, peqDE 0.429253, Repeat
+patch 3 of 96Point 3 DE 0.154762, W.DE 0.154762, W.peqDE 0.192404, OK ( < 0.400000)
+patch 4 of 96Point 4 DE 0.445868, W.DE 0.445868, peqDE 0.593195, Repeat
+patch 4 of 96Point 4 DE 0.245426, W.DE 0.245426, W.peqDE 0.128281, OK ( < 0.400000)
+patch 5 of 96Point 5 DE 0.309273, W.DE 0.309273, peqDE 0.525123, Repeat
+patch 5 of 96Point 5 DE 0.128937, W.DE 0.128937, W.peqDE 0.204984, OK ( < 0.400000)
+patch 6 of 96Point 6 DE 0.307109, W.DE 0.307109, W.peqDE 0.333185, OK ( < 0.400000)
+patch 7 of 96Point 7 DE 0.469590, W.DE 0.469590, peqDE 0.334530, Repeat
+patch 7 of 96Point 7 DE 0.082108, W.DE 0.082108, W.peqDE 0.249196, OK ( < 0.400000)
+patch 8 of 96Point 8 DE 0.414179, W.DE 0.414179, peqDE 0.468491, Repeat
+patch 8 of 96Point 8 DE 0.284127, W.DE 0.284127, W.peqDE 0.221041, OK ( < 0.400000)
+patch 9 of 96Point 9 DE 0.303751, W.DE 0.303751, peqDE 0.423596, Repeat
+patch 9 of 96Point 9 DE 0.182325, W.DE 0.182325, W.peqDE 0.162527, OK ( < 0.400000)
+patch 10 of 96Point 10 DE 0.362103, W.DE 0.362103, peqDE 0.431901, Repeat
+patch 10 of 96patch 10 of 96patch 10 of 96patch 10 of 96Point 10 DE 0.330030, W.DE 0.330030, W.peqDE 0.220972, OK ( < 0.400000)
+patch 11 of 96Point 11 DE 0.412123, W.DE 0.412123, peqDE 0.644651, Repeat
+patch 11 of 96Point 11 DE 0.117205, W.DE 0.117205, W.peqDE 0.336140, OK ( < 0.400000)
+patch 12 of 96Point 12 DE 0.399435, W.DE 0.399435, peqDE 0.407556, Repeat
+patch 12 of 96Point 12 DE 0.314976, W.DE 0.314976, W.peqDE 0.305407, OK ( < 0.400000)
+patch 13 of 96Point 13 DE 0.506248, W.DE 0.506248, peqDE 0.757664, Repeat
+patch 13 of 96Point 13 DE 0.324273, W.DE 0.324273, W.peqDE 0.306939, OK ( < 0.400000)
+patch 14 of 96Point 14 DE 0.335244, W.DE 0.335244, peqDE 0.416136, Repeat
+patch 14 of 96Point 14 DE 0.221438, W.DE 0.221438, peqDE 0.453589, Repeat
+patch 14 of 96Point 14 DE 0.096260, W.DE 0.096260, W.peqDE 0.332763, OK ( < 0.400000)
+patch 15 of 96Point 15 DE 0.243459, W.DE 0.243459, W.peqDE 0.245003, OK ( < 0.400000)
+patch 16 of 96Point 16 DE 0.262175, W.DE 0.262175, W.peqDE 0.190845, OK ( < 0.400000)
+patch 17 of 96Point 17 DE 0.384615, W.DE 0.384615, peqDE 0.441958, Repeat
+patch 17 of 96Point 17 DE 0.026845, W.DE 0.026845, W.peqDE 0.205210, OK ( < 0.400000)
+patch 18 of 96Point 18 DE 0.350132, W.DE 0.350132, W.peqDE 0.332106, OK ( < 0.400000)
+patch 19 of 96Point 19 DE 0.260298, W.DE 0.260298, W.peqDE 0.116070, OK ( < 0.400000)
+patch 20 of 96Point 20 DE 0.439436, W.DE 0.439436, peqDE 0.183282, Repeat
+patch 20 of 96Point 20 DE 0.214752, W.DE 0.214752, W.peqDE 0.057779, OK ( < 0.400000)
+patch 21 of 96Point 21 DE 0.458835, W.DE 0.458835, peqDE 0.284392, Repeat
+patch 21 of 96Point 21 DE 0.180220, W.DE 0.180220, W.peqDE 0.083566, OK ( < 0.400000)
+patch 22 of 96Point 22 DE 0.464045, W.DE 0.464045, peqDE 0.339271, Repeat
+patch 22 of 96Point 22 DE 0.132573, W.DE 0.132573, W.peqDE 0.280083, OK ( < 0.400000)
+patch 23 of 96Point 23 DE 0.481593, W.DE 0.481593, peqDE 0.596210, Repeat
+patch 23 of 96Point 23 DE 0.132467, W.DE 0.132467, W.peqDE 0.131918, OK ( < 0.400000)
+patch 24 of 96Point 24 DE 0.264660, W.DE 0.264660, W.peqDE 0.370793, OK ( < 0.400000)
+patch 25 of 96Point 25 DE 0.499639, W.DE 0.499639, peqDE 0.265785, Repeat
+patch 25 of 96Point 25 DE 0.229692, W.DE 0.229692, W.peqDE 0.135748, OK ( < 0.400000)
+patch 26 of 96Point 26 DE 0.608749, W.DE 0.608749, peqDE 0.442340, Repeat
+patch 26 of 96Point 26 DE 0.308359, W.DE 0.308359, peqDE 0.530005, Repeat
+patch 26 of 96Point 26 DE 0.152609, W.DE 0.152609, W.peqDE 0.100751, OK ( < 0.400000)
+patch 27 of 96Point 27 DE 0.605337, W.DE 0.605337, peqDE 0.467154, Repeat
+patch 27 of 96patch 27 of 96patch 27 of 96patch 27 of 96Point 27 DE 0.605337, W.DE 0.605337, peqDE 0.467154, Repeat
+patch 27 of 96Point 27 DE 0.524022, W.DE 0.524022, peqDE 0.665483, Repeat
+patch 27 of 96Point 27 DE 0.175453, W.DE 0.175453, W.peqDE 0.267717, OK ( < 0.400000)
+patch 28 of 96Point 28 DE 0.259692, W.DE 0.259692, W.peqDE 0.213945, OK ( < 0.400000)
+patch 29 of 96Point 29 DE 0.353278, W.DE 0.353278, W.peqDE 0.303935, OK ( < 0.400000)
+patch 30 of 96Point 30 DE 0.237883, W.DE 0.237883, W.peqDE 0.321246, OK ( < 0.400000)
+patch 31 of 96Point 31 DE 0.247466, W.DE 0.247466, W.peqDE 0.132845, OK ( < 0.400000)
+patch 32 of 96Point 32 DE 0.211521, W.DE 0.211521, W.peqDE 0.377653, OK ( < 0.400000)
+patch 33 of 96Point 33 DE 0.272823, W.DE 0.272823, W.peqDE 0.390648, OK ( < 0.400000)
+patch 34 of 96Point 34 DE 0.290859, W.DE 0.290859, W.peqDE 0.162808, OK ( < 0.400000)
+patch 35 of 96Point 35 DE 0.387448, W.DE 0.387448, W.peqDE 0.346957, OK ( < 0.400000)
+patch 36 of 96Point 36 DE 0.398927, W.DE 0.398927, W.peqDE 0.164487, OK ( < 0.400000)
+patch 37 of 96Point 37 DE 0.567086, W.DE 0.567086, peqDE 0.543582, Repeat
+patch 37 of 96Point 37 DE 0.272482, W.DE 0.272482, peqDE 0.526679, Repeat
+patch 37 of 96Point 37 DE 0.190559, W.DE 0.190559, W.peqDE 0.343370, OK ( < 0.400000)
+patch 38 of 96Point 38 DE 0.528039, W.DE 0.528039, peqDE 0.635287, Repeat
+patch 38 of 96Point 38 DE 0.012537, W.DE 0.012537, W.peqDE 0.173162, OK ( < 0.400000)
+patch 39 of 96Point 39 DE 0.312078, W.DE 0.312078, W.peqDE 0.306652, OK ( < 0.400000)
+patch 40 of 96Point 40 DE 0.449914, W.DE 0.449914, peqDE 0.297110, Repeat
+patch 40 of 96Point 40 DE 0.290079, W.DE 0.290079, peqDE 0.515692, Repeat
+patch 40 of 96patch 40 of 96patch 40 of 96patch 40 of 96Point 40 DE 0.275192, W.DE 0.275192, W.peqDE 0.067402, OK ( < 0.400000)
+patch 41 of 96Point 41 DE 0.585043, W.DE 0.585043, peqDE 0.430409, Repeat
+patch 41 of 96patch 41 of 96patch 41 of 96patch 41 of 96Point 41 DE 0.585043, W.DE 0.585043, peqDE 0.430409, Repeat
+patch 41 of 96Point 41 DE 0.411841, W.DE 0.411841, peqDE 0.681615, Repeat
+patch 41 of 96Point 41 DE 0.182913, W.DE 0.182913, W.peqDE 0.103214, OK ( < 0.400000)
+patch 42 of 96Point 42 DE 0.457604, W.DE 0.457604, peqDE 0.408432, Repeat
+patch 42 of 96Point 42 DE 0.296833, W.DE 0.296833, peqDE 0.478198, Repeat
+patch 42 of 96Point 42 DE 0.113628, W.DE 0.113628, W.peqDE 0.288291, OK ( < 0.400000)
+patch 43 of 96Point 43 DE 0.349540, W.DE 0.349540, peqDE 0.426699, Repeat
+patch 43 of 96Point 43 DE 0.074182, W.DE 0.074182, W.peqDE 0.136754, OK ( < 0.400000)
+patch 44 of 96Point 44 DE 0.181765, W.DE 0.181765, W.peqDE 0.194389, OK ( < 0.400000)
+patch 45 of 96Point 45 DE 0.231107, W.DE 0.231107, W.peqDE 0.234094, OK ( < 0.400000)
+patch 46 of 96Point 46 DE 0.296619, W.DE 0.296619, W.peqDE 0.253087, OK ( < 0.400000)
+patch 47 of 96Point 47 DE 0.291571, W.DE 0.291571, W.peqDE 0.328503, OK ( < 0.400000)
+patch 48 of 96Point 48 DE 0.269771, W.DE 0.269771, W.peqDE 0.282730, OK ( < 0.400000)
+patch 49 of 96Point 49 DE 0.443925, W.DE 0.443925, peqDE 0.429680, Repeat
+patch 49 of 96Point 49 DE 0.068424, W.DE 0.068424, W.peqDE 0.077184, OK ( < 0.400000)
+patch 50 of 96Point 50 DE 0.232020, W.DE 0.232020, W.peqDE 0.285027, OK ( < 0.400000)
+patch 51 of 96Point 51 DE 0.187739, W.DE 0.187739, W.peqDE 0.308471, OK ( < 0.400000)
+patch 52 of 96Point 52 DE 0.127161, W.DE 0.127161, W.peqDE 0.181449, OK ( < 0.400000)
+patch 53 of 96Point 53 DE 0.133833, W.DE 0.133833, W.peqDE 0.112567, OK ( < 0.400000)
+patch 54 of 96Point 54 DE 0.173675, W.DE 0.173675, W.peqDE 0.202742, OK ( < 0.400000)
+patch 55 of 96Point 55 DE 0.296143, W.DE 0.296143, peqDE 0.424620, Repeat
+patch 55 of 96Point 55 DE 0.096464, W.DE 0.096464, W.peqDE 0.215541, OK ( < 0.400000)
+patch 56 of 96Point 56 DE 0.341481, W.DE 0.341481, W.peqDE 0.263267, OK ( < 0.400000)
+patch 57 of 96Point 57 DE 0.281815, W.DE 0.281815, W.peqDE 0.131580, OK ( < 0.400000)
+patch 58 of 96Point 58 DE 0.366006, W.DE 0.366006, W.peqDE 0.189457, OK ( < 0.400000)
+patch 59 of 96Point 59 DE 0.008269, W.DE 0.008269, W.peqDE 0.360734, OK ( < 0.400000)
+patch 60 of 96Point 60 DE 0.069175, W.DE 0.069175, W.peqDE 0.075121, OK ( < 0.400000)
+patch 61 of 96Point 61 DE 0.211244, W.DE 0.211244, W.peqDE 0.155604, OK ( < 0.400000)
+patch 62 of 96Point 62 DE 0.230975, W.DE 0.230975, W.peqDE 0.261616, OK ( < 0.400000)
+patch 63 of 96Point 63 DE 0.208559, W.DE 0.208559, W.peqDE 0.166788, OK ( < 0.400000)
+patch 64 of 96Point 64 DE 0.238479, W.DE 0.238479, W.peqDE 0.178439, OK ( < 0.400000)
+patch 65 of 96Point 65 DE 0.565044, W.DE 0.565044, peqDE 0.421756, Repeat
+patch 65 of 96Point 65 DE 0.110944, W.DE 0.110944, W.peqDE 0.332906, OK ( < 0.400000)
+patch 66 of 96Point 66 DE 0.602833, W.DE 0.602833, peqDE 0.661402, Repeat
+patch 66 of 96Point 66 DE 0.112752, W.DE 0.112752, W.peqDE 0.183659, OK ( < 0.400000)
+patch 67 of 96Point 67 DE 0.509466, W.DE 0.509466, peqDE 0.402537, Repeat
+patch 67 of 96Point 67 DE 0.177738, W.DE 0.177738, W.peqDE 0.087930, OK ( < 0.400000)
+patch 68 of 96Point 68 DE 0.816462, W.DE 0.816462, peqDE 0.653658, Repeat
+patch 68 of 96Point 68 DE 0.076905, W.DE 0.076905, W.peqDE 0.248839, OK ( < 0.400000)
+patch 69 of 96Point 69 DE 0.668328, W.DE 0.668328, peqDE 0.703756, Repeat
+patch 69 of 96Point 69 DE 0.101454, W.DE 0.101454, W.peqDE 0.084913, OK ( < 0.400000)
+patch 70 of 96Point 70 DE 0.699285, W.DE 0.699285, peqDE 0.699621, Repeat
+patch 70 of 96Point 70 DE 0.067679, W.DE 0.067679, W.peqDE 0.109873, OK ( < 0.400000)
+patch 71 of 96Point 71 DE 0.350004, W.DE 0.350004, W.peqDE 0.366934, OK ( < 0.400000)
+patch 72 of 96Point 72 DE 0.311455, W.DE 0.311455, W.peqDE 0.302003, OK ( < 0.400000)
+patch 73 of 96Point 73 DE 0.383695, W.DE 0.383695, W.peqDE 0.282591, OK ( < 0.400000)
+patch 74 of 96Point 74 DE 0.256950, W.DE 0.256950, W.peqDE 0.356687, OK ( < 0.400000)
+patch 75 of 96Point 75 DE 0.546014, W.DE 0.546014, peqDE 0.451009, Repeat
+patch 75 of 96Point 75 DE 0.062215, W.DE 0.062215, W.peqDE 0.250362, OK ( < 0.399824)
+patch 76 of 96Point 76 DE 0.471502, W.DE 0.471502, peqDE 0.512240, Repeat
+patch 76 of 96Point 76 DE 0.152517, W.DE 0.152517, W.peqDE 0.127678, OK ( < 0.373609)
+patch 77 of 96Point 77 DE 0.370651, W.DE 0.370651, peqDE 0.424220, Repeat
+patch 77 of 96Point 77 DE 0.175532, W.DE 0.175532, W.peqDE 0.307939, OK ( < 0.338079)
+patch 78 of 96Point 78 DE 0.261880, W.DE 0.261880, W.peqDE 0.143921, OK ( < 0.305042)
+patch 79 of 96Point 79 DE 0.270668, W.DE 0.270668, W.peqDE 0.122622, OK ( < 0.274396)
+patch 80 of 96Point 80 DE 0.270641, W.DE 0.270641, peqDE 0.318937, Repeat
+patch 80 of 96Point 80 DE 0.098823, W.DE 0.098823, W.peqDE 0.179363, OK ( < 0.250000)
+patch 81 of 96Point 81 DE 0.407606, W.DE 0.407606, peqDE 0.400501, Repeat
+patch 81 of 96Point 81 DE 0.169084, W.DE 0.169084, W.peqDE 0.071364, OK ( < 0.250000)
+patch 82 of 96Point 82 DE 0.521213, W.DE 0.521213, peqDE 0.568018, Repeat
+patch 82 of 96Point 82 DE 0.193486, W.DE 0.193486, W.peqDE 0.106929, OK ( < 0.250000)
+patch 83 of 96Point 83 DE 0.608544, W.DE 0.608544, peqDE 0.630793, Repeat
+patch 83 of 96Point 83 DE 0.136012, W.DE 0.136012, W.peqDE 0.240665, OK ( < 0.250000)
+patch 84 of 96Point 84 DE 0.671127, W.DE 0.671127, peqDE 0.662592, Repeat
+patch 84 of 96Point 84 DE 0.297716, W.DE 0.297716, peqDE 0.269919, Repeat
+patch 84 of 96Point 84 DE 0.084478, W.DE 0.084478, W.peqDE 0.050253, OK ( < 0.250000)
+patch 85 of 96Point 85 DE 0.790374, W.DE 0.790374, peqDE 0.781660, Repeat
+patch 85 of 96Point 85 DE 0.253436, W.DE 0.253436, peqDE 0.243278, Repeat
+patch 85 of 96Point 85 DE 0.171101, W.DE 0.171101, W.peqDE 0.157775, OK ( < 0.250000)
+patch 86 of 96Point 86 DE 0.899478, W.DE 0.899478, peqDE 0.969920, Repeat
+patch 86 of 96Point 86 DE 0.307667, W.DE 0.307667, peqDE 0.342802, Repeat
+patch 86 of 96Point 86 DE 0.150101, W.DE 0.150101, W.peqDE 0.083716, OK ( < 0.250000)
+patch 87 of 96Point 87 DE 0.950137, W.DE 0.950137, peqDE 1.049593, Repeat
+patch 87 of 96Point 87 DE 0.399529, W.DE 0.399529, peqDE 0.454980, Repeat
+patch 87 of 96Point 87 DE 0.096595, W.DE 0.096595, W.peqDE 0.173893, OK ( < 0.250000)
+patch 88 of 96Point 88 DE 0.939505, W.DE 0.939505, peqDE 0.958725, Repeat
+patch 88 of 96Point 88 DE 0.486392, W.DE 0.486392, peqDE 0.499136, Repeat
+patch 88 of 96Point 88 DE 0.134483, W.DE 0.134483, W.peqDE 0.137110, OK ( < 0.250000)
+patch 89 of 96Point 89 DE 0.683093, W.DE 0.683093, peqDE 0.693692, Repeat
+patch 89 of 96patch 89 of 96patch 89 of 96patch 89 of 96Point 89 DE 0.663280, W.DE 0.663280, peqDE 0.687258, Repeat
+patch 89 of 96Point 89 DE 0.393898, W.DE 0.393898, peqDE 0.446420, Repeat
+patch 89 of 96Point 89 DE 0.087435, W.DE 0.087435, W.peqDE 0.127126, OK ( < 0.250000)
+patch 90 of 96Point 90 DE 0.539377, W.DE 0.539377, peqDE 0.527887, Repeat
+patch 90 of 96patch 90 of 96patch 90 of 96patch 90 of 96Point 90 DE 0.465596, W.DE 0.465596, peqDE 0.446863, Repeat
+patch 90 of 96Point 90 DE 0.500769, W.DE 0.500769, peqDE 0.477448, Repeat
+patch 90 of 96Point 90 DE 0.199731, W.DE 0.199731, W.peqDE 0.192560, OK ( < 0.250000)
+patch 91 of 96Point 91 DE 0.461099, W.DE 0.461099, peqDE 0.460495, Repeat
+patch 91 of 96Point 91 DE 0.344217, W.DE 0.344217, peqDE 0.345595, Repeat
+patch 91 of 96Point 91 DE 0.258449, W.DE 0.258449, peqDE 0.240344, Repeat
+patch 91 of 96patch 91 of 96patch 91 of 96patch 91 of 96Point 91 DE 0.245600, W.DE 0.245600, W.peqDE 0.178941, OK ( < 0.250000)
+patch 92 of 96Point 92 DE 0.326515, W.DE 0.326515, peqDE 0.366550, Repeat
+patch 92 of 96patch 92 of 96patch 92 of 96patch 92 of 96Point 92 DE 0.302967, W.DE 0.302967, peqDE 0.290456, Repeat
+patch 92 of 96Point 92 DE 0.170835, W.DE 0.170835, W.peqDE 0.204387, OK ( < 0.250000)
+patch 93 of 96Point 93 DE 0.208712, W.DE 0.208712, W.peqDE 0.218713, OK ( < 0.250000)
+patch 94 of 96Point 94 DE 0.116575, W.DE 0.116575, W.peqDE 0.114795, OK ( < 0.250000)
+patch 95 of 96Point 95 DE 0.039098, W.DE 0.039098, W.peqDE 0.042458, OK ( < 0.250000)
+patch 96 of 96Point 96 DE 0.003650, W.DE 3.650224, peqDE 3.650224, Repeat
+patch 96 of 96patch 96 of 96patch 96 of 96patch 96 of 96Point 96 DE 0.003650, W.DE 3.650224, peqDE 3.650224, Repeat
+patch 96 of 96Point 96 DE 0.003945, W.DE 3.944761, peqDE 3.944761, Repeat (got worse)
+patch 96 of 96Point 96 DE 0.003314, W.DE 3.314427, peqDE 3.314427, Repeat
+patch 96 of 96Point 96 DE 0.003459, W.DE 3.458643, peqDE 3.458643, Repeat (got worse)
+patch 96 of 96Point 96 DE 0.003675, W.DE 3.675392, peqDE 3.675392, Repeat (got worse)
+patch 96 of 96Point 96 DE 0.003832, W.DE 3.832131, peqDE 3.832131, Repeat (got worse)
+patch 96 of 96Point 96 DE 0.004006, W.DE 4.005906, peqDE 4.005906, Repeat (got worse)
+patch 96 of 96Point 96 DE 0.003969, W.DE 3.969498, peqDE 3.969498, Repeat (got worse)
+patch 96 of 96Point 96 DE 0.003650, W.DE 3.650441, peqDE 3.650441, Repeat (got worse)
+patch 96 of 96Point 96 DE 0.003874, W.DE 3.873752, peqDE 3.873752, Repeat (got worse)
+patch 96 of 96Point 96 DE 0.003093, W.DE 3.093098, peqDE 3.093098, Repeat
+patch 96 of 96Point 96 DE 0.003671, W.DE 3.671240, peqDE 3.671240, Repeat (got worse)
+patch 96 of 96Point 96 DE 0.003560, W.DE 3.560121, peqDE 3.560121, Repeat (got worse)
+patch 96 of 96Point 96 DE 0.003708, W.DE 3.707894, peqDE 3.707894, Repeat (got worse)
+patch 96 of 96Point 96 DE 0.003093, W.DE 3.093098, W.peqDE 3.093098, Fail ( > 0.250000)
+
+Brightness error = 0.142794 cd/m^2 (is 78.565665, should be 78.422870)
+White point error = 0.234356 deltaE
+Maximum neutral error (@ 0.479385) = 0.400058 deltaE
+Average neutral error = 0.194622 deltaE
+Failed to meet target 0.400000 delta E, got worst case 3.785072
+Number of measurements taken = 214
+Computing update to calibration curves...
+The instrument can be removed from the screen.
+Written calibration file 'srgb_80nits_U2412m_2022_with_sRGB_gamma_curve.cal'
++ set +x
++ dispread -v -c1 -Yp -c1 -yn -P0.5,0.5,1.33 -X/usr/local/share/ArgyllCMS/WLEDFamily_07Feb11.ccss -ksrgb_80nits_U2412m_2022_with_sRGB_gamma_curve.cal srgb_80nits_U2412m_2022_with_sRGB_gamma_curve
+Number of patches = 836
+Setting up the instrument
+Product Name:      Colormunki Display 
+Serial Number:     CM-19.B-02.218968.10
+Firmware Version:  v2.28 
+Firmware Date:     29Jan14
+dispread: Warning - new_dispwin: Expected VideoLUT depth 11 doesn't match actual 10
+patch 1 of 836patch 2 of 836patch 3 of 836patch 4 of 836patch 5 of 836patch 6 of 836patch 7 of 836patch 8 of 836patch 9 of 836patch 10 of 836patch 11 of 836patch 12 of 836patch 13 of 836patch 14 of 836patch 15 of 836patch 16 of 836patch 17 of 836patch 18 of 836patch 19 of 836patch 20 of 836patch 21 of 836patch 22 of 836patch 23 of 836patch 24 of 836patch 25 of 836patch 26 of 836patch 27 of 836patch 28 of 836patch 29 of 836patch 30 of 836patch 31 of 836patch 32 of 836patch 33 of 836patch 34 of 836patch 35 of 836patch 36 of 836patch 37 of 836patch 38 of 836patch 39 of 836patch 40 of 836patch 41 of 836patch 42 of 836patch 43 of 836patch 44 of 836patch 45 of 836patch 46 of 836patch 47 of 836patch 48 of 836patch 49 of 836patch 50 of 836patch 51 of 836patch 52 of 836patch 53 of 836patch 54 of 836patch 55 of 836patch 56 of 836patch 57 of 836patch 58 of 836patch 59 of 836patch 60 of 836patch 61 of 836patch 62 of 836patch 63 of 836patch 64 of 836patch 65 of 836patch 66 of 836patch 67 of 836patch 68 of 836patch 69 of 836patch 70 of 836patch 71 of 836patch 72 of 836patch 73 of 836patch 74 of 836patch 75 of 836patch 76 of 836patch 77 of 836patch 78 of 836patch 79 of 836patch 80 of 836patch 81 of 836patch 82 of 836patch 83 of 836patch 84 of 836patch 85 of 836patch 86 of 836patch 87 of 836patch 88 of 836patch 89 of 836patch 90 of 836patch 91 of 836patch 92 of 836patch 93 of 836patch 94 of 836patch 95 of 836patch 96 of 836patch 97 of 836patch 98 of 836patch 99 of 836patch 100 of 836patch 101 of 836patch 102 of 836patch 103 of 836patch 104 of 836patch 105 of 836patch 106 of 836patch 107 of 836patch 108 of 836patch 109 of 836patch 110 of 836patch 111 of 836patch 112 of 836patch 113 of 836patch 114 of 836patch 115 of 836patch 116 of 836patch 117 of 836patch 118 of 836patch 119 of 836patch 120 of 836patch 121 of 836patch 122 of 836patch 123 of 836patch 124 of 836patch 125 of 836patch 126 of 836patch 127 of 836patch 128 of 836patch 129 of 836patch 130 of 836patch 131 of 836patch 132 of 836patch 133 of 836patch 134 of 836patch 135 of 836patch 136 of 836patch 137 of 836patch 138 of 836patch 139 of 836patch 140 of 836patch 141 of 836patch 142 of 836patch 143 of 836patch 144 of 836patch 145 of 836patch 146 of 836patch 147 of 836patch 148 of 836patch 149 of 836patch 150 of 836patch 151 of 836patch 152 of 836patch 153 of 836patch 154 of 836patch 155 of 836patch 156 of 836patch 157 of 836patch 158 of 836patch 159 of 836patch 160 of 836patch 161 of 836patch 162 of 836patch 163 of 836patch 164 of 836patch 165 of 836patch 166 of 836patch 167 of 836patch 168 of 836patch 169 of 836patch 170 of 836patch 171 of 836patch 172 of 836patch 173 of 836patch 174 of 836patch 175 of 836patch 176 of 836patch 177 of 836patch 178 of 836patch 179 of 836patch 180 of 836patch 181 of 836patch 182 of 836patch 183 of 836patch 184 of 836patch 185 of 836patch 186 of 836patch 187 of 836patch 188 of 836patch 189 of 836patch 190 of 836patch 191 of 836patch 192 of 836patch 193 of 836patch 194 of 836patch 195 of 836patch 196 of 836patch 197 of 836patch 198 of 836patch 199 of 836patch 200 of 836patch 201 of 836patch 202 of 836patch 203 of 836patch 204 of 836patch 205 of 836patch 206 of 836patch 207 of 836patch 208 of 836patch 209 of 836patch 210 of 836patch 211 of 836patch 212 of 836patch 213 of 836patch 214 of 836patch 215 of 836patch 216 of 836patch 217 of 836patch 218 of 836patch 219 of 836patch 220 of 836patch 221 of 836patch 222 of 836patch 223 of 836patch 224 of 836patch 225 of 836patch 226 of 836patch 227 of 836patch 228 of 836patch 229 of 836patch 230 of 836patch 231 of 836patch 232 of 836patch 233 of 836patch 234 of 836patch 235 of 836patch 236 of 836patch 237 of 836patch 238 of 836patch 239 of 836patch 240 of 836patch 241 of 836patch 242 of 836patch 243 of 836patch 244 of 836patch 245 of 836patch 246 of 836patch 247 of 836patch 248 of 836patch 249 of 836patch 250 of 836patch 251 of 836patch 252 of 836patch 253 of 836patch 254 of 836patch 255 of 836patch 256 of 836patch 257 of 836patch 258 of 836patch 259 of 836patch 260 of 836patch 261 of 836patch 262 of 836patch 263 of 836patch 264 of 836patch 265 of 836patch 266 of 836patch 267 of 836patch 268 of 836patch 269 of 836patch 270 of 836patch 271 of 836patch 272 of 836patch 273 of 836patch 274 of 836patch 275 of 836patch 276 of 836patch 277 of 836patch 278 of 836patch 279 of 836patch 280 of 836patch 281 of 836patch 282 of 836patch 283 of 836patch 284 of 836patch 285 of 836patch 286 of 836patch 287 of 836patch 288 of 836patch 289 of 836patch 290 of 836patch 291 of 836patch 292 of 836patch 293 of 836patch 294 of 836patch 295 of 836patch 296 of 836patch 297 of 836patch 298 of 836patch 299 of 836patch 300 of 836patch 301 of 836patch 302 of 836patch 303 of 836patch 304 of 836patch 305 of 836patch 306 of 836patch 307 of 836patch 308 of 836patch 309 of 836patch 310 of 836patch 311 of 836patch 312 of 836patch 313 of 836patch 314 of 836patch 315 of 836patch 316 of 836patch 317 of 836patch 318 of 836patch 319 of 836patch 320 of 836patch 321 of 836patch 322 of 836patch 323 of 836patch 324 of 836patch 325 of 836patch 326 of 836patch 327 of 836patch 328 of 836patch 329 of 836patch 330 of 836patch 331 of 836patch 332 of 836patch 333 of 836patch 334 of 836patch 335 of 836patch 336 of 836patch 337 of 836patch 338 of 836patch 339 of 836patch 340 of 836patch 341 of 836patch 342 of 836patch 343 of 836patch 344 of 836patch 345 of 836patch 346 of 836patch 347 of 836patch 348 of 836patch 349 of 836patch 350 of 836patch 351 of 836patch 352 of 836patch 353 of 836patch 354 of 836patch 355 of 836patch 356 of 836patch 357 of 836patch 358 of 836patch 359 of 836patch 360 of 836patch 361 of 836patch 362 of 836patch 363 of 836patch 364 of 836patch 365 of 836patch 366 of 836patch 367 of 836patch 368 of 836patch 369 of 836patch 370 of 836patch 371 of 836patch 372 of 836patch 373 of 836patch 374 of 836patch 375 of 836patch 376 of 836patch 377 of 836patch 378 of 836patch 379 of 836patch 380 of 836patch 381 of 836patch 382 of 836patch 383 of 836patch 384 of 836patch 385 of 836patch 386 of 836patch 387 of 836patch 388 of 836patch 389 of 836patch 390 of 836patch 391 of 836patch 392 of 836patch 393 of 836patch 394 of 836patch 395 of 836patch 396 of 836patch 397 of 836patch 398 of 836patch 399 of 836patch 400 of 836patch 401 of 836patch 402 of 836patch 403 of 836patch 404 of 836patch 405 of 836patch 406 of 836patch 407 of 836patch 408 of 836patch 409 of 836patch 410 of 836patch 411 of 836patch 412 of 836patch 413 of 836patch 414 of 836patch 415 of 836patch 416 of 836patch 417 of 836patch 418 of 836patch 419 of 836patch 420 of 836patch 421 of 836patch 422 of 836patch 423 of 836patch 424 of 836patch 425 of 836patch 426 of 836patch 427 of 836patch 428 of 836patch 429 of 836patch 430 of 836patch 431 of 836patch 432 of 836patch 433 of 836patch 434 of 836patch 435 of 836patch 436 of 836patch 437 of 836patch 438 of 836patch 439 of 836patch 440 of 836patch 441 of 836patch 442 of 836patch 443 of 836patch 444 of 836patch 445 of 836patch 446 of 836patch 447 of 836patch 448 of 836patch 449 of 836patch 450 of 836patch 451 of 836patch 452 of 836patch 453 of 836patch 454 of 836patch 455 of 836patch 456 of 836patch 457 of 836patch 458 of 836patch 459 of 836patch 460 of 836patch 461 of 836patch 462 of 836patch 463 of 836patch 464 of 836patch 465 of 836patch 466 of 836patch 467 of 836patch 468 of 836patch 469 of 836patch 470 of 836patch 471 of 836patch 472 of 836patch 473 of 836patch 474 of 836patch 475 of 836patch 476 of 836patch 477 of 836patch 478 of 836patch 479 of 836patch 480 of 836patch 481 of 836patch 482 of 836patch 483 of 836patch 484 of 836patch 485 of 836patch 486 of 836patch 487 of 836patch 488 of 836patch 489 of 836patch 490 of 836patch 491 of 836patch 492 of 836patch 493 of 836patch 494 of 836patch 495 of 836patch 496 of 836patch 497 of 836patch 498 of 836patch 499 of 836patch 500 of 836patch 501 of 836patch 502 of 836patch 503 of 836patch 504 of 836patch 505 of 836patch 506 of 836patch 507 of 836patch 508 of 836patch 509 of 836patch 510 of 836patch 511 of 836patch 512 of 836patch 513 of 836patch 514 of 836patch 515 of 836patch 516 of 836patch 517 of 836patch 518 of 836patch 519 of 836patch 520 of 836patch 521 of 836patch 522 of 836patch 523 of 836patch 524 of 836patch 525 of 836patch 526 of 836patch 527 of 836patch 528 of 836patch 529 of 836patch 530 of 836patch 531 of 836patch 532 of 836patch 533 of 836patch 534 of 836patch 535 of 836patch 536 of 836patch 537 of 836patch 538 of 836patch 539 of 836patch 540 of 836patch 541 of 836patch 542 of 836patch 543 of 836patch 544 of 836patch 545 of 836patch 546 of 836patch 547 of 836patch 548 of 836patch 549 of 836patch 550 of 836patch 551 of 836patch 552 of 836patch 553 of 836patch 554 of 836patch 555 of 836patch 556 of 836patch 557 of 836patch 558 of 836patch 559 of 836patch 560 of 836patch 561 of 836patch 562 of 836patch 563 of 836patch 564 of 836patch 565 of 836patch 566 of 836patch 567 of 836patch 568 of 836patch 569 of 836patch 570 of 836patch 571 of 836patch 572 of 836patch 573 of 836patch 574 of 836patch 575 of 836patch 576 of 836patch 577 of 836patch 578 of 836patch 579 of 836patch 580 of 836patch 581 of 836patch 582 of 836patch 583 of 836patch 584 of 836patch 585 of 836patch 586 of 836patch 587 of 836patch 588 of 836patch 589 of 836patch 590 of 836patch 591 of 836patch 592 of 836patch 593 of 836patch 594 of 836patch 595 of 836patch 596 of 836patch 597 of 836patch 598 of 836patch 599 of 836patch 600 of 836patch 601 of 836patch 602 of 836patch 603 of 836patch 604 of 836patch 605 of 836patch 606 of 836patch 607 of 836patch 608 of 836patch 609 of 836patch 610 of 836patch 611 of 836patch 612 of 836patch 613 of 836patch 614 of 836patch 615 of 836patch 616 of 836patch 617 of 836patch 618 of 836patch 619 of 836patch 620 of 836patch 621 of 836patch 622 of 836patch 623 of 836patch 624 of 836patch 625 of 836patch 626 of 836patch 627 of 836patch 628 of 836patch 629 of 836patch 630 of 836patch 631 of 836patch 632 of 836patch 633 of 836patch 634 of 836patch 635 of 836patch 636 of 836patch 637 of 836patch 638 of 836patch 639 of 836patch 640 of 836patch 641 of 836patch 642 of 836patch 643 of 836patch 644 of 836patch 645 of 836patch 646 of 836patch 647 of 836patch 648 of 836patch 649 of 836patch 650 of 836patch 651 of 836patch 652 of 836patch 653 of 836patch 654 of 836patch 655 of 836patch 656 of 836patch 657 of 836patch 658 of 836patch 659 of 836patch 660 of 836patch 661 of 836patch 662 of 836patch 663 of 836patch 664 of 836patch 665 of 836patch 666 of 836patch 667 of 836patch 668 of 836patch 669 of 836patch 670 of 836patch 671 of 836patch 672 of 836patch 673 of 836patch 674 of 836patch 675 of 836patch 676 of 836patch 677 of 836patch 678 of 836patch 679 of 836patch 680 of 836patch 681 of 836patch 682 of 836patch 683 of 836patch 684 of 836patch 685 of 836patch 686 of 836patch 687 of 836patch 688 of 836patch 689 of 836patch 690 of 836patch 691 of 836patch 692 of 836patch 693 of 836patch 694 of 836patch 695 of 836patch 696 of 836patch 697 of 836patch 698 of 836patch 699 of 836patch 700 of 836patch 701 of 836patch 702 of 836patch 703 of 836patch 704 of 836patch 705 of 836patch 706 of 836patch 707 of 836patch 708 of 836patch 709 of 836patch 710 of 836patch 711 of 836patch 712 of 836patch 713 of 836patch 714 of 836patch 715 of 836patch 716 of 836patch 717 of 836patch 718 of 836patch 719 of 836patch 720 of 836patch 721 of 836patch 722 of 836patch 723 of 836patch 724 of 836patch 725 of 836patch 726 of 836patch 727 of 836patch 728 of 836patch 729 of 836patch 730 of 836patch 731 of 836patch 732 of 836patch 733 of 836patch 734 of 836patch 735 of 836patch 736 of 836patch 737 of 836patch 738 of 836patch 739 of 836patch 740 of 836patch 741 of 836patch 742 of 836patch 743 of 836patch 744 of 836patch 745 of 836patch 746 of 836patch 747 of 836patch 748 of 836patch 749 of 836patch 750 of 836patch 751 of 836patch 752 of 836patch 753 of 836patch 754 of 836patch 755 of 836patch 756 of 836patch 757 of 836patch 758 of 836patch 759 of 836patch 760 of 836patch 761 of 836patch 762 of 836patch 763 of 836patch 764 of 836patch 765 of 836patch 766 of 836patch 767 of 836patch 768 of 836patch 769 of 836patch 770 of 836patch 771 of 836patch 772 of 836patch 773 of 836patch 774 of 836patch 775 of 836patch 776 of 836patch 777 of 836patch 778 of 836patch 779 of 836patch 780 of 836patch 781 of 836patch 782 of 836patch 783 of 836patch 784 of 836patch 785 of 836patch 786 of 836patch 787 of 836patch 788 of 836patch 789 of 836patch 790 of 836patch 791 of 836patch 792 of 836patch 793 of 836patch 794 of 836patch 795 of 836patch 796 of 836patch 797 of 836patch 798 of 836patch 799 of 836patch 800 of 836patch 801 of 836patch 802 of 836patch 803 of 836patch 804 of 836patch 805 of 836patch 806 of 836patch 807 of 836patch 808 of 836patch 809 of 836patch 810 of 836patch 811 of 836patch 812 of 836patch 813 of 836patch 814 of 836patch 815 of 836patch 816 of 836patch 817 of 836patch 818 of 836patch 819 of 836patch 820 of 836patch 821 of 836patch 822 of 836patch 823 of 836patch 824 of 836patch 825 of 836patch 826 of 836patch 827 of 836patch 828 of 836patch 829 of 836patch 830 of 836patch 831 of 836patch 832 of 836patch 833 of 836patch 834 of 836patch 835 of 836patch 836 of 836
+The instrument can be removed from the screen.
+Written 'srgb_80nits_U2412m_2022_with_sRGB_gamma_curve.ti3'
++ set +x
++ colprof -aX -qh -v -tp -Tlp -S/usr/share/color/argyll/ref/sRGB.icm -Dsrgb_80nits_U2412m_2022_with_sRGB_gamma_curve - Argyll CMS -qh srgb_80nits_U2412m_2022_with_sRGB_gamma_curve
+Bumped ICC version to 2.4.0 to accommodate multiple Display intents
+No of test patches = 836
+Omitted 0 zero measurements
+Estimating white point
+Approximate White point XYZ = 0.94916640 0.99895775 1.08051650, Lab = 99.959686 -2.438982 -18.898947
+Creating optimised per channel curves
+Initial White Point XYZ 0.949166 0.998958 1.080516, Lab 99.959686 -2.438982 -18.898947
+About to optimise temporary matrix
+  0%  5% 12% 55% 100%
+About to optimise a common ord 0 input curve and matrix
+  0%  1% 12% 16% 46% 69% 100%
+About to optimise a common input curve and matrix
+  0%  4%  7% 38% 65% 74% 100%
+About to optimise input curves and matrix
+  0% 36% 100%
+About to optimise output curves and matrix
+  0%  9% 100%
+About to optimise input curves and matrix again
+  0%  2% 100%
+About to optimise input, matrix and output together
+  0%  1%  8% 35% 55% 63% 66% 79% 82% 100%
+About to create grid position input curves
+Create final clut from scattered data
+********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+Doing White point fine tune:
+Before fine tune, rel WP = XYZ 0.964229 1.000035 0.824931, Lab 100.001372 -0.001435 0.000268
+After fine tune, rel WP = XYZ 0.964203 1.000000 0.824905, Lab 100.000001 -0.000003 0.000004
+                 abs WP = XYZ 0.94919195 0.99899336 1.08055037, Lab 99.961064 -2.440459 -18.898858
+Creating fast inverse input lookups
+White point XYZ = 0.94919195 0.99899336 1.08055037, Lab = 99.961064 -2.440459 -18.898858
+Find black point
+Black point XYZ = 0.00126773 0.00128238 0.00214483, Lab = 1.158373 0.126186 -2.052202
+Display Luminance = 78.152004
+Done A to B table creation
+Setting up B to A table lookup
+Creating Gamut Mapping
+ Finding Source Colorspace Perceptual Gamut
+ Finding Source Colorspace Saturation Gamut
+ Finding Destination Gamut
+ Creating Gamut match
+ Gamut Mapping Specification:
+  Description = ' p - Perceptual (Preferred) (Default) [ICC Perceptual]'
+  Closest ICC intent = 'Perceptual'
+  Using Color Apperance Space
+  Using Mapping with parameters:
+  Grey axis alignment   factor 1.000000
+  Grey axis white compression factor 1.000000
+  Grey axis white expansion   factor 1.000000
+  Grey axis black compression factor 1.000000
+  Grey axis black expansion   factor 1.000000
+  Grey axis knee        factor 1.000000
+  Black point algorithm: Neutral axis no-adapt extend and bend
+  Gamut compression factor 1.000000
+  Gamut expansion   factor 0.000000
+  Gamut compression knee factor 1.000000
+  Gamut expansion   knee factor 0.000000
+  Gamut Perceptual mapping weighting factor 1.000000
+  Gamut Lightness Preserving Perceptual mapping weighting 0.000000
+  Gamut Saturation mapping weighting factor 0.000000
+  Saturation enhancement factor 0.000000
+Gamut map resolution: 39
+Src colorspace white/black are 100.000000 -1.729340 -1.047525, 7.895297 -0.475320 -0.287954
+Src gamut white/black are      100.000000 -1.729340 -1.047525, 7.895297 -0.475320 -0.287954
+Dst colorspace white/black are 100.000000 -1.722344 -0.963095, 8.552133 -0.466660 -1.967788
+Target (blended) dst wp/bp   = 100.000000 -1.722344 -0.963095, 8.552133 -0.466660 -1.967788
+Adapted & extended tgt wp/bp = 100.000000 -1.722344 -0.963095, 8.552133 -0.466660 -1.967788
+Rotate matrix src wp/bp      = 100.000000 -1.729340 -1.047525, 8.549579 -0.484228 -0.293350
+Rotate matrix dst wp/bp      = 100.000000 -1.722344 -0.963095, 8.552133 -0.466660 -1.967788
+Bend target                                              bp = 8.552133 -0.483661 -0.286142
+Rotated source grey axis wp/bp 100.000000 -1.722344 -0.963095, 7.897869 -0.457677 -1.974976
+Rotated gamut grey axis wp/bp  100.000000 -1.722344 -0.963095, 7.897869 -0.457677 -1.974976
+Destination axis target wp/bp  100.000000 -1.722344 -0.963095, 8.552133 -0.466660 -1.967788
+Before tuning, L. map White/Black is 100.012653 8.482457, should be 100.000000 8.552133
+After tuning,  L. map White/Black is 100.000000 8.552133, should be 100.000000 8.552133
+Mapped source grey axis wp/bp  100.000000 -1.722344 -0.963095, 8.552133 -0.457677 -1.974976
+Average number of direction guide neigbours = 181.891821, min = 10
+Optimizing source to destination mapping...
+It 0: No clip 369/4170 delta 0.911490 max by 0.838782, avg by 0.074076
+It 1: No clip 313/4170 delta 0.013432 max by 0.770418, avg by 0.064253
+It 2: No clip 278/4170 delta 0.008395 max by 0.734165, avg by 0.061098
+It 3: No clip 259/4170 delta 0.004557 max by 0.712555, avg by 0.059329
+It 4: No clip 250/4170 delta 0.002159 max by 0.698763, avg by 0.057637
+It 5: No clip 242/4170 delta 0.001919 max by 0.689398, avg by 0.057097
+It 6: No clip 233/4170 delta 0.002159 max by 0.682807, avg by 0.057845
+It 7: No clip 230/4170 delta 0.000720 max by 0.678058, avg by 0.057761
+No og 1574 max 4.377524 avg 0.108724, No ig 2595 max 2.093319 avg 0.043910, avg rext 0.014817
+No og 1356 max 1.278748 avg 0.033783, No ig 2813 max 2.233024 avg 0.089211, avg rext 0.014817
+No og 1343 max 1.390661 avg 0.035891, No ig 2826 max 2.464762 avg 0.081598, avg rext 0.014817
+No og 1332 max 1.581745 avg 0.037734, No ig 2837 max 2.437170 avg 0.080451, avg rext 0.014817
+Sub-surface smoothing changed by max 0.365925, average 0.028040
+Creating rspl..
+Fine tuning white and black point mapping
+White is 99.990235 -1.733241 -0.898183, should be 100.000000 -1.722344 -0.963095
+Black is 8.551751 -0.462455 -1.849317, should be 8.552133 -0.466660 -1.967788
+After fine tuning:
+White is 99.999999 -1.722344 -0.963095, should be 100.000000 -1.722344 -0.963095
+Black is 8.552133 -0.466660 -1.967788, should be 8.552133 -0.466660 -1.967788
+ Gamut Mapping Specification:
+  Description = 'lp - Luminance Preserving Perceptual'
+  Closest ICC intent = 'Perceptual'
+  Using Color Apperance Space
+  Using Mapping with parameters:
+  Grey axis alignment   factor 1.000000
+  Grey axis white compression factor 1.000000
+  Grey axis white expansion   factor 1.000000
+  Grey axis black compression factor 1.000000
+  Grey axis black expansion   factor 1.000000
+  Grey axis knee        factor 0.300000
+  Black point algorithm: Neutral axis no-adapt extend and bend
+  Gamut compression factor 1.000000
+  Gamut expansion   factor 0.000000
+  Gamut compression knee factor 1.300000
+  Gamut expansion   knee factor 0.000000
+  Gamut Perceptual mapping weighting factor 0.000000
+  Gamut Lightness Preserving Perceptual mapping weighting 1.000000
+  Gamut Saturation mapping weighting factor 0.000000
+  Saturation enhancement factor 0.000000
+  HK scale override 0.200000
+Gamut map resolution: 39
+Src colorspace white/black are 100.000000 -1.729340 -1.047525, 7.895297 -0.475320 -0.287954
+Src gamut white/black are      100.000000 -1.729340 -1.047525, 7.895297 -0.475320 -0.287954
+Dst colorspace white/black are 100.000000 -1.722344 -0.963095, 8.552133 -0.466660 -1.967788
+Target (blended) dst wp/bp   = 100.000000 -1.722344 -0.963095, 8.552133 -0.466660 -1.967788
+Adapted & extended tgt wp/bp = 100.000000 -1.722344 -0.963095, 8.552133 -0.466660 -1.967788
+Rotate matrix src wp/bp      = 100.000000 -1.729340 -1.047525, 8.549579 -0.484228 -0.293350
+Rotate matrix dst wp/bp      = 100.000000 -1.722344 -0.963095, 8.552133 -0.466660 -1.967788
+Bend target                                              bp = 8.552133 -0.483661 -0.286142
+Rotated source grey axis wp/bp 100.000000 -1.722344 -0.963095, 7.897869 -0.457677 -1.974976
+Rotated gamut grey axis wp/bp  100.000000 -1.722344 -0.963095, 7.897869 -0.457677 -1.974976
+Destination axis target wp/bp  100.000000 -1.722344 -0.963095, 8.552133 -0.466660 -1.967788
+Before tuning, L. map White/Black is 99.999344 8.540862, should be 100.000000 8.552133
+After tuning,  L. map White/Black is 100.000000 8.552133, should be 100.000000 8.552133
+Mapped source grey axis wp/bp  100.000000 -1.722344 -0.963095, 8.552133 -0.457677 -1.974976
+Average number of direction guide neigbours = 89.518447, min = 27
+Optimizing source to destination mapping...
+It 0: No clip 328/4148 delta 0.920907 max by 1.009505, avg by 0.073385
+It 1: No clip 236/4148 delta 0.022185 max by 0.763306, avg by 0.057312
+It 2: No clip 181/4148 delta 0.013263 max by 0.643985, avg by 0.054238
+It 3: No clip 149/4148 delta 0.007716 max by 0.574151, avg by 0.054192
+It 4: No clip 128/4148 delta 0.005064 max by 0.532585, avg by 0.055569
+It 5: No clip 113/4148 delta 0.003617 max by 0.506529, avg by 0.057769
+It 6: No clip 107/4148 delta 0.001447 max by 0.489185, avg by 0.057397
+It 7: No clip 102/4148 delta 0.001206 max by 0.476541, avg by 0.057590
+No og 1596 max 0.254702 avg 0.003040, No ig 2551 max 0.762917 avg 0.024317, avg rext -0.013778
+No og 1572 max 0.177777 avg 0.002326, No ig 2575 max 0.762536 avg 0.025561, avg rext -0.013778
+No og 1564 max 0.159505 avg 0.002205, No ig 2583 max 0.766812 avg 0.026213, avg rext -0.013778
+No og 1560 max 0.159596 avg 0.002195, No ig 2587 max 0.773029 avg 0.026559, avg rext -0.013778
+Sub-surface smoothing changed by max 0.155692, average 0.013131
+Creating rspl..
+Fine tuning white and black point mapping
+White is 99.996762 -1.720051 -0.937359, should be 100.000000 -1.722344 -0.963095
+Black is 8.552150 -0.463438 -1.844950, should be 8.552133 -0.466660 -1.967788
+After fine tuning:
+White is 100.000001 -1.722344 -0.963095, should be 100.000000 -1.722344 -0.963095
+Black is 8.552133 -0.466660 -1.967788, should be 8.552133 -0.466660 -1.967788
+Creating B to A tables
+ 0%Rev cache RAM = 6587 Mbytes
+Looks like an XYZ space
+Initializing nnrev arrays...
+There is 1 rev cache instance with 6587 Mbytes limit
+nnrev initialization done
+Initializing nnrev arrays...
+There are 2 rev cache instances with 3293 Mbytes limit
+nnrev initialization done
+ 0% 1% 2% 3% 4% 5% 6% 7% 8% 9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%
+Done B to A tables
+Creating gamut boundary table
+ 0% 0% 1% 2% 3% 4% 5% 6% 7% 8% 9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%100%
+Done gamut boundary table
+There is 1 rev cache instance with 6587 Mbytes limit
+Find white & black points
+Initial white point = 0.949166 0.998958 1.080516
+Creating matrix...
+  0%  1%  3%  6%  9% 12% 61% 92% 100%
+Matrix = 0.290208 0.222688 0.070919
+         0.121321 0.463385 0.010863
+         -0.011325 0.028528 0.470270
+Creating matrix and single gamma curve...
+  0%  1%  2%  4%  5%  6%  8% 15% 29% 51% 77% 100%
+Matrix = 0.443783 0.369927 0.133924
+         0.218046 0.709464 0.053622
+         0.008092 0.079326 0.727801
+Gamma = 2.157829
+Creating matrix and gamma curves...
+  0%  1%  3% 12% 38% 77% 83% 100%
+Matrix = 0.444075 0.370587 0.133057
+         0.218692 0.710439 0.053560
+         0.007742 0.078896 0.722628
+Gamma = 2.159132 2.166938 2.136187
+Creating matrix and curves...
+  0%  1%  2%  3%  4%  5%  7%  8%  9% 11% 12% 13% 16% 17% 22% 31% 34% 35% 37% 38% 40% 47% 52% 60% 69% 73% 78% 80% 88% 92% 100%
+Matrix = 0.452627 0.379629 0.131953
+         0.221273 0.728360 0.050140
+         0.004391 0.079121 0.738599
+Input offset  = 0.063400 0.067892 0.056944
+Output offset = 0.000038 -0.000248 0.001087
+0 gamma = 2.455699 2.459122 2.388222
+1 harmonics = -0.004595 0.006236 0.030458
+2 harmonics = 0.009230 0.000385 -0.022923
+3 harmonics = 0.000410 0.006447 0.034785
+4 harmonics = 0.014685 0.006706 -0.007276
+5 harmonics = 0.002743 0.008165 0.009643
+6 harmonics = -0.002911 -0.006077 -0.000053
+7 harmonics = 0.001510 0.005709 0.002319
+8 harmonics = -0.006169 -0.002813 -0.001858
+9 harmonics = -0.005492 -0.005498 -0.004516
+10 harmonics = 0.001397 -0.001571 -0.001555
+11 harmonics = -0.000635 -0.005717 -0.008494
+Doing White point fine tune:
+Before fine tune, rel WP = XYZ 0.96420880 0.99977346 0.82211150, Lab 99.991240 0.038783 0.210947
+After fine tune, rel WP = XYZ 0.96420288 1.00000000 0.82490540, Lab 100.000000 0.000000 0.000000
+                 abs WP = XYZ 0.94900520 0.99867175 1.07683310, Lab 99.948618 -2.419436 -18.669088
+Black point XYZ = 0.00132682 0.00133979 0.00220221, Lab = 1.210231 0.141267 -2.071125
+Scaling White Point by 1.001330 to make Y = 1.0
+Done gamma/shaper and matrix creation
+Profile done
+Profile check complete, peak err = 0.695738, avg err = 0.166432, RMS = 0.194973
++ set +x
+Profile check complete, errors: max. = 0.695738, avg. = 0.166432, RMS = 0.194973
