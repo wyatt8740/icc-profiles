@@ -1,0 +1,1167 @@
+Invocation:
+--all --patch-scale 1.5 --correction /home/wyatt/Documents/icc/i1d3/CCFLFamily_07Feb11.ccss --intent p --intent-sat lp --input-profile /usr/share/color/argyll/ref/sRGB.icm --noninteractive --skip-adjust --whitepoint-preset D65 --gamma s 13_jun_2022_srgb_powerbook_g4_srgb_gamma_luminance_preserve
+
+Dispwin: Warning - new_dispwin: Expected VideoLUT depth 8 doesn't match actual 10
++ dispcal -v2 -Yp -c1 -m -yn -P0.5,0.5,1.5 -X/home/wyatt/Documents/icc/i1d3/CCFLFamily_07Feb11.ccss -qh -gs -w0.31271,0.32902 -f1.0 -k0 -A4.0 -b 13_jun_2022_srgb_powerbook_g4_srgb_gamma_luminance_preserve
+Setting up the instrument
+Product Name:      Colormunki Display 
+Serial Number:     CM-19.B-02.218968.10
+Firmware Version:  v2.28 
+Firmware Date:     29Jan14
+dispcal: Warning - new_dispwin: Expected VideoLUT depth 8 doesn't match actual 10
+Display type is 'n'
+Target white = xy 0.312710 0.329020
+Target white brightness = native brightness
+Target black brightness = native brightness
+Black point device hack is enabled
+Target gamma = sRGB curve
+Commencing display calibration
+patch 1 of 9patch 2 of 9patch 3 of 9patch 4 of 9patch 5 of 9patch 6 of 9patch 7 of 9patch 8 of 9patch 9 of 9
+Black = XYZ 0.3807 0.3822 0.5435
+Red   = XYZ 39.961 22.205  3.122
+Green = XYZ 34.649 58.446 12.379
+Blue  = XYZ 16.752 14.654 78.100
+White = XYZ 93.211 97.063 93.270
+patch 1 of 80patch 2 of 80patch 3 of 80patch 4 of 80patch 5 of 80patch 6 of 80patch 7 of 80patch 8 of 80patch 9 of 80patch 10 of 80patch 11 of 80patch 12 of 80patch 13 of 80patch 14 of 80patch 15 of 80patch 16 of 80patch 17 of 80patch 18 of 80patch 19 of 80patch 20 of 80patch 21 of 80patch 22 of 80patch 23 of 80patch 24 of 80patch 25 of 80patch 26 of 80patch 27 of 80patch 28 of 80patch 29 of 80patch 30 of 80patch 31 of 80patch 32 of 80patch 33 of 80patch 34 of 80patch 35 of 80patch 36 of 80patch 37 of 80patch 38 of 80patch 39 of 80patch 40 of 80patch 41 of 80patch 42 of 80patch 43 of 80patch 44 of 80patch 45 of 80patch 46 of 80patch 47 of 80patch 48 of 80patch 49 of 80patch 50 of 80patch 51 of 80patch 52 of 80patch 53 of 80patch 54 of 80patch 55 of 80patch 56 of 80patch 57 of 80patch 58 of 80patch 59 of 80patch 60 of 80patch 61 of 80patch 62 of 80patch 63 of 80patch 64 of 80patch 65 of 80patch 66 of 80patch 67 of 80patch 68 of 80patch 69 of 80patch 70 of 80patch 71 of 80patch 72 of 80patch 73 of 80patch 74 of 80patch 75 of 80patch 76 of 80patch 77 of 80patch 78 of 80patch 79 of 80patch 80 of 80
+
+Initial native brightness target = 97.062785 cd/m^2
+Had to scale brightness from 97.062785 to 83.296413 to fit within gamut,
+corresponding to aprox. RGB 0.879200 0.902425 1.000000
+Target white value is XYZ 79.167289 83.296413 90.701495 [xy 0.312710 0.329020]
+Adjusted target black XYZ 0.3807 0.3822 0.5435, Lab 4.145 0.860 -2.187
+Target black after min adjust: XYZ 0.3807 0.3822 0.5435, Lab 4.145 0.860 -2.187
+Gamma curve input offset = 0.000000, output offset = 0.004588, power = 0.000000
+Total Iteration 4, Final Samples = 96 Final Repeat threshold = 0.400000
+Creating initial calibration curves...
+
+Doing iteration 1/4 with 12 sample points and repeat threshold of 1.131371 DE
+patch 1 of 12Point 1 DE 4.048671, W.DE 4.048671, Repeat
+patch 1 of 12Point 1 DE 0.821993, W.DE 0.821993, OK ( < 1.131371)
+patch 2 of 12Point 2 DE 4.552264, W.DE 4.552264, Repeat
+patch 2 of 12Point 2 DE 0.409109, W.DE 0.409109, OK ( < 1.131371)
+patch 3 of 12Point 3 DE 4.715757, W.DE 4.715757, Repeat
+patch 3 of 12Point 3 DE 1.379326, W.DE 1.379326, Repeat
+patch 3 of 12Point 3 DE 0.633374, W.DE 0.633374, OK ( < 1.131371)
+patch 4 of 12Point 4 DE 5.669571, W.DE 5.669571, Repeat
+patch 4 of 12Point 4 DE 1.147186, W.DE 1.147186, Repeat
+patch 4 of 12Point 4 DE 0.660829, W.DE 0.660829, OK ( < 1.131371)
+patch 5 of 12Point 5 DE 3.656439, W.DE 3.656439, Repeat
+patch 5 of 12Point 5 DE 1.260219, W.DE 1.260219, Repeat
+patch 5 of 12Point 5 DE 0.434903, W.DE 0.434903, OK ( < 1.131371)
+patch 6 of 12Point 6 DE 1.919139, W.DE 1.919139, Repeat
+patch 6 of 12Point 6 DE 0.685443, W.DE 0.685443, OK ( < 1.131371)
+patch 7 of 12Point 7 DE 0.385117, W.DE 0.385117, OK ( < 1.131371)
+patch 8 of 12Point 8 DE 0.935257, W.DE 0.935257, OK ( < 1.131371)
+patch 9 of 12Point 9 DE 2.753175, W.DE 2.753175, Repeat
+patch 9 of 12Point 9 DE 0.174309, W.DE 0.174309, OK ( < 1.131371)
+patch 10 of 12Point 10 DE 2.416627, W.DE 2.416627, Repeat
+patch 10 of 12Point 10 DE 1.019030, W.DE 1.019030, OK ( < 1.131371)
+patch 11 of 12Point 11 DE 0.697586, W.DE 0.697586, OK ( < 1.131371)
+patch 12 of 12Point 12 DE 0.178661, W.DE 178.660713, Repeat
+patch 12 of 12patch 12 of 12patch 12 of 12patch 12 of 12Point 12 DE 0.148997, W.DE 148.996932, Repeat
+patch 12 of 12Point 12 DE 0.067998, W.DE 67.997594, Repeat
+patch 12 of 12Point 12 DE 0.066809, W.DE 66.809223, Repeat
+patch 12 of 12Point 12 DE 0.004277, W.DE 0.004277, OK ( < 1.131371)
+
+Brightness error = 0.837217 cd/m^2 (is 84.133630, should be 83.296413)
+White point error = 0.722594 deltaE
+Maximum neutral error (@ 0.065376) = 1.016911 deltaE
+Average neutral error = 0.571198 deltaE
+Number of measurements taken = 30
+Computing update to calibration curves...
+
+Doing iteration 2/4 with 24 sample points and repeat threshold of 0.800000 DE
+patch 1 of 24Point 1 DE 0.762204, W.DE 0.762204, OK ( < 0.800000)
+patch 2 of 24Point 2 DE 2.015057, W.DE 2.015057, Repeat
+patch 2 of 24Point 2 DE 0.402346, W.DE 0.402346, OK ( < 0.800000)
+patch 3 of 24Point 3 DE 0.427668, W.DE 0.427668, OK ( < 0.800000)
+patch 4 of 24Point 4 DE 1.125474, W.DE 1.125474, Repeat
+patch 4 of 24Point 4 DE 0.510916, W.DE 0.510916, OK ( < 0.800000)
+patch 5 of 24Point 5 DE 0.752811, W.DE 0.752811, OK ( < 0.800000)
+patch 6 of 24Point 6 DE 0.854450, W.DE 0.854450, Repeat
+patch 6 of 24patch 6 of 24patch 6 of 24patch 6 of 24Point 6 DE 0.854450, W.DE 0.854450, Repeat
+patch 6 of 24Point 6 DE 0.757021, W.DE 0.757021, OK ( < 0.800000)
+patch 7 of 24Point 7 DE 1.081795, W.DE 1.081795, Repeat
+patch 7 of 24patch 7 of 24patch 7 of 24patch 7 of 24Point 7 DE 0.961335, W.DE 0.961335, Repeat
+patch 7 of 24Point 7 DE 1.219073, W.DE 1.219073, Repeat
+patch 7 of 24Point 7 DE 0.957529, W.DE 0.957529, Repeat
+patch 7 of 24Point 7 DE 0.220021, W.DE 0.220021, OK ( < 0.800000)
+patch 8 of 24Point 8 DE 1.197765, W.DE 1.197765, Repeat
+patch 8 of 24Point 8 DE 0.613112, W.DE 0.613112, OK ( < 0.800000)
+patch 9 of 24Point 9 DE 2.175766, W.DE 2.175766, Repeat
+patch 9 of 24Point 9 DE 1.106695, W.DE 1.106695, Repeat
+patch 9 of 24Point 9 DE 0.661529, W.DE 0.661529, OK ( < 0.800000)
+patch 10 of 24Point 10 DE 1.133592, W.DE 1.133592, Repeat
+patch 10 of 24patch 10 of 24patch 10 of 24patch 10 of 24Point 10 DE 0.919995, W.DE 0.919995, Repeat
+patch 10 of 24Point 10 DE 0.273317, W.DE 0.273317, OK ( < 0.800000)
+patch 11 of 24Point 11 DE 1.307852, W.DE 1.307852, Repeat
+patch 11 of 24Point 11 DE 0.731202, W.DE 0.731202, OK ( < 0.800000)
+patch 12 of 24Point 12 DE 1.035316, W.DE 1.035316, Repeat
+patch 12 of 24patch 12 of 24patch 12 of 24patch 12 of 24Point 12 DE 0.900363, W.DE 0.900363, Repeat
+patch 12 of 24Point 12 DE 0.572414, W.DE 0.572414, OK ( < 0.800000)
+patch 13 of 24Point 13 DE 1.180384, W.DE 1.180384, Repeat
+patch 13 of 24Point 13 DE 0.915580, W.DE 0.915580, Repeat
+patch 13 of 24patch 13 of 24patch 13 of 24patch 13 of 24Point 13 DE 0.915580, W.DE 0.915580, Repeat
+patch 13 of 24Point 13 DE 0.242448, W.DE 0.242448, OK ( < 0.800000)
+patch 14 of 24Point 14 DE 1.638813, W.DE 1.638813, Repeat
+patch 14 of 24Point 14 DE 0.732186, W.DE 0.732186, OK ( < 0.800000)
+patch 15 of 24Point 15 DE 1.307366, W.DE 1.307366, Repeat
+patch 15 of 24Point 15 DE 0.397199, W.DE 0.397199, OK ( < 0.800000)
+patch 16 of 24Point 16 DE 1.498711, W.DE 1.498711, Repeat
+patch 16 of 24Point 16 DE 0.631713, W.DE 0.631713, OK ( < 0.800000)
+patch 17 of 24Point 17 DE 1.698255, W.DE 1.698255, Repeat
+patch 17 of 24Point 17 DE 0.716267, W.DE 0.716267, OK ( < 0.800000)
+patch 18 of 24Point 18 DE 1.981633, W.DE 1.981633, Repeat
+patch 18 of 24Point 18 DE 0.505920, W.DE 0.505920, OK ( < 0.800000)
+patch 19 of 24Point 19 DE 2.016671, W.DE 2.016671, Repeat
+patch 19 of 24Point 19 DE 0.529924, W.DE 0.529924, OK ( < 0.800000)
+patch 20 of 24Point 20 DE 1.854330, W.DE 1.854330, Repeat
+patch 20 of 24Point 20 DE 0.947367, W.DE 0.947367, Repeat
+patch 20 of 24Point 20 DE 0.460646, W.DE 0.460646, OK ( < 0.800000)
+patch 21 of 24Point 21 DE 1.335083, W.DE 1.335083, Repeat
+patch 21 of 24Point 21 DE 0.731868, W.DE 0.731868, OK ( < 0.800000)
+patch 22 of 24Point 22 DE 0.959049, W.DE 0.959049, Repeat
+patch 22 of 24Point 22 DE 0.572722, W.DE 0.572722, OK ( < 0.800000)
+patch 23 of 24Point 23 DE 0.463861, W.DE 0.463861, OK ( < 0.800000)
+patch 24 of 24Point 24 DE 0.002358, W.DE 2.357602, Repeat
+patch 24 of 24patch 24 of 24patch 24 of 24patch 24 of 24Point 24 DE 0.002358, W.DE 2.357602, Repeat
+patch 24 of 24Point 24 DE 0.002586, W.DE 2.586127, Repeat (got worse)
+patch 24 of 24Point 24 DE 0.003248, W.DE 3.248432, Repeat (got worse)
+patch 24 of 24Point 24 DE 0.005051, W.DE 5.051432, Repeat (got worse)
+patch 24 of 24Point 24 DE 0.004281, W.DE 4.280517, Repeat (got worse)
+patch 24 of 24Point 24 DE 0.006961, W.DE 6.960532, Repeat (got worse)
+patch 24 of 24Point 24 DE 0.007991, W.DE 7.991165, Repeat (got worse)
+patch 24 of 24Point 24 DE 0.009004, W.DE 9.003615, Repeat (got worse)
+patch 24 of 24Point 24 DE 0.006686, W.DE 6.686442, Repeat (got worse)
+patch 24 of 24Point 24 DE 0.007484, W.DE 7.484274, Repeat (got worse)
+patch 24 of 24Point 24 DE 0.008749, W.DE 8.749084, Repeat (got worse)
+patch 24 of 24Point 24 DE 0.006959, W.DE 6.958878, Repeat (got worse)
+patch 24 of 24Point 24 DE 0.008834, W.DE 8.833798, Repeat (got worse)
+patch 24 of 24Point 24 DE 0.008964, W.DE 8.963747, Repeat (got worse)
+patch 24 of 24Point 24 DE 0.002358, W.DE 2.357602, Fail ( > 0.800000)
+
+Brightness error = 0.762879 cd/m^2 (is 84.059292, should be 83.296413)
+White point error = 0.673454 deltaE
+Maximum neutral error (@ 1.000000) = 0.762204 deltaE
+Average neutral error = 0.528302 deltaE
+Failed to meet target 0.800000 delta E, got worst case 2.357602
+Number of measurements taken = 86
+Computing update to calibration curves...
+
+Doing iteration 3/4 with 48 sample points and repeat threshold of 0.565685 DE
+patch 1 of 48Point 1 DE 0.762204, W.DE 0.762204, Repeat
+patch 1 of 48patch 1 of 48patch 1 of 48patch 1 of 48Point 1 DE 0.654187, W.DE 0.654187, Repeat
+patch 1 of 48Point 1 DE 0.412963, W.DE 0.412963, OK ( < 0.565685)
+patch 2 of 48Point 2 DE 1.697970, W.DE 1.697970, Repeat
+patch 2 of 48Point 2 DE 0.950572, W.DE 0.950572, Repeat
+patch 2 of 48Point 2 DE 0.671984, W.DE 0.671984, Repeat
+patch 2 of 48Point 2 DE 0.089444, W.DE 0.089444, OK ( < 0.565685)
+patch 3 of 48Point 3 DE 0.828573, W.DE 0.828573, Repeat
+patch 3 of 48Point 3 DE 0.310482, W.DE 0.310482, OK ( < 0.565685)
+patch 4 of 48Point 4 DE 0.597429, W.DE 0.597429, Repeat
+patch 4 of 48Point 4 DE 0.129983, W.DE 0.129983, OK ( < 0.565685)
+patch 5 of 48Point 5 DE 0.462525, W.DE 0.462525, OK ( < 0.565685)
+patch 6 of 48Point 6 DE 0.482844, W.DE 0.482844, OK ( < 0.565685)
+patch 7 of 48Point 7 DE 0.230321, W.DE 0.230321, OK ( < 0.565685)
+patch 8 of 48Point 8 DE 0.682406, W.DE 0.682406, Repeat
+patch 8 of 48patch 8 of 48patch 8 of 48patch 8 of 48Point 8 DE 0.682406, W.DE 0.682406, Repeat
+patch 8 of 48Point 8 DE 0.947206, W.DE 0.947206, Repeat
+patch 8 of 48Point 8 DE 0.409896, W.DE 0.409896, OK ( < 0.565685)
+patch 9 of 48Point 9 DE 0.571964, W.DE 0.571964, Repeat
+patch 9 of 48patch 9 of 48patch 9 of 48patch 9 of 48Point 9 DE 0.571964, W.DE 0.571964, Repeat
+patch 9 of 48Point 9 DE 0.927191, W.DE 0.927191, Repeat (got worse)
+patch 9 of 48Point 9 DE 0.301685, W.DE 0.301685, OK ( < 0.565685)
+patch 10 of 48Point 10 DE 0.802164, W.DE 0.802164, Repeat
+patch 10 of 48Point 10 DE 0.240344, W.DE 0.240344, OK ( < 0.565685)
+patch 11 of 48Point 11 DE 0.657201, W.DE 0.657201, Repeat
+patch 11 of 48Point 11 DE 0.501557, W.DE 0.501557, OK ( < 0.565685)
+patch 12 of 48Point 12 DE 0.393277, W.DE 0.393277, OK ( < 0.565685)
+patch 13 of 48Point 13 DE 0.829169, W.DE 0.829169, Repeat
+patch 13 of 48patch 13 of 48patch 13 of 48patch 13 of 48Point 13 DE 0.783762, W.DE 0.783762, Repeat
+patch 13 of 48Point 13 DE 0.528517, W.DE 0.528517, OK ( < 0.565685)
+patch 14 of 48Point 14 DE 0.215427, W.DE 0.215427, OK ( < 0.565685)
+patch 15 of 48Point 15 DE 0.414683, W.DE 0.414683, OK ( < 0.565685)
+patch 16 of 48Point 16 DE 0.561202, W.DE 0.561202, OK ( < 0.565685)
+patch 17 of 48Point 17 DE 0.278108, W.DE 0.278108, OK ( < 0.565685)
+patch 18 of 48Point 18 DE 0.717388, W.DE 0.717388, Repeat
+patch 18 of 48patch 18 of 48patch 18 of 48patch 18 of 48Point 18 DE 0.672933, W.DE 0.672933, Repeat
+patch 18 of 48Point 18 DE 0.786360, W.DE 0.786360, Repeat (got worse)
+patch 18 of 48Point 18 DE 0.598435, W.DE 0.598435, Repeat
+patch 18 of 48Point 18 DE 0.765976, W.DE 0.765976, Repeat (got worse)
+patch 18 of 48Point 18 DE 0.224227, W.DE 0.224227, OK ( < 0.565685)
+patch 19 of 48Point 19 DE 0.621807, W.DE 0.621807, Repeat
+patch 19 of 48patch 19 of 48patch 19 of 48patch 19 of 48Point 19 DE 0.499854, W.DE 0.499854, OK ( < 0.565685)
+patch 20 of 48Point 20 DE 0.301183, W.DE 0.301183, OK ( < 0.565685)
+patch 21 of 48Point 21 DE 0.538342, W.DE 0.538342, OK ( < 0.565685)
+patch 22 of 48Point 22 DE 0.293022, W.DE 0.293022, OK ( < 0.565685)
+patch 23 of 48Point 23 DE 0.345244, W.DE 0.345244, OK ( < 0.565685)
+patch 24 of 48Point 24 DE 0.363704, W.DE 0.363704, OK ( < 0.565685)
+patch 25 of 48Point 25 DE 0.649381, W.DE 0.649381, Repeat
+patch 25 of 48Point 25 DE 0.478857, W.DE 0.478857, OK ( < 0.565685)
+patch 26 of 48Point 26 DE 0.642059, W.DE 0.642059, Repeat
+patch 26 of 48Point 26 DE 0.385912, W.DE 0.385912, OK ( < 0.565685)
+patch 27 of 48Point 27 DE 0.662008, W.DE 0.662008, Repeat
+patch 27 of 48Point 27 DE 0.321246, W.DE 0.321246, OK ( < 0.565685)
+patch 28 of 48Point 28 DE 0.873394, W.DE 0.873394, Repeat
+patch 28 of 48Point 28 DE 0.486006, W.DE 0.486006, OK ( < 0.565685)
+patch 29 of 48Point 29 DE 0.904330, W.DE 0.904330, Repeat
+patch 29 of 48Point 29 DE 0.412339, W.DE 0.412339, OK ( < 0.565685)
+patch 30 of 48Point 30 DE 0.940829, W.DE 0.940829, Repeat
+patch 30 of 48Point 30 DE 0.417450, W.DE 0.417450, OK ( < 0.565685)
+patch 31 of 48Point 31 DE 0.208964, W.DE 0.208964, OK ( < 0.565685)
+patch 32 of 48Point 32 DE 0.222464, W.DE 0.222464, OK ( < 0.565685)
+patch 33 of 48Point 33 DE 0.471770, W.DE 0.471770, OK ( < 0.565685)
+patch 34 of 48Point 34 DE 0.245013, W.DE 0.245013, OK ( < 0.565685)
+patch 35 of 48Point 35 DE 0.787555, W.DE 0.787555, Repeat
+patch 35 of 48patch 35 of 48patch 35 of 48patch 35 of 48Point 35 DE 0.787555, W.DE 0.787555, Repeat
+patch 35 of 48Point 35 DE 0.367358, W.DE 0.367358, OK ( < 0.565685)
+patch 36 of 48Point 36 DE 0.532311, W.DE 0.532311, OK ( < 0.565685)
+patch 37 of 48Point 37 DE 0.272146, W.DE 0.272146, OK ( < 0.565685)
+patch 38 of 48Point 38 DE 0.373417, W.DE 0.373417, OK ( < 0.565685)
+patch 39 of 48Point 39 DE 0.310413, W.DE 0.310413, OK ( < 0.565685)
+patch 40 of 48Point 40 DE 0.322615, W.DE 0.322615, OK ( < 0.565685)
+patch 41 of 48Point 41 DE 0.580421, W.DE 0.580421, Repeat
+patch 41 of 48Point 41 DE 0.428518, W.DE 0.428518, OK ( < 0.565685)
+patch 42 of 48Point 42 DE 0.785760, W.DE 0.785760, Repeat
+patch 42 of 48Point 42 DE 0.393328, W.DE 0.393328, OK ( < 0.565685)
+patch 43 of 48Point 43 DE 0.717104, W.DE 0.717104, Repeat
+patch 43 of 48Point 43 DE 0.476787, W.DE 0.476787, OK ( < 0.565685)
+patch 44 of 48Point 44 DE 0.596804, W.DE 0.596804, Repeat
+patch 44 of 48Point 44 DE 0.363356, W.DE 0.363356, OK ( < 0.565685)
+patch 45 of 48Point 45 DE 0.495550, W.DE 0.495550, OK ( < 0.565685)
+patch 46 of 48Point 46 DE 0.422986, W.DE 0.422986, OK ( < 0.565685)
+patch 47 of 48Point 47 DE 0.123857, W.DE 0.123857, OK ( < 0.565685)
+patch 48 of 48Point 48 DE 0.023895, W.DE 23.894862, Repeat
+patch 48 of 48patch 48 of 48patch 48 of 48patch 48 of 48Point 48 DE 0.019657, W.DE 19.656883, Repeat
+patch 48 of 48Point 48 DE 0.019866, W.DE 19.865661, Repeat (got worse)
+patch 48 of 48Point 48 DE 0.017207, W.DE 17.207112, Repeat
+patch 48 of 48Point 48 DE 0.013599, W.DE 13.598807, Repeat
+patch 48 of 48Point 48 DE 0.014406, W.DE 14.405690, Repeat (got worse)
+patch 48 of 48Point 48 DE 0.013700, W.DE 13.699799, Repeat (got worse)
+patch 48 of 48Point 48 DE 0.014259, W.DE 14.258667, Repeat (got worse)
+patch 48 of 48Point 48 DE 0.012890, W.DE 12.890484, Repeat
+patch 48 of 48Point 48 DE 0.012490, W.DE 12.490358, Repeat
+patch 48 of 48Point 48 DE 0.009945, W.DE 9.944956, Repeat
+patch 48 of 48Point 48 DE 0.012641, W.DE 12.641328, Repeat (got worse)
+patch 48 of 48Point 48 DE 0.008826, W.DE 8.826110, Repeat
+patch 48 of 48Point 48 DE 0.009220, W.DE 9.220214, Repeat (got worse)
+patch 48 of 48Point 48 DE 0.007795, W.DE 7.794821, Repeat
+patch 48 of 48Point 48 DE 0.007795, W.DE 7.794821, Fail ( > 0.565685)
+
+Brightness error = -0.327656 cd/m^2 (is 82.968757, should be 83.296413)
+White point error = 0.384358 deltaE
+Maximum neutral error (@ 0.540609) = 0.560873 deltaE
+Average neutral error = 0.355588 deltaE
+Failed to meet target 0.565685 delta E, got worst case 7.794821
+Number of measurements taken = 122
+Computing update to calibration curves...
+
+Doing iteration 4/4 with 96 sample points and repeat threshold of 0.400000 DE
+patch 1 of 96Point 1 DE 0.035153, W.DE 0.035153, W.peqDE 0.035153, OK ( < 0.400000)
+patch 2 of 96Point 2 DE 0.608396, W.DE 0.608396, peqDE 0.608642, Repeat
+patch 2 of 96patch 2 of 96patch 2 of 96patch 2 of 96Point 2 DE 0.608396, W.DE 0.608396, peqDE 0.608642, Repeat
+patch 2 of 96Point 2 DE 0.818603, W.DE 0.818603, peqDE 0.827247, Repeat
+patch 2 of 96Point 2 DE 0.466872, W.DE 0.466872, peqDE 0.457355, Repeat
+patch 2 of 96Point 2 DE 0.260915, W.DE 0.260915, W.peqDE 0.252692, OK ( < 0.400000)
+patch 3 of 96Point 3 DE 0.954307, W.DE 0.954307, peqDE 1.106418, Repeat
+patch 3 of 96Point 3 DE 0.163182, W.DE 0.163182, W.peqDE 0.281249, OK ( < 0.400000)
+patch 4 of 96Point 4 DE 0.413048, W.DE 0.413048, peqDE 0.331673, Repeat
+patch 4 of 96Point 4 DE 0.285453, W.DE 0.285453, W.peqDE 0.388859, OK ( < 0.400000)
+patch 5 of 96Point 5 DE 0.266123, W.DE 0.266123, W.peqDE 0.245095, OK ( < 0.400000)
+patch 6 of 96Point 6 DE 0.244041, W.DE 0.244041, W.peqDE 0.188186, OK ( < 0.400000)
+patch 7 of 96Point 7 DE 0.270905, W.DE 0.270905, peqDE 0.478254, Repeat
+patch 7 of 96patch 7 of 96patch 7 of 96patch 7 of 96Point 7 DE 0.270905, W.DE 0.270905, peqDE 0.478254, Repeat
+patch 7 of 96Point 7 DE 0.449188, W.DE 0.449188, peqDE 0.230089, Repeat (got worse)
+patch 7 of 96Point 7 DE 0.132864, W.DE 0.132864, W.peqDE 0.327756, OK ( < 0.400000)
+patch 8 of 96Point 8 DE 0.127047, W.DE 0.127047, W.peqDE 0.245706, OK ( < 0.400000)
+patch 9 of 96Point 9 DE 0.327482, W.DE 0.327482, W.peqDE 0.293258, OK ( < 0.400000)
+patch 10 of 96Point 10 DE 0.297357, W.DE 0.297357, peqDE 0.435275, Repeat
+patch 10 of 96patch 10 of 96patch 10 of 96patch 10 of 96Point 10 DE 0.297357, W.DE 0.297357, peqDE 0.435275, Repeat
+patch 10 of 96Point 10 DE 0.555331, W.DE 0.555331, peqDE 0.375979, Repeat (got worse)
+patch 10 of 96Point 10 DE 0.381459, W.DE 0.381459, peqDE 0.571071, Repeat (got worse)
+patch 10 of 96Point 10 DE 0.469707, W.DE 0.469707, peqDE 0.538012, Repeat (got worse)
+patch 10 of 96Point 10 DE 0.558347, W.DE 0.558347, peqDE 0.645448, Repeat (got worse)
+patch 10 of 96Point 10 DE 0.382343, W.DE 0.382343, peqDE 0.545255, Repeat (got worse)
+patch 10 of 96Point 10 DE 0.381459, W.DE 0.381459, peqDE 0.571071, Repeat (got worse)
+patch 10 of 96Point 10 DE 0.241730, W.DE 0.241730, W.peqDE 0.200144, OK ( < 0.400000)
+patch 11 of 96Point 11 DE 0.307548, W.DE 0.307548, peqDE 0.503756, Repeat
+patch 11 of 96patch 11 of 96patch 11 of 96patch 11 of 96Point 11 DE 0.307548, W.DE 0.307548, peqDE 0.503756, Repeat
+patch 11 of 96Point 11 DE 0.904265, W.DE 0.904265, peqDE 0.671593, Repeat (got worse)
+patch 11 of 96Point 11 DE 0.307548, W.DE 0.307548, peqDE 0.503756, Repeat
+patch 11 of 96Point 11 DE 0.528713, W.DE 0.528713, peqDE 0.754045, Repeat (got worse)
+patch 11 of 96Point 11 DE 0.307548, W.DE 0.307548, peqDE 0.503756, Repeat
+patch 11 of 96Point 11 DE 0.788051, W.DE 0.788051, peqDE 0.554265, Repeat (got worse)
+patch 11 of 96Point 11 DE 0.307548, W.DE 0.307548, peqDE 0.503756, Repeat
+patch 11 of 96Point 11 DE 0.743818, W.DE 0.743818, peqDE 0.831552, Repeat (got worse)
+patch 11 of 96Point 11 DE 0.307548, W.DE 0.307548, peqDE 0.503756, Repeat
+patch 11 of 96Point 11 DE 0.307548, W.DE 0.307548, peqDE 0.503756, Repeat
+patch 11 of 96Point 11 DE 0.656637, W.DE 0.656637, peqDE 0.495018, Repeat (got worse)
+patch 11 of 96Point 11 DE 0.363509, W.DE 0.363509, W.peqDE 0.375182, OK ( < 0.400000)
+patch 12 of 96Point 12 DE 0.253351, W.DE 0.253351, peqDE 0.515231, Repeat
+patch 12 of 96patch 12 of 96patch 12 of 96patch 12 of 96Point 12 DE 0.271886, W.DE 0.271886, W.peqDE 0.332398, OK ( < 0.400000)
+patch 13 of 96Point 13 DE 0.150651, W.DE 0.150651, W.peqDE 0.347431, OK ( < 0.400000)
+patch 14 of 96Point 14 DE 0.528022, W.DE 0.528022, peqDE 0.659571, Repeat
+patch 14 of 96patch 14 of 96patch 14 of 96patch 14 of 96Point 14 DE 0.528022, W.DE 0.528022, peqDE 0.659571, Repeat
+patch 14 of 96Point 14 DE 0.602462, W.DE 0.602462, peqDE 0.464319, Repeat
+patch 14 of 96Point 14 DE 0.380861, W.DE 0.380861, peqDE 0.408451, Repeat
+patch 14 of 96Point 14 DE 0.700283, W.DE 0.700283, peqDE 0.813444, Repeat
+patch 14 of 96Point 14 DE 0.756436, W.DE 0.756436, peqDE 0.669539, Repeat
+patch 14 of 96Point 14 DE 0.700283, W.DE 0.700283, peqDE 0.813444, Repeat
+patch 14 of 96Point 14 DE 0.713520, W.DE 0.713520, peqDE 0.579320, Repeat (got worse)
+patch 14 of 96Point 14 DE 0.729551, W.DE 0.729551, peqDE 0.863501, Repeat (got worse)
+patch 14 of 96Point 14 DE 0.756436, W.DE 0.756436, peqDE 0.669539, Repeat
+patch 14 of 96Point 14 DE 0.557100, W.DE 0.557100, peqDE 0.674808, Repeat
+patch 14 of 96Point 14 DE 0.602462, W.DE 0.602462, peqDE 0.464319, Repeat (got worse)
+patch 14 of 96Point 14 DE 0.528022, W.DE 0.528022, peqDE 0.659571, Repeat (got worse)
+patch 14 of 96Point 14 DE 0.290357, W.DE 0.290357, W.peqDE 0.253651, OK ( < 0.400000)
+patch 15 of 96Point 15 DE 0.396847, W.DE 0.396847, peqDE 0.430008, Repeat
+patch 15 of 96patch 15 of 96patch 15 of 96patch 15 of 96Point 15 DE 0.360425, W.DE 0.360425, peqDE 0.440466, Repeat
+patch 15 of 96Point 15 DE 0.481716, W.DE 0.481716, peqDE 0.461238, Repeat (got worse)
+patch 15 of 96Point 15 DE 0.250947, W.DE 0.250947, W.peqDE 0.345784, OK ( < 0.400000)
+patch 16 of 96Point 16 DE 0.271585, W.DE 0.271585, W.peqDE 0.129327, OK ( < 0.400000)
+patch 17 of 96Point 17 DE 0.459333, W.DE 0.459333, peqDE 0.630943, Repeat
+patch 17 of 96patch 17 of 96patch 17 of 96patch 17 of 96Point 17 DE 0.446435, W.DE 0.446435, peqDE 0.223220, Repeat
+patch 17 of 96Point 17 DE 0.490459, W.DE 0.490459, peqDE 0.485571, Repeat
+patch 17 of 96Point 17 DE 0.190822, W.DE 0.190822, peqDE 0.420377, Repeat
+patch 17 of 96Point 17 DE 0.117101, W.DE 0.117101, W.peqDE 0.352257, OK ( < 0.400000)
+patch 18 of 96Point 18 DE 0.544779, W.DE 0.544779, peqDE 0.648266, Repeat
+patch 18 of 96patch 18 of 96patch 18 of 96patch 18 of 96Point 18 DE 0.544779, W.DE 0.544779, peqDE 0.648266, Repeat
+patch 18 of 96Point 18 DE 0.656119, W.DE 0.656119, peqDE 0.574833, Repeat (got worse)
+patch 18 of 96Point 18 DE 0.504480, W.DE 0.504480, peqDE 0.597882, Repeat
+patch 18 of 96Point 18 DE 0.325804, W.DE 0.325804, W.peqDE 0.291216, OK ( < 0.400000)
+patch 19 of 96Point 19 DE 0.191563, W.DE 0.191563, W.peqDE 0.361509, OK ( < 0.400000)
+patch 20 of 96Point 20 DE 0.050110, W.DE 0.050110, W.peqDE 0.192748, OK ( < 0.400000)
+patch 21 of 96Point 21 DE 0.168575, W.DE 0.168575, W.peqDE 0.176794, OK ( < 0.400000)
+patch 22 of 96Point 22 DE 0.784995, W.DE 0.784995, peqDE 0.740950, Repeat
+patch 22 of 96patch 22 of 96patch 22 of 96patch 22 of 96Point 22 DE 0.784995, W.DE 0.784995, peqDE 0.740950, Repeat
+patch 22 of 96Point 22 DE 0.897160, W.DE 0.897160, peqDE 0.963171, Repeat
+patch 22 of 96Point 22 DE 0.568005, W.DE 0.568005, peqDE 0.458029, Repeat
+patch 22 of 96Point 22 DE 0.784995, W.DE 0.784995, peqDE 0.740950, Repeat (got worse)
+patch 22 of 96Point 22 DE 0.839917, W.DE 0.839917, peqDE 0.936428, Repeat (got worse)
+patch 22 of 96Point 22 DE 0.506865, W.DE 0.506865, peqDE 0.523459, Repeat
+patch 22 of 96Point 22 DE 0.784995, W.DE 0.784995, peqDE 0.740950, Repeat
+patch 22 of 96Point 22 DE 0.840972, W.DE 0.840972, peqDE 0.937473, Repeat
+patch 22 of 96Point 22 DE 0.568005, W.DE 0.568005, peqDE 0.458029, Repeat
+patch 22 of 96Point 22 DE 0.393208, W.DE 0.393208, peqDE 0.507790, Repeat
+patch 22 of 96Point 22 DE 0.784995, W.DE 0.784995, peqDE 0.740950, Repeat
+patch 22 of 96Point 22 DE 1.052243, W.DE 1.052243, peqDE 1.099418, Repeat
+patch 22 of 96Point 22 DE 0.784995, W.DE 0.784995, peqDE 0.740950, Repeat
+patch 22 of 96Point 22 DE 1.105878, W.DE 1.105878, peqDE 1.154909, Repeat (got worse)
+patch 22 of 96Point 22 DE 0.393208, W.DE 0.393208, W.peqDE 0.507790, Fail ( > 0.400000)
+patch 23 of 96Point 23 DE 0.307449, W.DE 0.307449, W.peqDE 0.234976, OK ( < 0.400000)
+patch 24 of 96Point 24 DE 0.310726, W.DE 0.310726, peqDE 0.477382, Repeat
+patch 24 of 96patch 24 of 96patch 24 of 96patch 24 of 96Point 24 DE 0.310726, W.DE 0.310726, peqDE 0.477382, Repeat
+patch 24 of 96Point 24 DE 0.606436, W.DE 0.606436, peqDE 0.868551, Repeat (got worse)
+patch 24 of 96Point 24 DE 0.361990, W.DE 0.361990, W.peqDE 0.165093, OK ( < 0.400000)
+patch 25 of 96Point 25 DE 0.657853, W.DE 0.657853, peqDE 0.973664, Repeat
+patch 25 of 96patch 25 of 96patch 25 of 96patch 25 of 96Point 25 DE 0.657853, W.DE 0.657853, peqDE 0.973664, Repeat
+patch 25 of 96Point 25 DE 0.851653, W.DE 0.851653, peqDE 0.755444, Repeat (got worse)
+patch 25 of 96Point 25 DE 0.404051, W.DE 0.404051, peqDE 0.199862, Repeat
+patch 25 of 96Point 25 DE 0.699243, W.DE 0.699243, peqDE 1.009252, Repeat (got worse)
+patch 25 of 96Point 25 DE 0.046765, W.DE 0.046765, W.peqDE 0.359887, OK ( < 0.400000)
+patch 26 of 96Point 26 DE 0.680427, W.DE 0.680427, peqDE 0.689559, Repeat
+patch 26 of 96Point 26 DE 0.405243, W.DE 0.405243, peqDE 0.405635, Repeat
+patch 26 of 96patch 26 of 96patch 26 of 96patch 26 of 96Point 26 DE 0.405243, W.DE 0.405243, peqDE 0.405635, Repeat
+patch 26 of 96Point 26 DE 0.493303, W.DE 0.493303, peqDE 0.500586, Repeat
+patch 26 of 96Point 26 DE 0.425828, W.DE 0.425828, peqDE 0.425147, Repeat
+patch 26 of 96Point 26 DE 0.455102, W.DE 0.455102, peqDE 0.461737, Repeat
+patch 26 of 96Point 26 DE 0.435538, W.DE 0.435538, peqDE 0.418314, Repeat
+patch 26 of 96Point 26 DE 0.769786, W.DE 0.769786, peqDE 0.788675, Repeat
+patch 26 of 96Point 26 DE 0.422610, W.DE 0.422610, peqDE 0.405360, Repeat
+patch 26 of 96Point 26 DE 0.475734, W.DE 0.475734, peqDE 0.482737, Repeat
+patch 26 of 96Point 26 DE 0.449262, W.DE 0.449262, peqDE 0.432077, Repeat
+patch 26 of 96Point 26 DE 0.766082, W.DE 0.766082, peqDE 0.784975, Repeat
+patch 26 of 96Point 26 DE 1.114387, W.DE 1.114387, peqDE 1.100124, Repeat (got worse)
+patch 26 of 96Point 26 DE 0.564350, W.DE 0.564350, peqDE 0.578994, Repeat
+patch 26 of 96Point 26 DE 0.418931, W.DE 0.418931, peqDE 0.401674, Repeat
+patch 26 of 96Point 26 DE 0.405243, W.DE 0.405243, W.peqDE 0.405635, Fail ( > 0.400000)
+patch 27 of 96Point 27 DE 0.404257, W.DE 0.404257, peqDE 0.655160, Repeat
+patch 27 of 96patch 27 of 96patch 27 of 96patch 27 of 96Point 27 DE 0.404257, W.DE 0.404257, peqDE 0.655160, Repeat
+patch 27 of 96Point 27 DE 0.459792, W.DE 0.459792, peqDE 0.437192, Repeat (got worse)
+patch 27 of 96Point 27 DE 0.485965, W.DE 0.485965, peqDE 0.735510, Repeat (got worse)
+patch 27 of 96Point 27 DE 0.590151, W.DE 0.590151, peqDE 0.764482, Repeat
+patch 27 of 96Point 27 DE 1.131321, W.DE 1.131321, peqDE 0.999897, Repeat (got worse)
+patch 27 of 96Point 27 DE 0.459576, W.DE 0.459576, peqDE 0.709586, Repeat (got worse)
+patch 27 of 96Point 27 DE 0.384438, W.DE 0.384438, peqDE 0.635608, Repeat
+patch 27 of 96Point 27 DE 0.441237, W.DE 0.441237, peqDE 0.430878, Repeat (got worse)
+patch 27 of 96Point 27 DE 0.391671, W.DE 0.391671, W.peqDE 0.238170, OK ( < 0.400000)
+patch 28 of 96Point 28 DE 0.317166, W.DE 0.317166, peqDE 0.637821, Repeat
+patch 28 of 96patch 28 of 96patch 28 of 96patch 28 of 96Point 28 DE 0.317166, W.DE 0.317166, peqDE 0.637821, Repeat
+patch 28 of 96Point 28 DE 0.668953, W.DE 0.668953, peqDE 0.868742, Repeat (got worse)
+patch 28 of 96Point 28 DE 0.393842, W.DE 0.393842, peqDE 0.429364, Repeat
+patch 28 of 96Point 28 DE 0.351789, W.DE 0.351789, peqDE 0.665809, Repeat (got worse)
+patch 28 of 96Point 28 DE 0.409690, W.DE 0.409690, peqDE 0.451350, Repeat
+patch 28 of 96Point 28 DE 0.652801, W.DE 0.652801, peqDE 0.860936, Repeat (got worse)
+patch 28 of 96Point 28 DE 0.304422, W.DE 0.304422, peqDE 0.627467, Repeat
+patch 28 of 96Point 28 DE 0.763273, W.DE 0.763273, peqDE 0.417602, Repeat (got worse)
+patch 28 of 96Point 28 DE 0.333474, W.DE 0.333474, peqDE 0.651013, Repeat (got worse)
+patch 28 of 96Point 28 DE 0.662332, W.DE 0.662332, peqDE 0.865493, Repeat (got worse)
+patch 28 of 96Point 28 DE 0.443037, W.DE 0.443037, peqDE 0.495396, Repeat (got worse)
+patch 28 of 96Point 28 DE 0.850395, W.DE 0.850395, peqDE 0.790365, Repeat (got worse)
+patch 28 of 96Point 28 DE 0.674235, W.DE 0.674235, peqDE 0.871382, Repeat (got worse)
+patch 28 of 96Point 28 DE 0.314983, W.DE 0.314983, peqDE 0.636051, Repeat (got worse)
+patch 28 of 96Point 28 DE 0.328220, W.DE 0.328220, W.peqDE 0.514072, Fail ( > 0.400000)
+patch 29 of 96Point 29 DE 0.287823, W.DE 0.287823, W.peqDE 0.248395, OK ( < 0.400000)
+patch 30 of 96Point 30 DE 0.154665, W.DE 0.154665, W.peqDE 0.333335, OK ( < 0.400000)
+patch 31 of 96Point 31 DE 0.669544, W.DE 0.669544, peqDE 0.648700, Repeat
+patch 31 of 96Point 31 DE 0.458242, W.DE 0.458242, peqDE 0.551124, Repeat
+patch 31 of 96Point 31 DE 0.200385, W.DE 0.200385, W.peqDE 0.076609, OK ( < 0.400000)
+patch 32 of 96Point 32 DE 0.466714, W.DE 0.466714, peqDE 0.492511, Repeat
+patch 32 of 96patch 32 of 96patch 32 of 96patch 32 of 96Point 32 DE 0.466714, W.DE 0.466714, peqDE 0.492511, Repeat
+patch 32 of 96Point 32 DE 0.645032, W.DE 0.645032, peqDE 0.821708, Repeat (got worse)
+patch 32 of 96Point 32 DE 0.210357, W.DE 0.210357, W.peqDE 0.257734, OK ( < 0.400000)
+patch 33 of 96Point 33 DE 0.303829, W.DE 0.303829, peqDE 0.463933, Repeat
+patch 33 of 96patch 33 of 96patch 33 of 96patch 33 of 96Point 33 DE 0.303829, W.DE 0.303829, peqDE 0.463933, Repeat
+patch 33 of 96Point 33 DE 0.692026, W.DE 0.692026, peqDE 0.542292, Repeat (got worse)
+patch 33 of 96Point 33 DE 0.281485, W.DE 0.281485, peqDE 0.441967, Repeat
+patch 33 of 96Point 33 DE 0.262607, W.DE 0.262607, peqDE 0.423362, Repeat
+patch 33 of 96Point 33 DE 0.848833, W.DE 0.848833, peqDE 0.773610, Repeat (got worse)
+patch 33 of 96Point 33 DE 1.198962, W.DE 1.198962, peqDE 0.423362, Repeat (got worse)
+patch 33 of 96Point 33 DE 0.340593, W.DE 0.340593, peqDE 0.549929, Repeat
+patch 33 of 96Point 33 DE 0.856073, W.DE 0.856073, peqDE 0.780173, Repeat (got worse)
+patch 33 of 96Point 33 DE 1.175956, W.DE 1.175956, peqDE 0.423362, Repeat (got worse)
+patch 33 of 96Point 33 DE 0.336830, W.DE 0.336830, peqDE 0.545322, Repeat
+patch 33 of 96Point 33 DE 0.702042, W.DE 0.702042, peqDE 0.552384, Repeat (got worse)
+patch 33 of 96Point 33 DE 0.289813, W.DE 0.289813, peqDE 0.450159, Repeat (got worse)
+patch 33 of 96Point 33 DE 0.259930, W.DE 0.259930, peqDE 0.420718, Repeat
+patch 33 of 96Point 33 DE 0.289472, W.DE 0.289472, peqDE 0.449824, Repeat (got worse)
+patch 33 of 96Point 33 DE 0.259930, W.DE 0.259930, W.peqDE 0.420718, Fail ( > 0.400000)
+patch 34 of 96Point 34 DE 0.284316, W.DE 0.284316, W.peqDE 0.083120, OK ( < 0.400000)
+patch 35 of 96Point 35 DE 0.485325, W.DE 0.485325, peqDE 0.616328, Repeat
+patch 35 of 96patch 35 of 96patch 35 of 96patch 35 of 96Point 35 DE 0.485325, W.DE 0.485325, peqDE 0.616328, Repeat
+patch 35 of 96Point 35 DE 0.625133, W.DE 0.625133, peqDE 0.387460, Repeat (got worse)
+patch 35 of 96Point 35 DE 0.470012, W.DE 0.470012, peqDE 0.708890, Repeat (got worse)
+patch 35 of 96Point 35 DE 0.486729, W.DE 0.486729, peqDE 0.621400, Repeat (got worse)
+patch 35 of 96Point 35 DE 0.436343, W.DE 0.436343, peqDE 0.672208, Repeat
+patch 35 of 96Point 35 DE 0.674334, W.DE 0.674334, peqDE 0.429367, Repeat (got worse)
+patch 35 of 96Point 35 DE 0.826403, W.DE 0.826403, peqDE 0.875749, Repeat (got worse)
+patch 35 of 96Point 35 DE 0.439246, W.DE 0.439246, peqDE 0.675394, Repeat (got worse)
+patch 35 of 96Point 35 DE 0.451491, W.DE 0.451491, peqDE 0.688785, Repeat (got worse)
+patch 35 of 96Point 35 DE 0.429111, W.DE 0.429111, peqDE 0.664245, Repeat
+patch 35 of 96Point 35 DE 0.258881, W.DE 0.258881, peqDE 0.403299, Repeat
+patch 35 of 96Point 35 DE 0.582217, W.DE 0.582217, peqDE 0.353313, Repeat (got worse)
+patch 35 of 96Point 35 DE 0.467503, W.DE 0.467503, peqDE 0.706176, Repeat (got worse)
+patch 35 of 96Point 35 DE 0.474150, W.DE 0.474150, peqDE 0.713361, Repeat (got worse)
+patch 35 of 96Point 35 DE 0.258881, W.DE 0.258881, W.peqDE 0.403299, Fail ( > 0.400000)
+patch 36 of 96Point 36 DE 0.499018, W.DE 0.499018, peqDE 0.718232, Repeat
+patch 36 of 96patch 36 of 96patch 36 of 96patch 36 of 96Point 36 DE 0.459277, W.DE 0.459277, peqDE 0.471753, Repeat
+patch 36 of 96Point 36 DE 0.845468, W.DE 0.845468, peqDE 0.611140, Repeat (got worse)
+patch 36 of 96Point 36 DE 0.750604, W.DE 0.750604, peqDE 0.902147, Repeat (got worse)
+patch 36 of 96Point 36 DE 0.480230, W.DE 0.480230, peqDE 0.689353, Repeat
+patch 36 of 96Point 36 DE 0.487396, W.DE 0.487396, peqDE 0.408437, Repeat (got worse)
+patch 36 of 96Point 36 DE 0.494886, W.DE 0.494886, peqDE 0.708016, Repeat
+patch 36 of 96Point 36 DE 0.571324, W.DE 0.571324, peqDE 0.399619, Repeat (got worse)
+patch 36 of 96Point 36 DE 0.430316, W.DE 0.430316, peqDE 0.470261, Repeat
+patch 36 of 96Point 36 DE 0.431146, W.DE 0.431146, peqDE 0.652277, Repeat
+patch 36 of 96Point 36 DE 0.562045, W.DE 0.562045, peqDE 0.422802, Repeat (got worse)
+patch 36 of 96Point 36 DE 0.500736, W.DE 0.500736, peqDE 0.483022, Repeat
+patch 36 of 96Point 36 DE 0.485821, W.DE 0.485821, peqDE 0.699636, Repeat
+patch 36 of 96Point 36 DE 0.783773, W.DE 0.783773, peqDE 0.554331, Repeat (got worse)
+patch 36 of 96Point 36 DE 0.485930, W.DE 0.485930, peqDE 0.697517, Repeat
+patch 36 of 96Point 36 DE 0.430316, W.DE 0.430316, W.peqDE 0.470261, Fail ( > 0.400000)
+patch 37 of 96Point 37 DE 0.401327, W.DE 0.401327, peqDE 0.746600, Repeat
+patch 37 of 96patch 37 of 96patch 37 of 96patch 37 of 96Point 37 DE 0.401327, W.DE 0.401327, peqDE 0.746600, Repeat
+patch 37 of 96Point 37 DE 0.528269, W.DE 0.528269, peqDE 0.333253, Repeat
+patch 37 of 96Point 37 DE 0.598997, W.DE 0.598997, peqDE 0.981244, Repeat
+patch 37 of 96Point 37 DE 0.480299, W.DE 0.480299, peqDE 0.318628, Repeat
+patch 37 of 96Point 37 DE 0.886389, W.DE 0.886389, peqDE 1.239545, Repeat (got worse)
+patch 37 of 96Point 37 DE 0.527996, W.DE 0.527996, peqDE 0.333357, Repeat
+patch 37 of 96Point 37 DE 0.531796, W.DE 0.531796, peqDE 0.683829, Repeat (got worse)
+patch 37 of 96Point 37 DE 0.409068, W.DE 0.409068, peqDE 0.743054, Repeat (got worse)
+patch 37 of 96Point 37 DE 0.443621, W.DE 0.443621, peqDE 0.296916, Repeat
+patch 37 of 96Point 37 DE 0.453115, W.DE 0.453115, peqDE 0.822548, Repeat (got worse)
+patch 37 of 96Point 37 DE 0.552293, W.DE 0.552293, peqDE 0.352216, Repeat (got worse)
+patch 37 of 96Point 37 DE 0.630252, W.DE 0.630252, peqDE 1.013714, Repeat (got worse)
+patch 37 of 96Point 37 DE 0.496535, W.DE 0.496535, peqDE 0.656918, Repeat (got worse)
+patch 37 of 96Point 37 DE 0.572771, W.DE 0.572771, peqDE 0.377872, Repeat (got worse)
+patch 37 of 96Point 37 DE 0.443621, W.DE 0.443621, W.peqDE 0.296916, Fail ( > 0.400000)
+patch 38 of 96Point 38 DE 1.003942, W.DE 1.003942, peqDE 0.752754, Repeat
+patch 38 of 96patch 38 of 96patch 38 of 96patch 38 of 96Point 38 DE 0.817711, W.DE 0.817711, peqDE 1.093264, Repeat
+patch 38 of 96Point 38 DE 0.815671, W.DE 0.815671, peqDE 1.091327, Repeat
+patch 38 of 96Point 38 DE 0.885258, W.DE 0.885258, peqDE 0.803283, Repeat
+patch 38 of 96Point 38 DE 0.816409, W.DE 0.816409, peqDE 1.087027, Repeat
+patch 38 of 96Point 38 DE 0.906069, W.DE 0.906069, peqDE 0.812386, Repeat (got worse)
+patch 38 of 96Point 38 DE 0.817364, W.DE 0.817364, peqDE 1.090965, Repeat
+patch 38 of 96Point 38 DE 0.909874, W.DE 0.909874, peqDE 0.814249, Repeat (got worse)
+patch 38 of 96Point 38 DE 0.539395, W.DE 0.539395, peqDE 0.306823, Repeat
+patch 38 of 96Point 38 DE 0.348265, W.DE 0.348265, peqDE 0.632660, Repeat
+patch 38 of 96Point 38 DE 0.823310, W.DE 0.823310, peqDE 1.101534, Repeat
+patch 38 of 96Point 38 DE 1.054710, W.DE 1.054710, peqDE 0.773487, Repeat
+patch 38 of 96Point 38 DE 1.305957, W.DE 1.305957, peqDE 1.719285, Repeat
+patch 38 of 96Point 38 DE 0.929060, W.DE 0.929060, peqDE 0.809211, Repeat
+patch 38 of 96Point 38 DE 0.789905, W.DE 0.789905, peqDE 1.047010, Repeat
+patch 38 of 96Point 38 DE 0.348265, W.DE 0.348265, W.peqDE 0.632660, Fail ( > 0.400000)
+patch 39 of 96Point 39 DE 0.826370, W.DE 0.826370, peqDE 0.863275, Repeat
+patch 39 of 96Point 39 DE 0.431741, W.DE 0.431741, peqDE 0.588465, Repeat
+patch 39 of 96patch 39 of 96patch 39 of 96patch 39 of 96Point 39 DE 0.431741, W.DE 0.431741, peqDE 0.588465, Repeat
+patch 39 of 96Point 39 DE 0.896816, W.DE 0.896816, peqDE 0.923386, Repeat (got worse)
+patch 39 of 96Point 39 DE 0.277910, W.DE 0.277910, W.peqDE 0.208953, OK ( < 0.400000)
+patch 40 of 96Point 40 DE 0.471334, W.DE 0.471334, peqDE 0.653657, Repeat
+patch 40 of 96patch 40 of 96patch 40 of 96patch 40 of 96Point 40 DE 0.471334, W.DE 0.471334, peqDE 0.653657, Repeat
+patch 40 of 96Point 40 DE 0.743939, W.DE 0.743939, peqDE 0.767203, Repeat (got worse)
+patch 40 of 96Point 40 DE 0.518120, W.DE 0.518120, peqDE 0.712351, Repeat (got worse)
+patch 40 of 96Point 40 DE 0.358865, W.DE 0.358865, W.peqDE 0.196857, OK ( < 0.400000)
+patch 41 of 96Point 41 DE 0.473986, W.DE 0.473986, peqDE 0.601109, Repeat
+patch 41 of 96patch 41 of 96patch 41 of 96patch 41 of 96Point 41 DE 0.473986, W.DE 0.473986, peqDE 0.601109, Repeat
+patch 41 of 96Point 41 DE 0.901267, W.DE 0.901267, peqDE 0.621015, Repeat
+patch 41 of 96Point 41 DE 0.531665, W.DE 0.531665, peqDE 0.861335, Repeat
+patch 41 of 96Point 41 DE 0.474731, W.DE 0.474731, peqDE 0.595134, Repeat
+patch 41 of 96Point 41 DE 0.538736, W.DE 0.538736, peqDE 0.336510, Repeat
+patch 41 of 96Point 41 DE 0.519361, W.DE 0.519361, peqDE 0.850459, Repeat
+patch 41 of 96Point 41 DE 0.890083, W.DE 0.890083, peqDE 0.614986, Repeat
+patch 41 of 96Point 41 DE 0.481337, W.DE 0.481337, peqDE 0.628796, Repeat (got worse)
+patch 41 of 96Point 41 DE 0.531975, W.DE 0.531975, peqDE 0.861189, Repeat
+patch 41 of 96Point 41 DE 0.524418, W.DE 0.524418, peqDE 0.854328, Repeat
+patch 41 of 96Point 41 DE 0.594725, W.DE 0.594725, peqDE 0.378592, Repeat (got worse)
+patch 41 of 96Point 41 DE 0.486198, W.DE 0.486198, peqDE 0.629853, Repeat (got worse)
+patch 41 of 96Point 41 DE 0.530088, W.DE 0.530088, peqDE 0.859718, Repeat
+patch 41 of 96Point 41 DE 0.554846, W.DE 0.554846, peqDE 0.349130, Repeat (got worse)
+patch 41 of 96Point 41 DE 0.538736, W.DE 0.538736, W.peqDE 0.336510, Fail ( > 0.400000)
+patch 42 of 96Point 42 DE 0.352755, W.DE 0.352755, W.peqDE 0.135035, OK ( < 0.400000)
+patch 43 of 96Point 43 DE 0.498130, W.DE 0.498130, peqDE 0.168876, Repeat
+patch 43 of 96Point 43 DE 0.371708, W.DE 0.371708, peqDE 0.714216, Repeat
+patch 43 of 96patch 43 of 96patch 43 of 96patch 43 of 96Point 43 DE 0.488839, W.DE 0.488839, peqDE 0.168710, Repeat
+patch 43 of 96Point 43 DE 0.342537, W.DE 0.342537, peqDE 0.595594, Repeat
+patch 43 of 96Point 43 DE 0.419572, W.DE 0.419572, peqDE 0.762268, Repeat (got worse)
+patch 43 of 96Point 43 DE 0.491771, W.DE 0.491771, peqDE 0.169432, Repeat (got worse)
+patch 43 of 96Point 43 DE 0.323448, W.DE 0.323448, peqDE 0.578843, Repeat
+patch 43 of 96Point 43 DE 0.362387, W.DE 0.362387, peqDE 0.706393, Repeat (got worse)
+patch 43 of 96Point 43 DE 0.322822, W.DE 0.322822, peqDE 0.574158, Repeat
+patch 43 of 96Point 43 DE 0.457265, W.DE 0.457265, peqDE 0.166112, Repeat (got worse)
+patch 43 of 96Point 43 DE 0.359113, W.DE 0.359113, peqDE 0.704726, Repeat (got worse)
+patch 43 of 96Point 43 DE 0.352246, W.DE 0.352246, peqDE 0.601327, Repeat (got worse)
+patch 43 of 96Point 43 DE 0.608910, W.DE 0.608910, peqDE 0.548652, Repeat (got worse)
+patch 43 of 96Point 43 DE 0.324270, W.DE 0.324270, peqDE 0.582052, Repeat (got worse)
+patch 43 of 96Point 43 DE 0.309993, W.DE 0.309993, peqDE 0.599924, Repeat
+patch 43 of 96Point 43 DE 0.309993, W.DE 0.309993, W.peqDE 0.599924, Fail ( > 0.400000)
+patch 44 of 96Point 44 DE 0.576734, W.DE 0.576734, peqDE 0.790842, Repeat
+patch 44 of 96Point 44 DE 0.344591, W.DE 0.344591, peqDE 0.519782, Repeat
+patch 44 of 96patch 44 of 96patch 44 of 96patch 44 of 96Point 44 DE 0.344591, W.DE 0.344591, peqDE 0.519782, Repeat
+patch 44 of 96Point 44 DE 0.497523, W.DE 0.497523, peqDE 0.310986, Repeat (got worse)
+patch 44 of 96Point 44 DE 0.365880, W.DE 0.365880, peqDE 0.524575, Repeat (got worse)
+patch 44 of 96Point 44 DE 0.564565, W.DE 0.564565, peqDE 0.779780, Repeat
+patch 44 of 96Point 44 DE 0.502109, W.DE 0.502109, peqDE 0.408569, Repeat (got worse)
+patch 44 of 96Point 44 DE 0.351002, W.DE 0.351002, peqDE 0.529102, Repeat (got worse)
+patch 44 of 96Point 44 DE 0.511838, W.DE 0.511838, peqDE 0.322532, Repeat (got worse)
+patch 44 of 96Point 44 DE 0.363176, W.DE 0.363176, peqDE 0.536010, Repeat (got worse)
+patch 44 of 96Point 44 DE 0.580488, W.DE 0.580488, peqDE 0.789475, Repeat
+patch 44 of 96Point 44 DE 0.306898, W.DE 0.306898, peqDE 0.488940, Repeat
+patch 44 of 96Point 44 DE 0.593382, W.DE 0.593382, peqDE 0.804699, Repeat
+patch 44 of 96Point 44 DE 0.997880, W.DE 0.997880, peqDE 0.829594, Repeat (got worse)
+patch 44 of 96Point 44 DE 0.591095, W.DE 0.591095, peqDE 0.808094, Repeat
+patch 44 of 96Point 44 DE 0.306898, W.DE 0.306898, W.peqDE 0.488940, Fail ( > 0.400000)
+patch 45 of 96Point 45 DE 0.763509, W.DE 0.763509, peqDE 0.873083, Repeat
+patch 45 of 96patch 45 of 96patch 45 of 96patch 45 of 96Point 45 DE 0.763509, W.DE 0.763509, peqDE 0.873083, Repeat
+patch 45 of 96Point 45 DE 0.928185, W.DE 0.928185, peqDE 0.835151, Repeat
+patch 45 of 96Point 45 DE 0.752440, W.DE 0.752440, peqDE 0.860523, Repeat
+patch 45 of 96Point 45 DE 0.293318, W.DE 0.293318, peqDE 0.521586, Repeat
+patch 45 of 96Point 45 DE 0.887514, W.DE 0.887514, peqDE 0.800993, Repeat (got worse)
+patch 45 of 96Point 45 DE 0.254384, W.DE 0.254384, peqDE 0.485765, Repeat
+patch 45 of 96Point 45 DE 0.746095, W.DE 0.746095, peqDE 0.851829, Repeat (got worse)
+patch 45 of 96Point 45 DE 0.268314, W.DE 0.268314, peqDE 0.499487, Repeat (got worse)
+patch 45 of 96Point 45 DE 0.909897, W.DE 0.909897, peqDE 0.819397, Repeat (got worse)
+patch 45 of 96Point 45 DE 0.259298, W.DE 0.259298, peqDE 0.488087, Repeat (got worse)
+patch 45 of 96Point 45 DE 0.760720, W.DE 0.760720, peqDE 0.869845, Repeat (got worse)
+patch 45 of 96Point 45 DE 0.296001, W.DE 0.296001, peqDE 0.527402, Repeat (got worse)
+patch 45 of 96Point 45 DE 0.904726, W.DE 0.904726, peqDE 0.816167, Repeat (got worse)
+patch 45 of 96Point 45 DE 0.268504, W.DE 0.268504, peqDE 0.497958, Repeat (got worse)
+patch 45 of 96Point 45 DE 0.254384, W.DE 0.254384, W.peqDE 0.485765, Fail ( > 0.400000)
+patch 46 of 96Point 46 DE 0.397532, W.DE 0.397532, peqDE 0.556456, Repeat
+patch 46 of 96patch 46 of 96patch 46 of 96patch 46 of 96Point 46 DE 0.397532, W.DE 0.397532, peqDE 0.556456, Repeat
+patch 46 of 96Point 46 DE 0.481290, W.DE 0.481290, peqDE 0.313221, Repeat (got worse)
+patch 46 of 96Point 46 DE 0.519230, W.DE 0.519230, peqDE 0.470792, Repeat (got worse)
+patch 46 of 96Point 46 DE 0.403863, W.DE 0.403863, peqDE 0.565609, Repeat (got worse)
+patch 46 of 96Point 46 DE 0.439521, W.DE 0.439521, peqDE 0.288121, Repeat
+patch 46 of 96Point 46 DE 0.712703, W.DE 0.712703, peqDE 0.836134, Repeat (got worse)
+patch 46 of 96Point 46 DE 0.407683, W.DE 0.407683, peqDE 0.569843, Repeat
+patch 46 of 96Point 46 DE 0.820758, W.DE 0.820758, peqDE 0.772248, Repeat (got worse)
+patch 46 of 96Point 46 DE 0.401433, W.DE 0.401433, peqDE 0.564192, Repeat
+patch 46 of 96Point 46 DE 0.408220, W.DE 0.408220, peqDE 0.568057, Repeat
+patch 46 of 96Point 46 DE 0.821014, W.DE 0.821014, peqDE 0.775075, Repeat (got worse)
+patch 46 of 96Point 46 DE 0.397796, W.DE 0.397796, peqDE 0.555758, Repeat
+patch 46 of 96Point 46 DE 0.454171, W.DE 0.454171, peqDE 0.293593, Repeat
+patch 46 of 96Point 46 DE 0.386741, W.DE 0.386741, peqDE 0.552990, Repeat
+patch 46 of 96Point 46 DE 0.439521, W.DE 0.439521, W.peqDE 0.288121, Fail ( > 0.400000)
+patch 47 of 96Point 47 DE 0.617559, W.DE 0.617559, peqDE 0.842535, Repeat
+patch 47 of 96patch 47 of 96patch 47 of 96patch 47 of 96Point 47 DE 0.536929, W.DE 0.536929, peqDE 0.261556, Repeat
+patch 47 of 96Point 47 DE 0.512267, W.DE 0.512267, peqDE 0.891430, Repeat
+patch 47 of 96Point 47 DE 0.553786, W.DE 0.553786, peqDE 0.293227, Repeat (got worse)
+patch 47 of 96Point 47 DE 0.521046, W.DE 0.521046, peqDE 0.898511, Repeat
+patch 47 of 96Point 47 DE 0.563264, W.DE 0.563264, peqDE 0.293452, Repeat (got worse)
+patch 47 of 96Point 47 DE 0.517950, W.DE 0.517950, peqDE 0.896973, Repeat
+patch 47 of 96Point 47 DE 0.508593, W.DE 0.508593, peqDE 0.886507, Repeat
+patch 47 of 96Point 47 DE 0.560957, W.DE 0.560957, peqDE 0.283252, Repeat (got worse)
+patch 47 of 96Point 47 DE 0.509530, W.DE 0.509530, peqDE 0.886434, Repeat
+patch 47 of 96Point 47 DE 0.555774, W.DE 0.555774, peqDE 0.288866, Repeat (got worse)
+patch 47 of 96Point 47 DE 0.491702, W.DE 0.491702, peqDE 0.863107, Repeat
+patch 47 of 96Point 47 DE 0.547432, W.DE 0.547432, peqDE 0.297712, Repeat (got worse)
+patch 47 of 96Point 47 DE 0.516009, W.DE 0.516009, peqDE 0.687294, Repeat (got worse)
+patch 47 of 96Point 47 DE 0.576761, W.DE 0.576761, peqDE 0.289076, Repeat (got worse)
+patch 47 of 96Point 47 DE 0.536929, W.DE 0.536929, W.peqDE 0.261556, Fail ( > 0.400000)
+patch 48 of 96Point 48 DE 0.691065, W.DE 0.691065, peqDE 0.241679, Repeat
+patch 48 of 96Point 48 DE 0.422274, W.DE 0.422274, peqDE 0.883589, Repeat
+patch 48 of 96patch 48 of 96patch 48 of 96patch 48 of 96Point 48 DE 0.422274, W.DE 0.422274, peqDE 0.883589, Repeat
+patch 48 of 96Point 48 DE 1.174500, W.DE 1.174500, peqDE 1.601104, Repeat
+patch 48 of 96Point 48 DE 0.726404, W.DE 0.726404, peqDE 0.727736, Repeat
+patch 48 of 96Point 48 DE 0.522357, W.DE 0.522357, peqDE 0.702749, Repeat
+patch 48 of 96Point 48 DE 0.737972, W.DE 0.737972, peqDE 0.696754, Repeat
+patch 48 of 96Point 48 DE 0.534949, W.DE 0.534949, peqDE 0.685605, Repeat
+patch 48 of 96Point 48 DE 0.581472, W.DE 0.581472, peqDE 0.938819, Repeat (got worse)
+patch 48 of 96Point 48 DE 0.449671, W.DE 0.449671, peqDE 0.910592, Repeat (got worse)
+patch 48 of 96Point 48 DE 0.690398, W.DE 0.690398, peqDE 0.243341, Repeat
+patch 48 of 96Point 48 DE 0.446598, W.DE 0.446598, peqDE 0.909911, Repeat (got worse)
+patch 48 of 96Point 48 DE 0.700057, W.DE 0.700057, peqDE 0.254422, Repeat
+patch 48 of 96Point 48 DE 0.375087, W.DE 0.375087, peqDE 0.821522, Repeat
+patch 48 of 96Point 48 DE 0.703956, W.DE 0.703956, peqDE 0.259578, Repeat
+patch 48 of 96Point 48 DE 0.375087, W.DE 0.375087, W.peqDE 0.821522, Fail ( > 0.400000)
+patch 49 of 96Point 49 DE 0.734604, W.DE 0.734604, peqDE 0.903743, Repeat
+patch 49 of 96patch 49 of 96patch 49 of 96patch 49 of 96Point 49 DE 0.734604, W.DE 0.734604, peqDE 0.903743, Repeat
+patch 49 of 96Point 49 DE 0.302797, W.DE 0.302797, W.peqDE 0.239417, OK ( < 0.400000)
+patch 50 of 96Point 50 DE 0.390778, W.DE 0.390778, peqDE 0.654263, Repeat
+patch 50 of 96patch 50 of 96patch 50 of 96patch 50 of 96Point 50 DE 0.390778, W.DE 0.390778, peqDE 0.654263, Repeat
+patch 50 of 96Point 50 DE 0.550487, W.DE 0.550487, peqDE 0.471315, Repeat (got worse)
+patch 50 of 96Point 50 DE 0.418394, W.DE 0.418394, peqDE 0.301160, Repeat
+patch 50 of 96Point 50 DE 0.394403, W.DE 0.394403, peqDE 0.659043, Repeat
+patch 50 of 96Point 50 DE 0.547880, W.DE 0.547880, peqDE 0.471394, Repeat (got worse)
+patch 50 of 96Point 50 DE 0.392413, W.DE 0.392413, peqDE 0.658027, Repeat
+patch 50 of 96Point 50 DE 0.412057, W.DE 0.412057, peqDE 0.303685, Repeat
+patch 50 of 96Point 50 DE 0.925802, W.DE 0.925802, peqDE 0.860553, Repeat
+patch 50 of 96Point 50 DE 0.930698, W.DE 0.930698, peqDE 1.085137, Repeat
+patch 50 of 96Point 50 DE 0.384338, W.DE 0.384338, peqDE 0.649863, Repeat
+patch 50 of 96Point 50 DE 1.182373, W.DE 1.182373, peqDE 0.963939, Repeat
+patch 50 of 96Point 50 DE 0.397171, W.DE 0.397171, peqDE 0.663119, Repeat
+patch 50 of 96Point 50 DE 0.882152, W.DE 0.882152, peqDE 1.025833, Repeat
+patch 50 of 96Point 50 DE 0.383619, W.DE 0.383619, peqDE 0.649587, Repeat
+patch 50 of 96Point 50 DE 0.412057, W.DE 0.412057, W.peqDE 0.303685, Fail ( > 0.400000)
+patch 51 of 96Point 51 DE 0.505759, W.DE 0.505759, peqDE 0.302511, Repeat
+patch 51 of 96Point 51 DE 0.336660, W.DE 0.336660, W.peqDE 0.094981, OK ( < 0.400000)
+patch 52 of 96Point 52 DE 0.829225, W.DE 0.829225, peqDE 0.904805, Repeat
+patch 52 of 96Point 52 DE 0.382805, W.DE 0.382805, peqDE 0.668492, Repeat
+patch 52 of 96patch 52 of 96patch 52 of 96patch 52 of 96Point 52 DE 0.464608, W.DE 0.464608, peqDE 0.289330, Repeat
+patch 52 of 96Point 52 DE 0.831880, W.DE 0.831880, peqDE 0.912745, Repeat
+patch 52 of 96Point 52 DE 1.000757, W.DE 1.000757, peqDE 1.004178, Repeat (got worse)
+patch 52 of 96Point 52 DE 0.390348, W.DE 0.390348, peqDE 0.669370, Repeat
+patch 52 of 96Point 52 DE 0.385903, W.DE 0.385903, peqDE 0.667123, Repeat
+patch 52 of 96Point 52 DE 1.169125, W.DE 1.169125, peqDE 1.037453, Repeat
+patch 52 of 96Point 52 DE 0.376247, W.DE 0.376247, peqDE 0.664903, Repeat
+patch 52 of 96Point 52 DE 0.388610, W.DE 0.388610, peqDE 0.668147, Repeat
+patch 52 of 96Point 52 DE 1.012665, W.DE 1.012665, peqDE 1.029882, Repeat (got worse)
+patch 52 of 96Point 52 DE 0.831764, W.DE 0.831764, peqDE 0.908744, Repeat
+patch 52 of 96Point 52 DE 0.464865, W.DE 0.464865, peqDE 0.287788, Repeat
+patch 52 of 96Point 52 DE 0.368843, W.DE 0.368843, peqDE 0.653828, Repeat
+patch 52 of 96Point 52 DE 0.834153, W.DE 0.834153, peqDE 0.906927, Repeat (got worse)
+patch 52 of 96Point 52 DE 0.368843, W.DE 0.368843, W.peqDE 0.653828, Fail ( > 0.400000)
+patch 53 of 96Point 53 DE 0.488032, W.DE 0.488032, peqDE 0.825487, Repeat
+patch 53 of 96patch 53 of 96patch 53 of 96patch 53 of 96Point 53 DE 0.488032, W.DE 0.488032, peqDE 0.825487, Repeat
+patch 53 of 96Point 53 DE 0.687516, W.DE 0.687516, peqDE 0.967090, Repeat (got worse)
+patch 53 of 96Point 53 DE 0.366530, W.DE 0.366530, peqDE 0.666570, Repeat
+patch 53 of 96Point 53 DE 0.454183, W.DE 0.454183, peqDE 0.264676, Repeat
+patch 53 of 96Point 53 DE 0.670662, W.DE 0.670662, peqDE 0.955237, Repeat
+patch 53 of 96Point 53 DE 0.355705, W.DE 0.355705, peqDE 0.644891, Repeat
+patch 53 of 96Point 53 DE 1.058045, W.DE 1.058045, peqDE 0.893536, Repeat (got worse)
+patch 53 of 96Point 53 DE 0.802671, W.DE 0.802671, peqDE 0.845414, Repeat (got worse)
+patch 53 of 96Point 53 DE 0.347808, W.DE 0.347808, peqDE 0.635670, Repeat
+patch 53 of 96Point 53 DE 0.660446, W.DE 0.660446, peqDE 0.944260, Repeat (got worse)
+patch 53 of 96Point 53 DE 0.350336, W.DE 0.350336, peqDE 0.645839, Repeat
+patch 53 of 96Point 53 DE 0.449132, W.DE 0.449132, peqDE 0.247576, Repeat (got worse)
+patch 53 of 96Point 53 DE 0.685354, W.DE 0.685354, peqDE 0.969198, Repeat (got worse)
+patch 53 of 96Point 53 DE 0.356117, W.DE 0.356117, peqDE 0.642780, Repeat (got worse)
+patch 53 of 96Point 53 DE 0.347808, W.DE 0.347808, W.peqDE 0.635670, Fail ( > 0.400000)
+patch 54 of 96Point 54 DE 0.755997, W.DE 0.755997, peqDE 0.913302, Repeat
+patch 54 of 96Point 54 DE 0.433061, W.DE 0.433061, peqDE 0.687947, Repeat
+patch 54 of 96patch 54 of 96patch 54 of 96patch 54 of 96Point 54 DE 0.454420, W.DE 0.454420, peqDE 0.292425, Repeat
+patch 54 of 96Point 54 DE 0.756156, W.DE 0.756156, peqDE 0.915650, Repeat
+patch 54 of 96Point 54 DE 0.395796, W.DE 0.395796, peqDE 0.662433, Repeat
+patch 54 of 96Point 54 DE 0.390802, W.DE 0.390802, peqDE 0.656770, Repeat
+patch 54 of 96Point 54 DE 1.077657, W.DE 1.077657, peqDE 1.022008, Repeat
+patch 54 of 96Point 54 DE 0.976631, W.DE 0.976631, peqDE 0.924100, Repeat (got worse)
+patch 54 of 96Point 54 DE 0.399490, W.DE 0.399490, peqDE 0.664047, Repeat
+patch 54 of 96Point 54 DE 0.753455, W.DE 0.753455, peqDE 0.907865, Repeat
+patch 54 of 96Point 54 DE 0.438490, W.DE 0.438490, peqDE 0.696075, Repeat
+patch 54 of 96Point 54 DE 0.439139, W.DE 0.439139, peqDE 0.291074, Repeat
+patch 54 of 96Point 54 DE 0.755153, W.DE 0.755153, peqDE 0.910846, Repeat
+patch 54 of 96Point 54 DE 0.412263, W.DE 0.412263, peqDE 0.663147, Repeat
+patch 54 of 96Point 54 DE 1.008151, W.DE 1.008151, peqDE 0.970657, Repeat (got worse)
+patch 54 of 96Point 54 DE 0.439139, W.DE 0.439139, W.peqDE 0.291074, Fail ( > 0.400000)
+patch 55 of 96Point 55 DE 0.832243, W.DE 0.832243, peqDE 0.985065, Repeat
+patch 55 of 96Point 55 DE 0.472447, W.DE 0.472447, peqDE 0.182703, Repeat
+patch 55 of 96patch 55 of 96patch 55 of 96patch 55 of 96Point 55 DE 0.472447, W.DE 0.472447, peqDE 0.182703, Repeat
+patch 55 of 96Point 55 DE 0.620604, W.DE 0.620604, peqDE 0.964141, Repeat
+patch 55 of 96Point 55 DE 0.482403, W.DE 0.482403, peqDE 0.189060, Repeat (got worse)
+patch 55 of 96Point 55 DE 0.641020, W.DE 0.641020, peqDE 0.825236, Repeat (got worse)
+patch 55 of 96Point 55 DE 0.477373, W.DE 0.477373, peqDE 0.179269, Repeat (got worse)
+patch 55 of 96Point 55 DE 0.645127, W.DE 0.645127, peqDE 0.832702, Repeat (got worse)
+patch 55 of 96Point 55 DE 0.470448, W.DE 0.470448, peqDE 0.178702, Repeat
+patch 55 of 96Point 55 DE 0.610036, W.DE 0.610036, peqDE 0.801675, Repeat (got worse)
+patch 55 of 96Point 55 DE 0.554725, W.DE 0.554725, peqDE 0.684788, Repeat (got worse)
+patch 55 of 96Point 55 DE 0.647043, W.DE 0.647043, peqDE 0.830409, Repeat (got worse)
+patch 55 of 96Point 55 DE 0.475209, W.DE 0.475209, peqDE 0.194660, Repeat (got worse)
+patch 55 of 96Point 55 DE 0.617194, W.DE 0.617194, peqDE 0.802684, Repeat (got worse)
+patch 55 of 96Point 55 DE 0.468818, W.DE 0.468818, peqDE 0.181965, Repeat
+patch 55 of 96Point 55 DE 0.468818, W.DE 0.468818, W.peqDE 0.181965, Fail ( > 0.400000)
+patch 56 of 96Point 56 DE 0.502383, W.DE 0.502383, peqDE 0.840922, Repeat
+patch 56 of 96patch 56 of 96patch 56 of 96patch 56 of 96Point 56 DE 0.546674, W.DE 0.546674, peqDE 0.656974, Repeat
+patch 56 of 96Point 56 DE 0.889051, W.DE 0.889051, peqDE 0.945214, Repeat
+patch 56 of 96Point 56 DE 0.548242, W.DE 0.548242, peqDE 0.648341, Repeat
+patch 56 of 96Point 56 DE 0.497912, W.DE 0.497912, peqDE 0.839206, Repeat
+patch 56 of 96Point 56 DE 0.529307, W.DE 0.529307, peqDE 0.632471, Repeat
+patch 56 of 96Point 56 DE 0.540383, W.DE 0.540383, peqDE 0.640914, Repeat
+patch 56 of 96Point 56 DE 0.887181, W.DE 0.887181, peqDE 0.947402, Repeat
+patch 56 of 96Point 56 DE 0.533862, W.DE 0.533862, peqDE 0.640939, Repeat
+patch 56 of 96Point 56 DE 1.156717, W.DE 1.156717, peqDE 1.570173, Repeat (got worse)
+patch 56 of 96Point 56 DE 0.546835, W.DE 0.546835, peqDE 0.651450, Repeat
+patch 56 of 96Point 56 DE 0.497976, W.DE 0.497976, peqDE 0.839154, Repeat (got worse)
+patch 56 of 96Point 56 DE 0.468051, W.DE 0.468051, peqDE 0.572002, Repeat
+patch 56 of 96Point 56 DE 0.410484, W.DE 0.410484, peqDE 0.746602, Repeat
+patch 56 of 96Point 56 DE 0.567654, W.DE 0.567654, peqDE 0.309234, Repeat (got worse)
+patch 56 of 96Point 56 DE 0.410484, W.DE 0.410484, W.peqDE 0.746602, Fail ( > 0.400000)
+patch 57 of 96Point 57 DE 0.325937, W.DE 0.325937, W.peqDE 0.254275, OK ( < 0.400000)
+patch 58 of 96Point 58 DE 0.379165, W.DE 0.379165, W.peqDE 0.384347, OK ( < 0.400000)
+patch 59 of 96Point 59 DE 0.397944, W.DE 0.397944, W.peqDE 0.232419, OK ( < 0.400000)
+patch 60 of 96Point 60 DE 0.381427, W.DE 0.381427, peqDE 0.612129, Repeat
+patch 60 of 96patch 60 of 96patch 60 of 96patch 60 of 96Point 60 DE 0.381427, W.DE 0.381427, peqDE 0.612129, Repeat
+patch 60 of 96Point 60 DE 0.575437, W.DE 0.575437, peqDE 0.439423, Repeat (got worse)
+patch 60 of 96Point 60 DE 0.386629, W.DE 0.386629, peqDE 0.609268, Repeat (got worse)
+patch 60 of 96Point 60 DE 0.880244, W.DE 0.880244, peqDE 1.134255, Repeat
+patch 60 of 96Point 60 DE 1.047385, W.DE 1.047385, peqDE 0.818440, Repeat
+patch 60 of 96Point 60 DE 0.890588, W.DE 0.890588, peqDE 1.144601, Repeat
+patch 60 of 96Point 60 DE 0.384383, W.DE 0.384383, peqDE 0.606210, Repeat (got worse)
+patch 60 of 96Point 60 DE 1.126603, W.DE 1.126603, peqDE 0.880597, Repeat
+patch 60 of 96Point 60 DE 0.883143, W.DE 0.883143, peqDE 1.137255, Repeat
+patch 60 of 96Point 60 DE 0.380636, W.DE 0.380636, peqDE 0.607894, Repeat
+patch 60 of 96Point 60 DE 0.586577, W.DE 0.586577, peqDE 0.446057, Repeat (got worse)
+patch 60 of 96Point 60 DE 0.381848, W.DE 0.381848, peqDE 0.609330, Repeat (got worse)
+patch 60 of 96Point 60 DE 0.584651, W.DE 0.584651, peqDE 0.447242, Repeat (got worse)
+patch 60 of 96Point 60 DE 0.374738, W.DE 0.374738, peqDE 0.609067, Repeat
+patch 60 of 96Point 60 DE 0.372057, W.DE 0.372057, W.peqDE 0.598355, Fail ( > 0.400000)
+patch 61 of 96Point 61 DE 0.468300, W.DE 0.468300, peqDE 0.715981, Repeat
+patch 61 of 96patch 61 of 96patch 61 of 96patch 61 of 96Point 61 DE 0.468300, W.DE 0.468300, peqDE 0.715981, Repeat
+patch 61 of 96Point 61 DE 0.870765, W.DE 0.870765, peqDE 0.919137, Repeat (got worse)
+patch 61 of 96Point 61 DE 0.885792, W.DE 0.885792, peqDE 0.968196, Repeat (got worse)
+patch 61 of 96Point 61 DE 0.385965, W.DE 0.385965, W.peqDE 0.291433, OK ( < 0.400000)
+patch 62 of 96Point 62 DE 0.555835, W.DE 0.555835, peqDE 0.565920, Repeat
+patch 62 of 96Point 62 DE 0.358432, W.DE 0.358432, W.peqDE 0.346912, OK ( < 0.400000)
+patch 63 of 96Point 63 DE 0.335880, W.DE 0.335880, W.peqDE 0.197775, OK ( < 0.400000)
+patch 64 of 96Point 64 DE 0.167843, W.DE 0.167843, peqDE 0.468522, Repeat
+patch 64 of 96patch 64 of 96patch 64 of 96patch 64 of 96Point 64 DE 0.161406, W.DE 0.161406, W.peqDE 0.286878, OK ( < 0.400000)
+patch 65 of 96Point 65 DE 0.664507, W.DE 0.664507, peqDE 0.615749, Repeat
+patch 65 of 96patch 65 of 96patch 65 of 96patch 65 of 96Point 65 DE 0.550985, W.DE 0.550985, peqDE 0.694680, Repeat
+patch 65 of 96Point 65 DE 0.707580, W.DE 0.707580, peqDE 0.816906, Repeat
+patch 65 of 96Point 65 DE 0.547630, W.DE 0.547630, peqDE 0.692099, Repeat
+patch 65 of 96Point 65 DE 1.267865, W.DE 1.267865, peqDE 1.119086, Repeat (got worse)
+patch 65 of 96Point 65 DE 0.553713, W.DE 0.553713, peqDE 0.697948, Repeat (got worse)
+patch 65 of 96Point 65 DE 0.600803, W.DE 0.600803, peqDE 0.520150, Repeat (got worse)
+patch 65 of 96Point 65 DE 0.683274, W.DE 0.683274, peqDE 0.794040, Repeat
+patch 65 of 96Point 65 DE 0.555922, W.DE 0.555922, peqDE 0.700786, Repeat
+patch 65 of 96Point 65 DE 1.325315, W.DE 1.325315, peqDE 1.191972, Repeat (got worse)
+patch 65 of 96Point 65 DE 0.701532, W.DE 0.701532, peqDE 0.811258, Repeat
+patch 65 of 96Point 65 DE 0.548624, W.DE 0.548624, peqDE 0.692976, Repeat (got worse)
+patch 65 of 96Point 65 DE 0.564539, W.DE 0.564539, peqDE 0.478393, Repeat
+patch 65 of 96Point 65 DE 0.549675, W.DE 0.549675, peqDE 0.694161, Repeat
+patch 65 of 96Point 65 DE 1.265970, W.DE 1.265970, peqDE 1.117229, Repeat
+patch 65 of 96Point 65 DE 0.564539, W.DE 0.564539, W.peqDE 0.478393, Fail ( > 0.400000)
+patch 66 of 96Point 66 DE 0.338219, W.DE 0.338219, W.peqDE 0.231950, OK ( < 0.400000)
+patch 67 of 96Point 67 DE 0.362513, W.DE 0.362513, peqDE 0.597909, Repeat
+patch 67 of 96patch 67 of 96patch 67 of 96patch 67 of 96Point 67 DE 0.362513, W.DE 0.362513, peqDE 0.597909, Repeat
+patch 67 of 96Point 67 DE 0.567026, W.DE 0.567026, peqDE 0.262860, Repeat
+patch 67 of 96Point 67 DE 0.372526, W.DE 0.372526, peqDE 0.612571, Repeat (got worse)
+patch 67 of 96Point 67 DE 0.563183, W.DE 0.563183, peqDE 0.262129, Repeat
+patch 67 of 96Point 67 DE 0.375170, W.DE 0.375170, peqDE 0.612619, Repeat (got worse)
+patch 67 of 96Point 67 DE 0.367137, W.DE 0.367137, peqDE 0.611155, Repeat (got worse)
+patch 67 of 96Point 67 DE 0.578922, W.DE 0.578922, peqDE 0.272009, Repeat
+patch 67 of 96Point 67 DE 1.185385, W.DE 1.185385, peqDE 0.597909, Repeat (got worse)
+patch 67 of 96Point 67 DE 0.378001, W.DE 0.378001, peqDE 0.615270, Repeat (got worse)
+patch 67 of 96Point 67 DE 0.371263, W.DE 0.371263, peqDE 0.610189, Repeat (got worse)
+patch 67 of 96Point 67 DE 0.574668, W.DE 0.574668, peqDE 0.270924, Repeat
+patch 67 of 96Point 67 DE 0.368719, W.DE 0.368719, peqDE 0.613773, Repeat (got worse)
+patch 67 of 96Point 67 DE 0.578451, W.DE 0.578451, peqDE 0.268195, Repeat
+patch 67 of 96Point 67 DE 0.378790, W.DE 0.378790, peqDE 0.617769, Repeat (got worse)
+patch 67 of 96Point 67 DE 0.362513, W.DE 0.362513, W.peqDE 0.597909, Fail ( > 0.400000)
+patch 68 of 96Point 68 DE 0.598639, W.DE 0.598639, peqDE 0.831172, Repeat
+patch 68 of 96patch 68 of 96patch 68 of 96patch 68 of 96Point 68 DE 0.563963, W.DE 0.563963, peqDE 0.716160, Repeat
+patch 68 of 96Point 68 DE 1.045479, W.DE 1.045479, peqDE 0.801678, Repeat (got worse)
+patch 68 of 96Point 68 DE 0.608136, W.DE 0.608136, peqDE 0.840211, Repeat
+patch 68 of 96Point 68 DE 0.608058, W.DE 0.608058, peqDE 0.839343, Repeat
+patch 68 of 96Point 68 DE 1.017103, W.DE 1.017103, peqDE 0.918088, Repeat (got worse)
+patch 68 of 96Point 68 DE 0.892609, W.DE 0.892609, peqDE 0.933946, Repeat
+patch 68 of 96Point 68 DE 0.562170, W.DE 0.562170, peqDE 0.718088, Repeat
+patch 68 of 96Point 68 DE 0.380638, W.DE 0.380638, W.peqDE 0.294179, OK ( < 0.400000)
+patch 69 of 96Point 69 DE 0.646170, W.DE 0.646170, peqDE 0.615212, Repeat
+patch 69 of 96patch 69 of 96patch 69 of 96patch 69 of 96Point 69 DE 0.573320, W.DE 0.573320, peqDE 0.666003, Repeat
+patch 69 of 96Point 69 DE 0.449168, W.DE 0.449168, peqDE 0.617183, Repeat
+patch 69 of 96Point 69 DE 0.449597, W.DE 0.449597, peqDE 0.323824, Repeat
+patch 69 of 96Point 69 DE 0.452333, W.DE 0.452333, peqDE 0.616306, Repeat
+patch 69 of 96Point 69 DE 0.448685, W.DE 0.448685, peqDE 0.321698, Repeat
+patch 69 of 96Point 69 DE 0.453946, W.DE 0.453946, peqDE 0.622672, Repeat (got worse)
+patch 69 of 96Point 69 DE 0.449724, W.DE 0.449724, peqDE 0.322808, Repeat
+patch 69 of 96Point 69 DE 0.512824, W.DE 0.512824, peqDE 0.660017, Repeat
+patch 69 of 96Point 69 DE 0.585030, W.DE 0.585030, peqDE 0.499165, Repeat
+patch 69 of 96Point 69 DE 0.519141, W.DE 0.519141, peqDE 0.666501, Repeat
+patch 69 of 96Point 69 DE 0.654610, W.DE 0.654610, peqDE 0.557350, Repeat
+patch 69 of 96Point 69 DE 0.514665, W.DE 0.514665, peqDE 0.661383, Repeat
+patch 69 of 96Point 69 DE 0.462179, W.DE 0.462179, peqDE 0.627798, Repeat (got worse)
+patch 69 of 96Point 69 DE 0.449898, W.DE 0.449898, peqDE 0.324218, Repeat
+patch 69 of 96Point 69 DE 0.448685, W.DE 0.448685, W.peqDE 0.321698, Fail ( > 0.400000)
+patch 70 of 96Point 70 DE 0.222336, W.DE 0.222336, W.peqDE 0.181831, OK ( < 0.396787)
+patch 71 of 96Point 71 DE 0.176211, W.DE 0.176211, W.peqDE 0.316559, OK ( < 0.383768)
+patch 72 of 96Point 72 DE 0.628832, W.DE 0.628832, peqDE 0.543893, Repeat
+patch 72 of 96patch 72 of 96patch 72 of 96patch 72 of 96Point 72 DE 0.628832, W.DE 0.628832, peqDE 0.543893, Repeat
+patch 72 of 96Point 72 DE 0.907014, W.DE 0.907014, peqDE 1.085040, Repeat (got worse)
+patch 72 of 96Point 72 DE 0.520299, W.DE 0.520299, peqDE 0.354756, Repeat
+patch 72 of 96Point 72 DE 0.544980, W.DE 0.544980, peqDE 0.598595, Repeat (got worse)
+patch 72 of 96Point 72 DE 0.546773, W.DE 0.546773, peqDE 0.661644, Repeat (got worse)
+patch 72 of 96Point 72 DE 0.521171, W.DE 0.521171, peqDE 0.355548, Repeat (got worse)
+patch 72 of 96Point 72 DE 0.518508, W.DE 0.518508, peqDE 0.352098, Repeat
+patch 72 of 96Point 72 DE 0.921545, W.DE 0.921545, peqDE 1.075753, Repeat (got worse)
+patch 72 of 96Point 72 DE 0.641185, W.DE 0.641185, peqDE 0.554882, Repeat
+patch 72 of 96Point 72 DE 0.550208, W.DE 0.550208, peqDE 0.604721, Repeat (got worse)
+patch 72 of 96Point 72 DE 0.294562, W.DE 0.294562, peqDE 0.434447, Repeat
+patch 72 of 96Point 72 DE 0.518704, W.DE 0.518704, peqDE 0.351267, Repeat
+patch 72 of 96Point 72 DE 0.894987, W.DE 0.894987, peqDE 1.072544, Repeat
+patch 72 of 96Point 72 DE 0.504879, W.DE 0.504879, peqDE 0.337276, Repeat
+patch 72 of 96Point 72 DE 0.294562, W.DE 0.294562, W.peqDE 0.434447, Fail ( > 0.370189)
+patch 73 of 96Point 73 DE 0.367058, W.DE 0.367058, peqDE 0.442428, Repeat
+patch 73 of 96patch 73 of 96patch 73 of 96patch 73 of 96Point 73 DE 0.367058, W.DE 0.367058, peqDE 0.442428, Repeat
+patch 73 of 96Point 73 DE 0.465816, W.DE 0.465816, peqDE 0.562784, Repeat
+patch 73 of 96Point 73 DE 0.304435, W.DE 0.304435, W.peqDE 0.229216, OK ( < 0.356052)
+patch 74 of 96Point 74 DE 0.465767, W.DE 0.465767, peqDE 0.333391, Repeat
+patch 74 of 96patch 74 of 96patch 74 of 96patch 74 of 96Point 74 DE 0.465767, W.DE 0.465767, peqDE 0.333391, Repeat
+patch 74 of 96Point 74 DE 0.419103, W.DE 0.419103, peqDE 0.576062, Repeat (got worse)
+patch 74 of 96Point 74 DE 0.188920, W.DE 0.188920, W.peqDE 0.026907, OK ( < 0.341368)
+patch 75 of 96Point 75 DE 0.399712, W.DE 0.399712, peqDE 0.346247, Repeat
+patch 75 of 96patch 75 of 96patch 75 of 96patch 75 of 96Point 75 DE 0.351424, W.DE 0.351424, peqDE 0.479398, Repeat
+patch 75 of 96Point 75 DE 0.211285, W.DE 0.211285, W.peqDE 0.140132, OK ( < 0.326159)
+patch 76 of 96Point 76 DE 0.454834, W.DE 0.454834, peqDE 0.377326, Repeat
+patch 76 of 96Point 76 DE 0.292572, W.DE 0.292572, peqDE 0.391484, Repeat
+patch 76 of 96patch 76 of 96patch 76 of 96patch 76 of 96Point 76 DE 0.253272, W.DE 0.253272, W.peqDE 0.175276, OK ( < 0.310458)
+patch 77 of 96Point 77 DE 0.538573, W.DE 0.538573, peqDE 0.542498, Repeat
+patch 77 of 96Point 77 DE 0.194308, W.DE 0.194308, W.peqDE 0.065155, OK ( < 0.294315)
+patch 78 of 96Point 78 DE 0.294569, W.DE 0.294569, peqDE 0.366803, Repeat
+patch 78 of 96patch 78 of 96patch 78 of 96patch 78 of 96Point 78 DE 0.264057, W.DE 0.264057, peqDE 0.283817, Repeat
+patch 78 of 96Point 78 DE 0.095144, W.DE 0.095144, W.peqDE 0.186655, OK ( < 0.277790)
+patch 79 of 96Point 79 DE 0.241924, W.DE 0.241924, peqDE 0.291605, Repeat
+patch 79 of 96patch 79 of 96patch 79 of 96patch 79 of 96Point 79 DE 0.241924, W.DE 0.241924, peqDE 0.291605, Repeat
+patch 79 of 96Point 79 DE 0.248829, W.DE 0.248829, peqDE 0.297823, Repeat (got worse)
+patch 79 of 96Point 79 DE 0.245590, W.DE 0.245590, peqDE 0.295120, Repeat (got worse)
+patch 79 of 96Point 79 DE 0.248034, W.DE 0.248034, peqDE 0.294604, Repeat (got worse)
+patch 79 of 96Point 79 DE 0.363735, W.DE 0.363735, peqDE 0.393689, Repeat
+patch 79 of 96Point 79 DE 0.248421, W.DE 0.248421, peqDE 0.267419, Repeat
+patch 79 of 96Point 79 DE 0.360674, W.DE 0.360674, peqDE 0.390594, Repeat
+patch 79 of 96Point 79 DE 0.246100, W.DE 0.246100, peqDE 0.267946, Repeat
+patch 79 of 96Point 79 DE 0.381712, W.DE 0.381712, peqDE 0.410924, Repeat (got worse)
+patch 79 of 96Point 79 DE 0.254103, W.DE 0.254103, peqDE 0.270096, Repeat
+patch 79 of 96Point 79 DE 0.236559, W.DE 0.236559, W.peqDE 0.255174, OK ( < 0.260958)
+patch 80 of 96Point 80 DE 0.261297, W.DE 0.261297, peqDE 0.340841, Repeat
+patch 80 of 96patch 80 of 96patch 80 of 96patch 80 of 96Point 80 DE 0.261297, W.DE 0.261297, peqDE 0.340841, Repeat
+patch 80 of 96Point 80 DE 0.274391, W.DE 0.274391, peqDE 0.355839, Repeat (got worse)
+patch 80 of 96Point 80 DE 0.174196, W.DE 0.174196, W.peqDE 0.142259, OK ( < 0.250000)
+patch 81 of 96Point 81 DE 0.314826, W.DE 0.314826, peqDE 0.318209, Repeat
+patch 81 of 96patch 81 of 96patch 81 of 96patch 81 of 96Point 81 DE 0.314826, W.DE 0.314826, peqDE 0.318209, Repeat
+patch 81 of 96Point 81 DE 0.485900, W.DE 0.485900, peqDE 0.427604, Repeat
+patch 81 of 96Point 81 DE 0.330922, W.DE 0.330922, peqDE 0.435220, Repeat
+patch 81 of 96Point 81 DE 0.247663, W.DE 0.247663, peqDE 0.336050, Repeat
+patch 81 of 96Point 81 DE 0.249820, W.DE 0.249820, peqDE 0.337781, Repeat
+patch 81 of 96Point 81 DE 0.242065, W.DE 0.242065, peqDE 0.329439, Repeat
+patch 81 of 96Point 81 DE 0.231397, W.DE 0.231397, W.peqDE 0.240465, OK ( < 0.250000)
+patch 82 of 96Point 82 DE 0.306244, W.DE 0.306244, peqDE 0.331539, Repeat
+patch 82 of 96patch 82 of 96patch 82 of 96patch 82 of 96Point 82 DE 0.306244, W.DE 0.306244, peqDE 0.331539, Repeat
+patch 82 of 96Point 82 DE 0.342787, W.DE 0.342787, peqDE 0.223293, Repeat
+patch 82 of 96Point 82 DE 0.200614, W.DE 0.200614, W.peqDE 0.110072, OK ( < 0.250000)
+patch 83 of 96Point 83 DE 0.428399, W.DE 0.428399, peqDE 0.426072, Repeat
+patch 83 of 96Point 83 DE 0.201454, W.DE 0.201454, W.peqDE 0.180288, OK ( < 0.250000)
+patch 84 of 96Point 84 DE 0.447335, W.DE 0.447335, peqDE 0.369752, Repeat
+patch 84 of 96Point 84 DE 0.322453, W.DE 0.322453, peqDE 0.374207, Repeat
+patch 84 of 96patch 84 of 96patch 84 of 96patch 84 of 96Point 84 DE 0.322453, W.DE 0.322453, peqDE 0.374207, Repeat
+patch 84 of 96Point 84 DE 0.390030, W.DE 0.390030, peqDE 0.352990, Repeat
+patch 84 of 96Point 84 DE 0.251720, W.DE 0.258649, peqDE 0.402397, Repeat
+patch 84 of 96Point 84 DE 0.099464, W.DE 0.335913, peqDE 0.381873, Repeat
+patch 84 of 96Point 84 DE 0.189304, W.DE 0.189304, W.peqDE 0.028660, OK ( < 0.250000)
+patch 85 of 96Point 85 DE 0.697333, W.DE 0.697333, peqDE 0.695075, Repeat
+patch 85 of 96Point 85 DE 0.212986, W.DE 0.212986, W.peqDE 0.170466, OK ( < 0.250000)
+patch 86 of 96Point 86 DE 0.469496, W.DE 0.469496, peqDE 0.487369, Repeat
+patch 86 of 96Point 86 DE 0.327875, W.DE 0.327875, peqDE 0.321477, Repeat
+patch 86 of 96patch 86 of 96patch 86 of 96patch 86 of 96Point 86 DE 0.275360, W.DE 0.275360, peqDE 0.348354, Repeat
+patch 86 of 96Point 86 DE 0.100150, W.DE 0.100150, W.peqDE 0.217839, OK ( < 0.250000)
+patch 87 of 96Point 87 DE 0.582129, W.DE 0.582129, peqDE 0.653913, Repeat
+patch 87 of 96Point 87 DE 0.192354, W.DE 0.192354, W.peqDE 0.244146, OK ( < 0.250000)
+patch 88 of 96Point 88 DE 0.411743, W.DE 0.411743, peqDE 0.416794, Repeat
+patch 88 of 96patch 88 of 96patch 88 of 96patch 88 of 96Point 88 DE 0.341434, W.DE 0.341434, peqDE 0.343281, Repeat
+patch 88 of 96Point 88 DE 0.098559, W.DE 0.098559, W.peqDE 0.193885, OK ( < 0.250000)
+patch 89 of 96Point 89 DE 0.503131, W.DE 0.503131, peqDE 0.495120, Repeat
+patch 89 of 96Point 89 DE 0.310072, W.DE 0.310072, peqDE 0.322481, Repeat
+patch 89 of 96Point 89 DE 0.138698, W.DE 0.138698, W.peqDE 0.161769, OK ( < 0.250000)
+patch 90 of 96Point 90 DE 0.471979, W.DE 0.471979, peqDE 0.476101, Repeat
+patch 90 of 96Point 90 DE 0.304901, W.DE 0.304901, peqDE 0.320825, Repeat
+patch 90 of 96Point 90 DE 0.202489, W.DE 0.202489, W.peqDE 0.225295, OK ( < 0.250000)
+patch 91 of 96Point 91 DE 0.433300, W.DE 0.433300, peqDE 0.430611, Repeat
+patch 91 of 96Point 91 DE 0.266406, W.DE 0.266406, peqDE 0.278058, Repeat
+patch 91 of 96Point 91 DE 0.142124, W.DE 0.142124, W.peqDE 0.167744, OK ( < 0.250000)
+patch 92 of 96Point 92 DE 0.322666, W.DE 0.322666, peqDE 0.328240, Repeat
+patch 92 of 96Point 92 DE 0.249488, W.DE 0.249488, W.peqDE 0.242508, OK ( < 0.250000)
+patch 93 of 96Point 93 DE 0.253868, W.DE 0.253868, peqDE 0.253763, Repeat
+patch 93 of 96patch 93 of 96patch 93 of 96patch 93 of 96Point 93 DE 0.251312, W.DE 0.251312, peqDE 0.251292, Repeat
+patch 93 of 96Point 93 DE 0.080544, W.DE 0.080544, W.peqDE 0.097549, OK ( < 0.250000)
+patch 94 of 96Point 94 DE 0.115153, W.DE 0.115153, W.peqDE 0.125546, OK ( < 0.250000)
+patch 95 of 96Point 95 DE 0.024789, W.DE 0.024789, W.peqDE 0.017816, OK ( < 0.250000)
+patch 96 of 96Point 96 DE 0.032146, W.DE 32.146116, peqDE 32.146116, Repeat
+patch 96 of 96patch 96 of 96patch 96 of 96patch 96 of 96Point 96 DE 0.030798, W.DE 30.798376, peqDE 30.798376, Repeat
+patch 96 of 96Point 96 DE 0.034209, W.DE 34.209359, peqDE 34.209359, Repeat (got worse)
+patch 96 of 96Point 96 DE 0.034267, W.DE 34.266854, peqDE 34.266854, Repeat (got worse)
+patch 96 of 96Point 96 DE 0.037260, W.DE 37.260257, peqDE 37.260257, Repeat (got worse)
+patch 96 of 96Point 96 DE 0.037031, W.DE 37.031462, peqDE 37.031462, Repeat (got worse)
+patch 96 of 96Point 96 DE 0.034039, W.DE 34.038675, peqDE 34.038675, Repeat (got worse)
+patch 96 of 96Point 96 DE 0.033272, W.DE 33.272259, peqDE 33.272259, Repeat (got worse)
+patch 96 of 96Point 96 DE 0.036304, W.DE 36.304195, peqDE 36.304195, Repeat (got worse)
+patch 96 of 96Point 96 DE 0.036712, W.DE 36.712268, peqDE 36.712268, Repeat (got worse)
+patch 96 of 96Point 96 DE 0.039579, W.DE 39.578781, peqDE 39.578781, Repeat (got worse)
+patch 96 of 96Point 96 DE 0.036642, W.DE 36.641640, peqDE 36.641640, Repeat (got worse)
+patch 96 of 96Point 96 DE 0.033584, W.DE 33.583604, peqDE 33.583604, Repeat (got worse)
+patch 96 of 96Point 96 DE 0.031095, W.DE 31.094937, peqDE 31.094937, Repeat (got worse)
+patch 96 of 96Point 96 DE 0.031938, W.DE 31.937821, peqDE 31.937821, Repeat (got worse)
+patch 96 of 96Point 96 DE 0.030609, W.DE 30.608546, W.peqDE 30.608546, Fail ( > 0.250000)
+
+Brightness error = -0.072736 cd/m^2 (is 83.223677, should be 83.296413)
+White point error = 0.009752 deltaE
+Maximum neutral error (@ 0.166656) = 0.567726 deltaE
+Average neutral error = 0.270670 deltaE
+Failed to meet target 0.400000 delta E, got worst case 30.608546
+Number of measurements taken = 839
+Computing update to calibration curves...
+The instrument can be removed from the screen.
+Written calibration file '13_jun_2022_srgb_powerbook_g4_srgb_gamma_luminance_preserve.cal'
++ set +x
++ CALFILE=13_jun_2022_srgb_powerbook_g4_srgb_gamma_luminance_preserve.cal
++ [ ! -e 13_jun_2022_srgb_powerbook_g4_srgb_gamma_luminance_preserve.cal ]
++ dispread -v -c1 -Yp -c1 -yn -P0.5,0.5,1.5 -X/home/wyatt/Documents/icc/i1d3/CCFLFamily_07Feb11.ccss -k13_jun_2022_srgb_powerbook_g4_srgb_gamma_luminance_preserve.cal 13_jun_2022_srgb_powerbook_g4_srgb_gamma_luminance_preserve
+Number of patches = 836
+Setting up the instrument
+Product Name:      Colormunki Display 
+Serial Number:     CM-19.B-02.218968.10
+Firmware Version:  v2.28 
+Firmware Date:     29Jan14
+dispread: Warning - new_dispwin: Expected VideoLUT depth 8 doesn't match actual 10
+patch 1 of 836patch 2 of 836patch 3 of 836patch 4 of 836patch 5 of 836patch 6 of 836patch 7 of 836patch 8 of 836patch 9 of 836patch 10 of 836patch 11 of 836patch 12 of 836patch 13 of 836patch 14 of 836patch 15 of 836patch 16 of 836patch 17 of 836patch 18 of 836patch 19 of 836patch 20 of 836patch 21 of 836patch 22 of 836patch 23 of 836patch 24 of 836patch 25 of 836patch 26 of 836patch 27 of 836patch 28 of 836patch 29 of 836patch 30 of 836patch 31 of 836patch 32 of 836patch 33 of 836patch 34 of 836patch 35 of 836patch 36 of 836patch 37 of 836patch 38 of 836patch 39 of 836patch 40 of 836patch 41 of 836patch 42 of 836patch 43 of 836patch 44 of 836patch 45 of 836patch 46 of 836patch 47 of 836patch 48 of 836patch 49 of 836patch 50 of 836patch 51 of 836patch 52 of 836patch 53 of 836patch 54 of 836patch 55 of 836patch 56 of 836patch 57 of 836patch 58 of 836patch 59 of 836patch 60 of 836patch 61 of 836patch 62 of 836patch 63 of 836patch 64 of 836patch 65 of 836patch 66 of 836patch 67 of 836patch 68 of 836patch 69 of 836patch 70 of 836patch 71 of 836patch 72 of 836patch 73 of 836patch 74 of 836patch 75 of 836patch 76 of 836patch 77 of 836patch 78 of 836patch 79 of 836patch 80 of 836patch 81 of 836patch 82 of 836patch 83 of 836patch 84 of 836patch 85 of 836patch 86 of 836patch 87 of 836patch 88 of 836patch 89 of 836patch 90 of 836patch 91 of 836patch 92 of 836patch 93 of 836patch 94 of 836patch 95 of 836patch 96 of 836patch 97 of 836patch 98 of 836patch 99 of 836patch 100 of 836patch 101 of 836patch 102 of 836patch 103 of 836patch 104 of 836patch 105 of 836patch 106 of 836patch 107 of 836patch 108 of 836patch 109 of 836patch 110 of 836patch 111 of 836patch 112 of 836patch 113 of 836patch 114 of 836patch 115 of 836patch 116 of 836patch 117 of 836patch 118 of 836patch 119 of 836patch 120 of 836patch 121 of 836patch 122 of 836patch 123 of 836patch 124 of 836patch 125 of 836patch 126 of 836patch 127 of 836patch 128 of 836patch 129 of 836patch 130 of 836patch 131 of 836patch 132 of 836patch 133 of 836patch 134 of 836patch 135 of 836patch 136 of 836patch 137 of 836patch 138 of 836patch 139 of 836patch 140 of 836patch 141 of 836patch 142 of 836patch 143 of 836patch 144 of 836patch 145 of 836patch 146 of 836patch 147 of 836patch 148 of 836patch 149 of 836patch 150 of 836patch 151 of 836patch 152 of 836patch 153 of 836patch 154 of 836patch 155 of 836patch 156 of 836patch 157 of 836patch 158 of 836patch 159 of 836patch 160 of 836patch 161 of 836patch 162 of 836patch 163 of 836patch 164 of 836patch 165 of 836patch 166 of 836patch 167 of 836patch 168 of 836patch 169 of 836patch 170 of 836patch 171 of 836patch 172 of 836patch 173 of 836patch 174 of 836patch 175 of 836patch 176 of 836patch 177 of 836patch 178 of 836patch 179 of 836patch 180 of 836patch 181 of 836patch 182 of 836patch 183 of 836patch 184 of 836patch 185 of 836patch 186 of 836patch 187 of 836patch 188 of 836patch 189 of 836patch 190 of 836patch 191 of 836patch 192 of 836patch 193 of 836patch 194 of 836patch 195 of 836patch 196 of 836patch 197 of 836patch 198 of 836patch 199 of 836patch 200 of 836patch 201 of 836patch 202 of 836patch 203 of 836patch 204 of 836patch 205 of 836patch 206 of 836patch 207 of 836patch 208 of 836patch 209 of 836patch 210 of 836patch 211 of 836patch 212 of 836patch 213 of 836patch 214 of 836patch 215 of 836patch 216 of 836patch 217 of 836patch 218 of 836patch 219 of 836patch 220 of 836patch 221 of 836patch 222 of 836patch 223 of 836patch 224 of 836patch 225 of 836patch 226 of 836patch 227 of 836patch 228 of 836patch 229 of 836patch 230 of 836patch 231 of 836patch 232 of 836patch 233 of 836patch 234 of 836patch 235 of 836patch 236 of 836patch 237 of 836patch 238 of 836patch 239 of 836patch 240 of 836patch 241 of 836patch 242 of 836patch 243 of 836patch 244 of 836patch 245 of 836patch 246 of 836patch 247 of 836patch 248 of 836patch 249 of 836patch 250 of 836patch 251 of 836patch 252 of 836patch 253 of 836patch 254 of 836patch 255 of 836patch 256 of 836patch 257 of 836patch 258 of 836patch 259 of 836patch 260 of 836patch 261 of 836patch 262 of 836patch 263 of 836patch 264 of 836patch 265 of 836patch 266 of 836patch 267 of 836patch 268 of 836patch 269 of 836patch 270 of 836patch 271 of 836patch 272 of 836patch 273 of 836patch 274 of 836patch 275 of 836patch 276 of 836patch 277 of 836patch 278 of 836patch 279 of 836patch 280 of 836patch 281 of 836patch 282 of 836patch 283 of 836patch 284 of 836patch 285 of 836patch 286 of 836patch 287 of 836patch 288 of 836patch 289 of 836patch 290 of 836patch 291 of 836patch 292 of 836patch 293 of 836patch 294 of 836patch 295 of 836patch 296 of 836patch 297 of 836patch 298 of 836patch 299 of 836patch 300 of 836patch 301 of 836patch 302 of 836patch 303 of 836patch 304 of 836patch 305 of 836patch 306 of 836patch 307 of 836patch 308 of 836patch 309 of 836patch 310 of 836patch 311 of 836patch 312 of 836patch 313 of 836patch 314 of 836patch 315 of 836patch 316 of 836patch 317 of 836patch 318 of 836patch 319 of 836patch 320 of 836patch 321 of 836patch 322 of 836patch 323 of 836patch 324 of 836patch 325 of 836patch 326 of 836patch 327 of 836patch 328 of 836patch 329 of 836patch 330 of 836patch 331 of 836patch 332 of 836patch 333 of 836patch 334 of 836patch 335 of 836patch 336 of 836patch 337 of 836patch 338 of 836patch 339 of 836patch 340 of 836patch 341 of 836patch 342 of 836patch 343 of 836patch 344 of 836patch 345 of 836patch 346 of 836patch 347 of 836patch 348 of 836patch 349 of 836patch 350 of 836patch 351 of 836patch 352 of 836patch 353 of 836patch 354 of 836patch 355 of 836patch 356 of 836patch 357 of 836patch 358 of 836patch 359 of 836patch 360 of 836patch 361 of 836patch 362 of 836patch 363 of 836patch 364 of 836patch 365 of 836patch 366 of 836patch 367 of 836patch 368 of 836patch 369 of 836patch 370 of 836patch 371 of 836patch 372 of 836patch 373 of 836patch 374 of 836patch 375 of 836patch 376 of 836patch 377 of 836patch 378 of 836patch 379 of 836patch 380 of 836patch 381 of 836patch 382 of 836patch 383 of 836patch 384 of 836patch 385 of 836patch 386 of 836patch 387 of 836patch 388 of 836patch 389 of 836patch 390 of 836patch 391 of 836patch 392 of 836patch 393 of 836patch 394 of 836patch 395 of 836patch 396 of 836patch 397 of 836patch 398 of 836patch 399 of 836patch 400 of 836patch 401 of 836patch 402 of 836patch 403 of 836patch 404 of 836patch 405 of 836patch 406 of 836patch 407 of 836patch 408 of 836patch 409 of 836patch 410 of 836patch 411 of 836patch 412 of 836patch 413 of 836patch 414 of 836patch 415 of 836patch 416 of 836patch 417 of 836patch 418 of 836patch 419 of 836patch 420 of 836patch 421 of 836patch 422 of 836patch 423 of 836patch 424 of 836patch 425 of 836patch 426 of 836patch 427 of 836patch 428 of 836patch 429 of 836patch 430 of 836patch 431 of 836patch 432 of 836patch 433 of 836patch 434 of 836patch 435 of 836patch 436 of 836patch 437 of 836patch 438 of 836patch 439 of 836patch 440 of 836patch 441 of 836patch 442 of 836patch 443 of 836patch 444 of 836patch 445 of 836patch 446 of 836patch 447 of 836patch 448 of 836patch 449 of 836patch 450 of 836patch 451 of 836patch 452 of 836patch 453 of 836patch 454 of 836patch 455 of 836patch 456 of 836patch 457 of 836patch 458 of 836patch 459 of 836patch 460 of 836patch 461 of 836patch 462 of 836patch 463 of 836patch 464 of 836patch 465 of 836patch 466 of 836patch 467 of 836patch 468 of 836patch 469 of 836patch 470 of 836patch 471 of 836patch 472 of 836patch 473 of 836patch 474 of 836patch 475 of 836patch 476 of 836patch 477 of 836patch 478 of 836patch 479 of 836patch 480 of 836patch 481 of 836patch 482 of 836patch 483 of 836patch 484 of 836patch 485 of 836patch 486 of 836patch 487 of 836patch 488 of 836patch 489 of 836patch 490 of 836patch 491 of 836patch 492 of 836patch 493 of 836patch 494 of 836patch 495 of 836patch 496 of 836patch 497 of 836patch 498 of 836patch 499 of 836patch 500 of 836patch 501 of 836patch 502 of 836patch 503 of 836patch 504 of 836patch 505 of 836patch 506 of 836patch 507 of 836patch 508 of 836patch 509 of 836patch 510 of 836patch 511 of 836patch 512 of 836patch 513 of 836patch 514 of 836patch 515 of 836patch 516 of 836patch 517 of 836patch 518 of 836patch 519 of 836patch 520 of 836patch 521 of 836patch 522 of 836patch 523 of 836patch 524 of 836patch 525 of 836patch 526 of 836patch 527 of 836patch 528 of 836patch 529 of 836patch 530 of 836patch 531 of 836patch 532 of 836patch 533 of 836patch 534 of 836patch 535 of 836patch 536 of 836patch 537 of 836patch 538 of 836patch 539 of 836patch 540 of 836patch 541 of 836patch 542 of 836patch 543 of 836patch 544 of 836patch 545 of 836patch 546 of 836patch 547 of 836patch 548 of 836patch 549 of 836patch 550 of 836patch 551 of 836patch 552 of 836patch 553 of 836patch 554 of 836patch 555 of 836patch 556 of 836patch 557 of 836patch 558 of 836patch 559 of 836patch 560 of 836patch 561 of 836patch 562 of 836patch 563 of 836patch 564 of 836patch 565 of 836patch 566 of 836patch 567 of 836patch 568 of 836patch 569 of 836patch 570 of 836patch 571 of 836patch 572 of 836patch 573 of 836patch 574 of 836patch 575 of 836patch 576 of 836patch 577 of 836patch 578 of 836patch 579 of 836patch 580 of 836patch 581 of 836patch 582 of 836patch 583 of 836patch 584 of 836patch 585 of 836patch 586 of 836patch 587 of 836patch 588 of 836patch 589 of 836patch 590 of 836patch 591 of 836patch 592 of 836patch 593 of 836patch 594 of 836patch 595 of 836patch 596 of 836patch 597 of 836patch 598 of 836patch 599 of 836patch 600 of 836patch 601 of 836patch 602 of 836patch 603 of 836patch 604 of 836patch 605 of 836patch 606 of 836patch 607 of 836patch 608 of 836patch 609 of 836patch 610 of 836patch 611 of 836patch 612 of 836patch 613 of 836patch 614 of 836patch 615 of 836patch 616 of 836patch 617 of 836patch 618 of 836patch 619 of 836patch 620 of 836patch 621 of 836patch 622 of 836patch 623 of 836patch 624 of 836patch 625 of 836patch 626 of 836patch 627 of 836patch 628 of 836patch 629 of 836patch 630 of 836patch 631 of 836patch 632 of 836patch 633 of 836patch 634 of 836patch 635 of 836patch 636 of 836patch 637 of 836patch 638 of 836patch 639 of 836patch 640 of 836patch 641 of 836patch 642 of 836patch 643 of 836patch 644 of 836patch 645 of 836patch 646 of 836patch 647 of 836patch 648 of 836patch 649 of 836patch 650 of 836patch 651 of 836patch 652 of 836patch 653 of 836patch 654 of 836patch 655 of 836patch 656 of 836patch 657 of 836patch 658 of 836patch 659 of 836patch 660 of 836patch 661 of 836patch 662 of 836patch 663 of 836patch 664 of 836patch 665 of 836patch 666 of 836patch 667 of 836patch 668 of 836patch 669 of 836patch 670 of 836patch 671 of 836patch 672 of 836patch 673 of 836patch 674 of 836patch 675 of 836patch 676 of 836patch 677 of 836patch 678 of 836patch 679 of 836patch 680 of 836patch 681 of 836patch 682 of 836patch 683 of 836patch 684 of 836patch 685 of 836patch 686 of 836patch 687 of 836patch 688 of 836patch 689 of 836patch 690 of 836patch 691 of 836patch 692 of 836patch 693 of 836patch 694 of 836patch 695 of 836patch 696 of 836patch 697 of 836patch 698 of 836patch 699 of 836patch 700 of 836patch 701 of 836patch 702 of 836patch 703 of 836patch 704 of 836patch 705 of 836patch 706 of 836patch 707 of 836patch 708 of 836patch 709 of 836patch 710 of 836patch 711 of 836patch 712 of 836patch 713 of 836patch 714 of 836patch 715 of 836patch 716 of 836patch 717 of 836patch 718 of 836patch 719 of 836patch 720 of 836patch 721 of 836patch 722 of 836patch 723 of 836patch 724 of 836patch 725 of 836patch 726 of 836patch 727 of 836patch 728 of 836patch 729 of 836patch 730 of 836patch 731 of 836patch 732 of 836patch 733 of 836patch 734 of 836patch 735 of 836patch 736 of 836patch 737 of 836patch 738 of 836patch 739 of 836patch 740 of 836patch 741 of 836patch 742 of 836patch 743 of 836patch 744 of 836patch 745 of 836patch 746 of 836patch 747 of 836patch 748 of 836patch 749 of 836patch 750 of 836patch 751 of 836patch 752 of 836patch 753 of 836patch 754 of 836patch 755 of 836patch 756 of 836patch 757 of 836patch 758 of 836patch 759 of 836patch 760 of 836patch 761 of 836patch 762 of 836patch 763 of 836patch 764 of 836patch 765 of 836patch 766 of 836patch 767 of 836patch 768 of 836patch 769 of 836patch 770 of 836patch 771 of 836patch 772 of 836patch 773 of 836patch 774 of 836patch 775 of 836patch 776 of 836patch 777 of 836patch 778 of 836patch 779 of 836patch 780 of 836patch 781 of 836patch 782 of 836patch 783 of 836patch 784 of 836patch 785 of 836patch 786 of 836patch 787 of 836patch 788 of 836patch 789 of 836patch 790 of 836patch 791 of 836patch 792 of 836patch 793 of 836patch 794 of 836patch 795 of 836patch 796 of 836patch 797 of 836patch 798 of 836patch 799 of 836patch 800 of 836patch 801 of 836patch 802 of 836patch 803 of 836patch 804 of 836patch 805 of 836patch 806 of 836patch 807 of 836patch 808 of 836patch 809 of 836patch 810 of 836patch 811 of 836patch 812 of 836patch 813 of 836patch 814 of 836patch 815 of 836patch 816 of 836patch 817 of 836patch 818 of 836patch 819 of 836patch 820 of 836patch 821 of 836patch 822 of 836patch 823 of 836patch 824 of 836patch 825 of 836patch 826 of 836patch 827 of 836patch 828 of 836patch 829 of 836patch 830 of 836patch 831 of 836patch 832 of 836patch 833 of 836patch 834 of 836patch 835 of 836patch 836 of 836
+The instrument can be removed from the screen.
+Written '13_jun_2022_srgb_powerbook_g4_srgb_gamma_luminance_preserve.ti3'
++ set +x
++ colprof -aX -qh -v -tp -Tlp -S/usr/share/color/argyll/ref/sRGB.icm -D13_jun_2022_srgb_powerbook_g4_srgb_gamma_luminance_preserve - Argyll CMS -qh 13_jun_2022_srgb_powerbook_g4_srgb_gamma_luminance_preserve
+Bumped ICC version to 2.4.0 to accomodate multiple Display intents
+No of test patches = 836
+Omitted 0 zero measurements
+Estimating white point
+Approximate White point XYZ = 0.94913919 0.99888257 1.08503205, Lab = 99.956777 -2.431196 -19.208374
+Creating optimised per channel curves
+Initial White Point XYZ 0.949139 0.998883 1.085032, Lab 99.956777 -2.431196 -19.208374
+About to optimise temporary matrix
+  0% 100%
+About to optimise a common ord 0 input curve and matrix
+  0% 65% 78% 100%
+About to optimise a common input curve and matrix
+  0% 34% 43% 50% 73% 100%
+About to optimise input curves and matrix
+  0% 100%
+About to optimise output curves and matrix
+  0% 65% 100%
+About to optimise input curves and matrix again
+  0% 100%
+About to optimise input, matrix and output together
+  0% 63% 67% 90% 97% 100%
+About to create grid position input curves
+Create final clut from scattered data
+*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+Doing White point fine tune:
+Before fine tune, rel WP = XYZ 0.964222 1.000019 0.824926, Lab 100.000728 0.000239 -0.000391
+After fine tune, rel WP = XYZ 0.964203 1.000000 0.824905, Lab 100.000001 -0.000006 0.000004
+                 abs WP = XYZ 0.94915869 0.99890145 1.08505892, Lab 99.957507 -2.430938 -19.208923
+Creating fast inverse input lookups
+White point XYZ = 0.94915869 0.99890145 1.08505892, Lab = 99.957507 -2.430938 -19.208923
+Find black point
+Black point XYZ = 0.00461594 0.00463767 0.00658168, Lab = 4.189189 0.582656 -5.203354
+Display Luminance = 83.239855
+Done A to B table creation
+Setting up B to A table lookup
+Creating Gamut Mapping
+ Finding Source Colorspace Perceptual Gamut
+ Finding Source Colorspace Saturation Gamut
+ Finding Destination Gamut
+ Creating Gamut match
+ Gamut Mapping Specification:
+  Description = ' p - Perceptual (Preferred) (Default) [ICC Perceptual]'
+  Closest ICC intent = 'Perceptual'
+  Using Color Apperance Space
+  Using Mapping with parameters:
+  Grey axis alignment   factor 1.000000
+  Grey axis white compression factor 1.000000
+  Grey axis white expansion   factor 1.000000
+  Grey axis black compression factor 1.000000
+  Grey axis black expansion   factor 1.000000
+  Grey axis knee        factor 1.000000
+  Black point algorithm: Neutral axis no-adapt extend and bend
+  Gamut compression factor 1.000000
+  Gamut expansion   factor 0.000000
+  Gamut compression knee factor 1.000000
+  Gamut expansion   knee factor 0.000000
+  Gamut Perceptual mapping weighting factor 1.000000
+  Gamut Lightness Preserving Perceptual mapping weighting 0.000000
+  Gamut Saturation mapping weighting factor 0.000000
+  Saturation enhancement factor 0.000000
+Gamut map resolution: 39
+Src colorspace white/black are 100.000000 -1.729340 -1.047525, 7.895297 -0.475320 -0.287954
+Src gamut white/black are      100.000000 -1.729340 -1.047525, 7.895297 -0.475320 -0.287954
+Dst colorspace white/black are 100.000000 -1.730566 -1.015493, 9.935550 0.092136 -2.964951
+Target (blended) dst wp/bp   = 100.000000 -1.730566 -1.015493, 9.935550 0.092136 -2.964951
+Adapted & extended tgt wp/bp = 100.000000 -1.730566 -1.015493, 9.935550 0.092136 -2.964951
+Rotate matrix src wp/bp      = 100.000000 -1.729340 -1.047525, 9.907430 -0.502715 -0.304548
+Rotate matrix dst wp/bp      = 100.000000 -1.730566 -1.015493, 9.935550 0.092136 -2.964951
+Bend target                                              bp = 9.935550 -0.503219 -0.301594
+Rotated source grey axis wp/bp 100.000000 -1.730566 -1.015493, 7.924045 0.132844 -3.008490
+Rotated gamut grey axis wp/bp  100.000000 -1.730566 -1.015493, 7.924045 0.132844 -3.008490
+Destination axis target wp/bp  100.000000 -1.730566 -1.015493, 9.935550 0.092136 -2.964951
+Before tuning, L. map White/Black is 100.038914 9.721287, should be 100.000000 9.935550
+After tuning,  L. map White/Black is 100.000000 9.935550, should be 100.000000 9.935550
+Mapped source grey axis wp/bp  100.000000 -1.730566 -1.015493, 9.935550 0.132844 -3.008490
+Average number of direction guide neigbours = 188.082976, min = 12
+Optimizing source to destination mapping...
+It 0: No clip 1919/4195 delta 0.542442 max by 6.658572, avg by 0.584252
+It 1: No clip 1311/4195 delta 0.144969 max by 6.418562, avg by 0.529135
+It 2: No clip 1053/4195 delta 0.061516 max by 6.046847, avg by 0.533584
+It 3: No clip 927/4195 delta 0.030043 max by 5.788012, avg by 0.537895
+It 4: No clip 861/4195 delta 0.015737 max by 5.631956, avg by 0.535464
+It 5: No clip 816/4195 delta 0.010730 max by 5.589633, avg by 0.535550
+It 6: No clip 793/4195 delta 0.005484 max by 5.566260, avg by 0.529924
+It 7: No clip 765/4195 delta 0.006676 max by 5.551434, avg by 0.533617
+No og  576 max 2.232263 avg 0.234901, No ig 3618 max 8.683075 avg 0.969348, avg rext -0.737162
+No og  291 max 1.561398 avg 0.150740, No ig 3903 max 8.724623 avg 0.913120, avg rext -0.737162
+No og  215 max 1.444795 avg 0.116446, No ig 3979 max 8.801799 avg 0.919244, avg rext -0.737162
+No og  183 max 1.425158 avg 0.110764, No ig 4011 max 8.874317 avg 0.924899, avg rext -0.737162
+Sub-surface smoothing changed by max 3.124091, averWarning: Gamut mapping is non-monotonic - may not be very smooth !
+age 0.318895
+Creating rspl..
+Fine tuning white and black point mapping
+White is 99.674223 -1.718788 -1.150017, should be 100.000000 -1.730566 -1.015493
+Black is 9.943914 0.075446 -2.909094, should be 9.935550 0.092136 -2.964951
+After fine tuning:
+White is 100.000000 -1.730566 -1.015493, should be 100.000000 -1.730566 -1.015493
+Black is 9.935550 0.092136 -2.964951, should be 9.935550 0.092136 -2.964951
+ Gamut Mapping Specification:
+  Description = 'lp - Luminance Preserving Perceptual'
+  Closest ICC intent = 'Perceptual'
+  Using Color Apperance Space
+  Using Mapping with parameters:
+  Grey axis alignment   factor 1.000000
+  Grey axis white compression factor 1.000000
+  Grey axis white expansion   factor 1.000000
+  Grey axis black compression factor 1.000000
+  Grey axis black expansion   factor 1.000000
+  Grey axis knee        factor 0.300000
+  Black point algorithm: Neutral axis no-adapt extend and bend
+  Gamut compression factor 1.000000
+  Gamut expansion   factor 0.000000
+  Gamut compression knee factor 1.300000
+  Gamut expansion   knee factor 0.000000
+  Gamut Perceptual mapping weighting factor 0.000000
+  Gamut Lightness Preserving Perceptual mapping weighting 1.000000
+  Gamut Saturation mapping weighting factor 0.000000
+  Saturation enhancement factor 0.000000
+  HK scale override 0.200000
+Gamut map resolution: 39
+Src colorspace white/black are 100.000000 -1.729340 -1.047525, 7.895297 -0.475320 -0.287954
+Src gamut white/black are      100.000000 -1.729340 -1.047525, 7.895297 -0.475320 -0.287954
+Dst colorspace white/black are 100.000000 -1.730566 -1.015493, 9.935550 0.092136 -2.964951
+Target (blended) dst wp/bp   = 100.000000 -1.730566 -1.015493, 9.935550 0.092136 -2.964951
+Adapted & extended tgt wp/bp = 100.000000 -1.730566 -1.015493, 9.935550 0.092136 -2.964951
+Rotate matrix src wp/bp      = 100.000000 -1.729340 -1.047525, 9.907430 -0.502715 -0.304548
+Rotate matrix dst wp/bp      = 100.000000 -1.730566 -1.015493, 9.935550 0.092136 -2.964951
+Bend target                                              bp = 9.935550 -0.503219 -0.301594
+Rotated source grey axis wp/bp 100.000000 -1.730566 -1.015493, 7.924045 0.132844 -3.008490
+Rotated gamut grey axis wp/bp  100.000000 -1.730566 -1.015493, 7.924045 0.132844 -3.008490
+Destination axis target wp/bp  100.000000 -1.730566 -1.015493, 9.935550 0.092136 -2.964951
+Before tuning, L. map White/Black is 99.997974 9.900888, should be 100.000000 9.935550
+After tuning,  L. map White/Black is 100.000000 9.935550, should be 100.000000 9.935550
+Mapped source grey axis wp/bp  100.000000 -1.730566 -1.015493, 9.935550 0.132844 -3.008490
+Average number of direction guide neigbours = 91.137105, min = 34
+Optimizing source to destination mapping...
+It 0: No clip 1676/4173 delta 0.598274 max by 7.208007, avg by 0.509825
+It 1: No clip 1303/4173 delta 0.089406 max by 6.448356, avg by 0.472929
+It 2: No clip 1168/4173 delta 0.032359 max by 6.133950, avg by 0.469678
+It 3: No clip 1119/4173 delta 0.011745 max by 6.012016, avg by 0.462463
+It 4: No clip 1086/4173 delta 0.007910 max by 5.966991, avg by 0.460536
+It 5: No clip 1069/4173 delta 0.004075 max by 5.948358, avg by 0.457680
+It 6: No clip 1053/4173 delta 0.003835 max by 5.939503, avg by 0.457550
+It 7: No clip 1037/4173 delta 0.003835 max by 5.934580, avg by 0.459368
+No og  725 max 2.211749 avg 0.177618, No ig 3447 max 9.355239 avg 0.941474, avg rext -0.681047
+No og  320 max 1.265982 avg 0.110117, No ig 3852 max 9.415428 avg 0.896437, avg rext -0.681047
+No og  258 max 1.073468 avg 0.095905, No ig 3914 max 9.521061 avg 0.905576, avg rext -0.681047
+No og  246 max 1.058998 avg 0.089228, No ig 3926 max 9.625232 avg 0.917122, avg rext -0.681047
+Sub-surface smoothing changed by max 1.374977, average 0.164086
+Creating rspl..
+Fine tuning white and black point mapping
+White is 99.862516 -1.632365 -1.083564, should be 100.000000 -1.730566 -1.015493
+Black is 9.935918 0.097316 -2.975476, should be 9.935550 0.092136 -2.964951
+After fine tuning:
+White is 100.000001 -1.730566 -1.015493, should be 100.000000 -1.730566 -1.015493
+Black is 9.935550 0.092136 -2.964951, should be 9.935550 0.092136 -2.964951
+Creating B to A tables
+ 0%Rev cache RAM = 736 Mbytes
+Looks like an XYZ space
+Initializing nnrev arrays...
+There is 1 rev cache instance with 736 Mbytes limit
+nnrev initialization done
+Initializing nnrev arrays...
+There are 2 rev cache instances with 368 Mbytes limit
+nnrev initialization done
+ 0% 1% 2% 3% 4% 5% 6% 7% 8% 9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%
+Done B to A tables
+Creating gamut boundary table
+ 0% 0% 1% 2% 3% 4% 5% 6% 7% 8% 9%10%11%12%13%14%15%16%17%18%19%20%21%22%23%24%25%26%27%28%29%30%31%32%33%34%35%36%37%38%39%40%41%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99%100%
+Done gamut boundary table
+There is 1 rev cache instance with 736 Mbytes limit
+Find white & black points
+Initial white point = 0.949139 0.998883 1.085032
+Creating matrix...
+  0%  1%  3%  5% 26% 38% 42% 56% 85% 100%
+Matrix = 0.263781 0.245284 0.065612
+         0.126040 0.411590 0.054794
+         0.009974 0.050958 0.420622
+Creating matrix and single gamma curve...
+  0%  2%  6% 10% 13% 30% 98% 100%
+Matrix = 0.384704 0.371341 0.153114
+         0.209295 0.591050 0.143061
+         0.036267 0.110152 0.630924
+Gamma = 2.102731
+Creating matrix and gamma curves...
+  0%  1%  6% 22% 55% 80% 100%
+Matrix = 0.384760 0.371588 0.152775
+         0.209513 0.591683 0.142883
+         0.035858 0.109712 0.628195
+Gamma = 2.101668 2.111065 2.086447
+Creating matrix and curves...
+  0%  1%  2%  3%  6%  7%  8%  9% 11% 13% 16% 17% 21% 24% 27% 29% 30% 31% 38% 44% 48% 51% 55% 56% 60% 63% 68% 92% 100%
+Matrix = 0.395462 0.374354 0.155563
+         0.212210 0.597625 0.145400
+         0.029764 0.107480 0.671311
+Input offset  = 0.074773 0.026124 0.061630
+Output offset = 0.003225 0.003713 0.005352
+0 gamma = 2.487558 2.212327 2.570654
+1 harmonics = -0.017979 0.042084 -0.094818
+2 harmonics = -0.005793 0.001900 -0.014827
+3 harmonics = 0.030802 0.015843 -0.011724
+4 harmonics = -0.018632 -0.015969 -0.030412
+5 harmonics = 0.007289 -0.010145 0.009715
+6 harmonics = 0.002060 0.034149 -0.006683
+7 harmonics = 0.001325 0.007015 -0.019837
+8 harmonics = 0.015037 -0.001862 0.000748
+9 harmonics = 0.010252 0.005004 0.012877
+10 harmonics = 0.010070 -0.021911 -0.023042
+11 harmonics = 0.004776 -0.000650 -0.009139
+Doing White point fine tune:
+Before fine tune, rel WP = XYZ 0.92537851 0.95523544 0.80855534, Lab 98.242614 0.771833 -1.699781
+After fine tune, rel WP = XYZ 0.96420288 1.00000000 0.82490540, Lab 100.000000 0.000000 0.000000
+                 abs WP = XYZ 0.91208082 0.95447428 1.06379177, Lab 98.212262 -1.471158 -20.776823
+Black point XYZ = 0.00435521 0.00433044 0.00630849, Lab = 3.911670 0.726012 -5.166058
+Scaling White Point by 1.047697 to make Y = 1.0
+Done gamma/shaper and matrix creation
+Profile done
+Profile check complete, peak err = 0.619583, avg err = 0.184540, RMS = 0.212700
++ set +x
+Profile check complete, errors: max. = 0.623892, avg. = 0.180782, RMS = 0.211492
